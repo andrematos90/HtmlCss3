@@ -1,0 +1,22 @@
+Estrutura básica de um documento HTML
+Um documento HTML recebe algumas tags que formam a sua estrutura básica. No HTML5, o documento padrão recebe a seguinte estrutura:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Título da página</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+
+</body>
+</html>
+Em primeiro lugar, vamos agora entender para que serve cada uma dessas tags:
+
+<!DOCTYPE html> – A tag !DOCTYPE informa ao navegador a versão do HTML que está sendo utilizada no documento. Por exemplo: no HTML5, basta incluir !DOCTYPE html, e assim o navegador já saberá que se trata de um documento na versão HTML5;
+<html></html> – Esta tag é o elemento básico da estrutura do HTML. Assim sendo, ela conterá todos os elementos do seu documento. Todo documento HTML deve iniciar e finalizar com essa tag;
+<head></head> – Essa tag delimita o cabeçalho do documento. Não possui nenhum valor visível, porém é capaz de transmitir ao navegador diversas informações muito úteis e essenciais a uma boa apresentação do seu documento HTML;
+<title></title> – Essa tag define o título da sua página, o nome que aparecerá na sua aba, janela ou guia. Por esta razão, a tag >title> é de grande importância para o SEO;
+<meta/> – Essa tag permite inserir metadados ao seu documento, no caso acima, a informação charset=”UTF-8″, que garante a compatibilidade do código com os caracteres de padrão latino americano;
+<body></body> – Finalmente, a tag que representa o corpo do documento. Em síntese, é nessa tag que todos os elementos visíveis do seu site devem ser inseridos.
+Agora que já conhecemos as tags HTML que formam a estrutura básica de uma página, podemos então

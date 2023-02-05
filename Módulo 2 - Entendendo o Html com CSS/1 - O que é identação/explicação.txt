@@ -1,0 +1,10 @@
+identação é a organização do código
+
+
+atalhos:
+
+ Windows: shift + alt + f
+
+Mac: shift + option + f
+
+Linux: ctrl + shift + i
