@@ -1,0 +1,35 @@
+/* por id*/
+
+#titulo { 
+    color: grey;
+    font-size: larger;
+    font-style: calc();
+}
+#slogan {
+    color: red
+}
+
+img {
+   font-weight: 200;
+}
+    
+
+
+/* por class */
+.texto {
+    color: brown;
+}
+
+/* como seleciornar e aplicar as mesmas propriedades para varios elementos
+
+#titulo,
+.texto { 
+    color: red;
+}
+
+/* selecionar um item dentro de outro
+no exemplo as propriedades serao aplicadas somente no elemento "li"
+
+ol li {
+    color: white/
+}
