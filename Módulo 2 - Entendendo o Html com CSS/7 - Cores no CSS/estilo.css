@@ -1,0 +1,21 @@
+
+
+#titulo {
+    background-color: brown;
+    color: royalblue;
+}
+
+
+/* forma hexadecimal, os dois primeiros caracteres sao para definir o vermelho 
+os seguintes o verde e o resto o azul 
+os caracteres vao de 0 a 9 e depois passam pra letras de A a F 
+00 é o minimo ou seja 000000 é preto  e FF é o maximo FFFFFF é branco */
+
+
+h3 {
+    color: #00FF11;
+}
+
+.texto {
+    color: rgb(0, 120, 255)
+}
