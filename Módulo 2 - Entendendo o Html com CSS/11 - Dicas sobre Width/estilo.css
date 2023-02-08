@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box 
+}
+body {
+    margin: 0px;
+}
+
+div {
+    background-color: forestgreen;
+    border: 5px solid black;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+}
