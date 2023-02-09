@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+p{
+    font-size: 10px;
+    font-family: 'Chilanka';
+}
+
+h1{
+    font-family: 'Indie Flower';
+}

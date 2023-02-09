@@ -3,12 +3,20 @@
     background-color: #bbbb;
 }
 
-body{
+body {
     margin: 50px;
     font-size: 17px;
 }
 
-p{
+p {
     color: #0000FF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    font-algin: left;
 
+}
+
+a {
+    text-decoration: none;  /*tira a decoralção do texto, no caso o underline */
 }
