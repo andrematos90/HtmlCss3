@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    background-color: #bbbb;
+}
+
+body{
+    margin: 50px;
+    font-size: 17px;
+}
+
+p{
+    color: #0000FF;
+
+}
