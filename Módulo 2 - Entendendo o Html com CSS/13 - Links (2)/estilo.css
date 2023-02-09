@@ -13,3 +13,18 @@ body {
     height: 200px;
     border-radius: 50%;
 }
+
+.link {
+    color: green;
+}
+
+/*quando o estado "hover" estiver ativo (que é passar o mouse em cima as propriedades sao aplicadas)*/
+.link:hover{
+    color: red;
+}
+
+
+/* muda as propriedades quando o link ja estiver sido visitado*/
+.link:visited{
+    color: #87CEEB	;
+}
