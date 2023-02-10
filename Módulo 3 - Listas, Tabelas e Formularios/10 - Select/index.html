@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <h1>Aprendendo sobre</h1>
+    
+    <h2>Área de Cadastro</h2>
+    <form action="paginas/login/html" method="get">
+
+        <select name="ordenacao" size="2" multiple>
+            <option value="1">Mais vendidos</option>
+            <option value="2">Menos vendidos</option>
+            <option value="3" selected>Em falta</option>
+
+             <!--com o atributo "value" posso definir um valor que sera 
+            enviado ao ser escolhido mas diferente do que o usuario ve
+        "selected" define qual sera o valor que aparecera por padrao quando nada foi selecionado ainda
+         size="2" permite que até dois sejam selecionados
+        multiple diz que o select é de multipla escolha-->
+        </select>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+
+    
+</body>
+</html>
