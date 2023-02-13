@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    background-color: grey
+}
+
+body{
+    margin: 50px;
+    font-size: 17pz;
+}
+
+h1 {
+    font-family: 'Indie Flower';
+}
+
+label {
+    display: block;         /*deixa um item abaixo do outro*/
+    margin-bottom: 20px;    /* deixa um espaçamento entre os itens*/
+}
+
+input[type=text], textarea, select {
+    padding: 10px;
+    width: 500px;
+    font-size: 15px;
+    border: 1px solid grey;
+    outline: 0;            /* ao focar no campo outline 0 retira a borda azulada*/
+    margin-top: 5px;
+    background-color: white;
+}
+
+textarea {
+    height: 200px;
+    resize: none;           /* desabilita a opção do usuario ajustar a area do texto*/
+}
+
+.termoslink {
+    color: #000000;
+    text-decoration: none;  /* retira as decorações do textos, ocultando que a um link se clicar em uma palavra  por exemplo*/
+}
+
+/* 
+ou ao invés de se usar text-decoration: none pode se fazer da forma a seguir
+que ao passar o mouse em cima da palavra ela fica sublinhada mostrando que é um link
+.termoslink:hover { 
+    text-decoration: underline;   
+}
+*/
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid grey;
+    background-color: #EEE;
+}
+
+button:hover{
+    background-color: rgb(94, 85, 85);    /* hover fazer com que ao passar o mouse passe por cima do botao as propriedades sejam aplicadas */
+}
