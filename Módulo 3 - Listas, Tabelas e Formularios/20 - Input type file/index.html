@@ -8,34 +8,43 @@
     <title>Validações Nativas</title>
 </head>
 <body>
-    <form action="paginas/cadastro.html" method="post">
+    <form action="paginas/cadastro.html" enctype="multipart/form-data"> <!--quando se tem um input file deve se adicionar no form o
+     atributo enctype para ser convertido em bytes para ser enviado-->
+        <input type="hidden" name="country" value="BR">
+        
         <fieldset>
             <label>
                 Primeiro Nome: <br>
-                <input type="text" name="name" required>  <!--required criar uma validação que torna esse campo obrigatório-->
-            </label>
+                <input type="text" name="name" required> 
             <br>
             <label>
                 Sobrenome: <br>
-                <input type="text" name="lastname" required minlength="6">  <!--minlength criar uma validação com numero minimo de carateres obrigatiorios-->
+                <input type="text" name="lastname" required minlength="6"> 
+            </label>
+            <br>
+            <label>
+                Foto: <br>
+                <input type="file" name="photo" accept="image/*"> 
+                <!--accept="image/*" faz com que apenas imagens sejam pré selecionadas para fazer upload
+                acecept="application/pdf pré selecionaria arquivos pdf"-->
             </label>
             <br>
             <label>
                 Idade: <br>
-                <input type="number" name="age" step="2" min="4"> <!--step=2 por exemplo faz pular de dois em dois, min determina o numero minimo aceito -->
+                <input type="number" name="age" step="2" min="4"> 
             </label>
             <br>
             <label>
                 Data de Nascimento: <br>
-                <input type="date" name="birthday" min="2022-08-15"> <!--min=0000-00-00 determina uma data minima aceita, formato internacional--->
+                <input type="date" name="birthday" min="2022-08-15"> 
             </label>
             <br>
             <label>
                 email: <br>
                 <input type="text" name="email" pattern="(^[a-zA-z0-9_.+]@[a-zA-z0-9-]+\[a-zA-z0-9-.]+S)" title="endereco de email"> 
-                <!--se quiser um tipo especifico de texto mas nao tenho um padrao para isso usa se o "pattern" usando expressao regular--->
-            </label>
+            </label>  
             <legend>Dados Pessoais</legend>
+            <br>
         </fieldset>
         <br>
         <fieldset>
