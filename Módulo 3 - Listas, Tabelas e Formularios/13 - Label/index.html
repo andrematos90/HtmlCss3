@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Label</title>
+</head>
+<body>
+    <h1>Página de Teste</h1>
+
+    <h2>Área de cadastro</h2>
+    <form action="paginas/html" method="get">
+
+        <label for="nome">Nome Completo:</label><br>
+        <!--no for vai o nome do campo que ele esta se referindo no caso id "nome"
+        serve para quando o usuario clicar no label o foco vai para o campo-->
+
+        <input type="text" name="nome" id="nome"/>
+        <br><br>
+
+
+         <!--para ao clicar no teste o usuario preencher o checkbox usa se no label for="teste" por exemplo-->
+
+        <input type="checkbox" id="teste"/>
+        <label for="teste">Declaro que li e concordo com os termos e condições de uso</label>
+        <br><br>
+
+
+
+        
+
+         <!--outra forma de fazer é colocando o input dentro do label-->
+
+         <label>
+            Nome Completo 2: <br/> 
+            <input type="text" name="nome" >
+        </label>
+
+        <button>Fazer Cadastro</button>
+    </form>
+    
+</body>
+</html>
