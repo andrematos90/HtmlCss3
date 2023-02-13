@@ -1,11 +1,12 @@
 *{
     box-sizing: border-box;
-    background-color: grey
+   
 }
 
 body{
     margin: 50px;
     font-size: 17pz;
+    
 }
 
 h1 {

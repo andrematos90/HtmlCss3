@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Validações Nativas</title>
+</head>
+<body>
+    <form action="paginas/cadastro.html" method="post">
+        <fieldset>
+            <label>
+                Primeiro Nome: <br>
+                <input type="text" name="name" required>  <!--required criar uma validação que torna esse campo obrigatório-->
+            </label>
+            <br>
+            <label>
+                Sobrenome: <br>
+                <input type="text" name="lastname" required minlength="6">  <!--minlength criar uma validação com numero minimo de carateres obrigatiorios-->
+            </label>
+            <br>
+            <label>
+                Idade: <br>
+                <input type="number" name="age" step="2" min="4"> <!--step=2 por exemplo faz pular de dois em dois, min determina o numero minimo aceito -->
+            </label>
+            <br>
+            <label>
+                Data de Nascimento: <br>
+                <input type="date" name="birthday" min="2022-08-15"> <!--min=0000-00-00 determina uma data minima aceita, formato internacional--->
+            </label>
+            <br>
+            <label>
+                email: <br>
+                <input type="text" name="email" pattern="">
+            </label>
+            <legend>Dados Pessoais</legend>
+        </fieldset>
+        <br>
+        <fieldset>
+            <label>
+                Empresa: <br>
+                <input type="text" name="company">
+            </label>
+            <br>
+            <label>
+                Cargo: <br>
+                <input type="text" name="comapanyjobtittle">
+            </label>
+            <legend>Dados da Empresa</legend>
+            <br>
+        </fieldset>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
