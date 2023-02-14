@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(25, 36, 99);
+}
+
+@media (max-width: 600px ) {
+    body {
+        background-color: brown;
+    }
+        
+    h1 {
+        font-size: x-large;
+    }
+}
+
+/* para que em determinada resoloução o background mude de cor
+no exemplo acima a tela ao atingir a resolução de 600px 
+o body é alterado*/
+
+
+/* tambem é possivel determinar mais de uma condição para varios tamanhos de tela
+
+body {
+    background-color: #00ff00;
+}
+
+@media (min-width: 1000px) {                     quando o minimo for 1000px de tamanho a cor pe azul
+
+    body {
+        backkground-color: #0000FF;
+    }
+}
+
+@media (min-width: 700px) and (max-width:1000px) {         entre 700px e 1000px de largura a cor fica roxa
+    body {
+        background-color: purple;
+    }
+}
+
+@media(min-width: 300px) and (max-width: 700px) {          entre 300px e 700px a cor fica azul royal
+    body {
+        background-color: royalblue;
+    }
+}

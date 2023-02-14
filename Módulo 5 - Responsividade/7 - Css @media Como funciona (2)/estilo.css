@@ -1,0 +1,49 @@
+/* qualquer propriedade de qualquer elemento pode ser alterada usando o @media */
+
+body {
+    background-color: #00ff00;
+}
+
+@media (min-width: 1000px) {                     
+    body {
+        background-color: #0000FF;
+    }
+    h1 {
+        font-size: small;
+    }
+}
+
+@media (min-width: 700px) and (max-width:1000px) {        
+    body {
+        background-color: purple;
+    }
+}
+
+@media(min-width: 300px) and (max-width: 700px) {          
+    body {
+        background-color: royalblue;
+    }
+}
+
+
+/* para quando imprimir algo remover o aparecer algo na impressa 
+usa se @media only print
+
+
+body {
+    background-color: #00ff00;
+    h1 {
+        font-size: 40px;                  body da página normal com h1 de titulo e sua propriedades
+        font-weight: bold;
+    }
+}
+
+@media only print {
+
+    h1 {                             
+        font-size: 20px;                ao imprimir o h1 ganha outras propriedades 
+        font-weight: normal;
+    }
+        
+
+

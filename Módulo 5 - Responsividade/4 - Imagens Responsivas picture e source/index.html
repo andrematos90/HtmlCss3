@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Imagens Responsivas picture e source</title>
+</head>
+<body>
+    <picture>
+        <!--ao chegar na largura de 650px a imagem é mudada para imagem02
+        <source media="(min-width: 650px) é a condição
+        srcset="imagem02.png é a nova imagem-->
+        
+        <source media="(min-width: 650px)" srcset="imagem02.png"> 
+        <source media="(min-width: 450px)" srcset="imagem03.png">
+        <img src="imagem01.png" alt="">
+    </picture>
+    
+</body>
+</html>

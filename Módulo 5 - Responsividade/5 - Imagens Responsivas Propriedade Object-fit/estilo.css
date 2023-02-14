@@ -1,0 +1,46 @@
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: fill;  
+}
+
+/*
+A propriedade CSS Object-fit é utilizada para especificar 
+como um objeto (imagem, vídeo, iframe ou embed) deve ser redimensionado para
+ se ajustar ao seu contêiner.
+
+ Object-fit: se a proporção do contêiner e a tag <img> não forem as mesmas, a imagem será esticada.
+
+Esse é o valor padrão da propriedade object-fit. Usando este valor, o conteúdo será redimensionado 
+para o tamanho do contêiner independentemente de sua proporção.
+
+
+ Object-fit: none
+
+ Ao olharmos a figura, notamos que, com o Object-fit:none, a imagem não
+  será redimensionada, de forma a manter suas dimensões originais. Mas, se ela 
+  for menor que o contêiner, a imagem inteira será exibida com seu tamanho original.
+   Já se for maior que o contêiner, ela será cortada.
+
+Object-fit: contain
+a proporção da imagem for diferente daquela da tag <img>, haverá uma parte do contêiner que não haverá 
+a imagem.
+
+Usando esse valor, a imagem será redimensionada com sua proporção mantida para que a imagem 
+inteira caiba dentro do contêiner.
+
+Object-fit: cover (mais utilizado)
+
+Com esse valor, a imagem é redimensionada com sua proporção mantida, contudo, ela será 
+redimensionada para que não deixe nenhum espaço vazio no contêiner, como vimos no exemplo anterior.
+
+Ocasionalmente, ela será cortada para caber no caso da proporção da imagem original não corresponder
+ à proporção da caixa de conteúdo.
+
+ Object-fit: scale-down
+
+ Imagens menores que o tamanho do contêiner permanecem do mesmo tamanho 
+ (como quando usamos object-fit: none) e imagens maiores que o tamanho do contêiner são 
+ redimensionadas para caber nele (como quando usamos object-fit: contain). Utilizando esse valor,
+  notamos que ele se comporta como se a propriedade object-fit tivesse o valor none ou contain
+   dependendo de qual deles resulta em uma imagem menor.
