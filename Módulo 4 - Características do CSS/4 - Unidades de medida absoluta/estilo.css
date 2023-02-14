@@ -1,0 +1,21 @@
+.container {
+    background-color: darkgrey;
+    width: 200px;
+    height: 200px;
+}
+
+
+/*
+Medidas Absolutas
+Essas são as mais comuns que vemos no dia a dia. 
+São medidas que não estão referenciadas a qualquer outra unidade, 
+ou seja, não dependem de um valor de referência. 
+São unidades de medidas definidas pela física, 
+como o píxel, centímetro, metro, etc...
+
+Essas medidas são fixas e não mudam de acordo com as especificações do dispositivo. 
+Esse tipo de medida é indicada para quando conhecemos perfeitamente as características físicas
+ e as configurações das mídias onde serão exibidos nossos projetos.*/
+
+
+ /* https://www.alura.com.br/artigos/guia-de-unidades-no-css#:~:text=Medidas%20Absolutas,-Essas%20s%C3%A3o%20as&text=S%C3%A3o%20medidas%20que%20n%C3%A3o%20est%C3%A3o,com%20as%20especifica%C3%A7%C3%B5es%20do%20dispositivo.*/

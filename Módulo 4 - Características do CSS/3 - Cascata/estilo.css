@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+.container{
+   
+    color: #FF0000;
+}
+
+
+
+/*o css é lido de cima para baixo nas tags 
+e  se existir mais de um tipo de aplicação a ordem 
+é primeiro as do arquivo externo "estilo.css 
+depois le os styles que tem na propria pagina
+e o ultimo o css inline
+como a ordem de aplicação
+é a ultima que vale a aplicação inline ganhaeria das outras 
+
+inline >>> tag style >> estilo.css*/

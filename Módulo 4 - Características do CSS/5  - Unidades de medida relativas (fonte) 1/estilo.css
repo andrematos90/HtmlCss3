@@ -1,0 +1,69 @@
+.box{
+    font-size: 20px;
+}
+.box-interno {
+    width: 10em;
+    height: 10em;
+    background-color: #999;
+}
+
+/* 
+
+
+Essas são as que normalmente não estamos habituados. 
+Essas medidas são calculadas tendo como base uma outra unidade de medida definida, como por exemplo
+
+em e o rem (veremos mais sobre essas duas medidas no decorrer do post).
+ O uso delas é mais apropriado para que possamos fazer ajustes em diferentes dispositivos 
+ garantindo um layout consistente e fluido em diversas mídias.
+
+Devido ao fato de que essas medidas são calculadas pelo browser baseando-se em outra unidade, 
+elas tendem a ser bastante flexíveis. Ou seja, podemos ter resultados diferentes
+ de acordo com o ambiente.
+
+a unidade "em" é baseada na fonte size do elemento pai
+no exemplo acima 1 em é igual a 20px pq o elemento
+pai é .box 
+
+o "em", com certeza se dá a facilidade de criar layouts fluídos e responsivos.
+
+Mas como funciona esse tal de em?Essa unidade muda para os elementos filhos de acordo com o tamanho
+ da fonte (font-size) do elemento pai, então vamos lá. 
+Digamos que temos o seguinte html, me permitindo a licença poética de utilizar a tag style:
+
+
+<style>
+    #div{
+        font-size: 16px;
+    }
+
+    #filho{
+        font-size: 2em;
+    }
+</style>
+
+<div id="pai">
+    div pai
+    <div id="filho">
+        div filho
+    </div>
+</div>
+
+Acima, temos uma div pai onde estou definindo um font-size de 16px, dentro dessa div, temos uma única div filha. Como havia mencionado, o tamanho definido para a fonte impactará no em dos elementos filhos.
+
+Nesse nosso caso, para a div mais interna (id=filho), 1em será igual a 16px, seguindo a lógica, 2em será igual a 32px e assim por diante. Podemos colocar valores como 1.5 também! Nesse nosso caso, 1.5em será igual a 24px Quando expressamos tamanhos como margin, padding utilizando em, isso significa que eles serão relativos ao tamanho da fonte do elemento pai.
+
+Portanto, de acordo com o tamanho da fonte utilizada em determinado elemento, os elementos filhos serão redimensionados de forma a obedecer a referência a esse tamanho de fonte!
+
+Uma técnica bastante utilizada consiste justamente em fazer uso desse poder do em componentizando nossos elementos. A ideia é que a alteração do tamanho da fonte do elemento pai faça com que todo o componente se modifique e redimensione baseando-se nesse novo valor. Você pode dar uma olhada em um exemplo nesse fiddle:
+
+Rems (rem, "root em")
+O REM vem como sucessor do EM e ambos compartilham a mesma lógica de funcionamento (font-size), porém a forma de implementação é diferente. Enquanto o em está diretamente relacionado ao tamanho da fonte do elemento pai, o rem está relacionado com o tamanho da fonte do elemento root (raiz), no caso, a tag.
+
+O fato de que o rem se relaciona com o elemento raiz resolve aquele problema que tínhamos com diversas divs (elementos) aninhados, uma vez que não haverá essa "herança" de tamanhos, lembra?! Ou seja, não precisaremos ter dor de cabeça tendo que realizar cálculos, uma vez que nos baseamos na tag raiz.
+
+Exemplificando, sabemos que a tag html é a tag raiz de todo documento html. Dito isso, se definirmos que o font-size desse elemento será de 18px, então 1rem = 18px, 2rem = 36px e assim por diante... Normalmente os browsers especificam o tamanho default da fonte do elemento root (raiz) sendo 16px, então guarde isso no coração! Mesmo essa unidade sendo mais tranquila de se trabalhar, ela não era muito utilizada para design responsivo, o que de primeira pode soar um tanto quanto estranho...
+
+O motivo para isso é o suporte para essa medida. O chrome e o firefox suportavam tranquilamente, assim como o Opera e o Safari, porém, antigamente grande parte dos usuários utilizavam o IE, mais específicamente o IE 8, e esse browser não lidava muito bem com os rems, isso fazia com que os desenvolvedores precisassem optar por alguma unidade diferente, em muitos casos, o próprio em.
+
+Como disse acima, o valor base é 16px, e isso pode acabar gerando dificuldades para que encontremos alguns tamanhos padrões que costumam ser utilizados. Por exemplo, como faríamos para atingir um tamanho de 10px utilizando rem? Precisamos calcular.

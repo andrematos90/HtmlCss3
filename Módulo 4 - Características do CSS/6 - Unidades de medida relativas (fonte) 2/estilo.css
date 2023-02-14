@@ -1,0 +1,45 @@
+.box{
+    font-size: 20px;
+    background-color: #999;
+    width: 50%; /* 50% do espaço disponivel que ele tem e nem sempre o da tela */
+    height: 400px;
+}
+.box-interno {
+    width: 50%;
+    height: 50%;
+    background-color: #333;
+}
+
+/* 
+Porcentagem (%)
+Apesar de não ser uma unidade de medida, a porcentagem costuma ser bastante utilizada 
+quando falamos de layout responsivo e fluido, por isso, não poderia deixá-la passar.
+
+A porcentagem permite que criemos módulos que sempre vão se readaptar para ocupar a 
+quantidade especificada. Por exemplo, se definirmos um elemento tendo um tamanho de 50%, 
+independente do dispositivo em questão, esse módulo sempre ocupará metade do espaço que lhe 
+cabe (caso esteja dentro de algum outro elemento).
+
+Ex
+Talvez você nunca tenha ouvido falar dessa unidade do CSS, mas ela existe.
+ Diferentemente da forma como a EM e a REM funcionavam, essa unidade não se relaciona com o 
+ tamanho da fonte (font-size), mas com qual fonte está sendo utilizada naquele momento (font-family), 
+ mais especificamente ao tamanho do caractere x dessa fonte em questão (x-height).
+
+Como o browser sabe esse valor? Esse valor pode vir diretamente com a fonte, o browser
+ pode medir o caractere em caixa baixa (lower case) e se esses dois não funcionarem,
+  o browser estipula um valor de 0.5em para 1ex.  
+
+  Ch
+Também uma unidade pouco conhecida, o ch (character unit) é definida na documentação como sendo 
+a "medida avançada" da largura do caractere zero ("0").
+
+Existe uma discussão antiga onde se debateu bastante sobre essa unidade e o que realmente seria
+ "medida avançada", você pode acompanhar aqui. A ideia é que um elemento com, por exemplo 100ch 
+ de largura poderá comportar uma string de 100 caracteres dessa determinada fonte, caso essa fonte 
+ seja monospace (todos os caracteres têm o mesmo tamanho).
+
+É comum acharmos definições que dizem que a frase acima se aplica para qualquer fonte, 
+porém isso está errado. Como mencionei acima, a regra de 1ch = 1 caractere se aplica apenas
+ se a fonte usada for monospace (largura fixa). Fontes com a largura variável, qualquer caractere
+  pode ser mais largo ou menos largo que o zero ("0")
