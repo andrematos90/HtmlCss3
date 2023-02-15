@@ -1,0 +1,6 @@
+@media (aspect-ratio: 1/1) {
+    body { background-color: red;
+    }
+}
+
+/* as propriedades só seram aplicadas quando a tela estiver na proporção de um para um */

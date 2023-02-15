@@ -1,0 +1,33 @@
+/* são uteis para alterar propriedades de vários elementos de uma só vez
+só funcionam no elemento criado,
+ou em elementos que estiverem dentro dele */
+
+
+/*váriaveis criadas*/
+:root {
+    --bg-color: #000;  /*background-color */
+    --bg-second:#444;
+    --font-color: #fff; /* cor da fonte*/
+
+}
+
+body {
+    background-color:var(--bg-color); /* váriavel aplicada*/
+}
+
+h1 {
+    background-color: #fff;
+}
+
+.container{
+    background-color: var(--bg-color);  /* váriavel aplicada*/
+    color: var(--font-color);   /* váriavel aplicada*/
+}
+
+/*tambem é possível criar uma váriavel para fontes e não só para cores
+
+Ex:
+:root {
+--fonte-padrao: arial, helvetica, sans-serif;    
+--fonte-cabecalho: times, serif;
+}
