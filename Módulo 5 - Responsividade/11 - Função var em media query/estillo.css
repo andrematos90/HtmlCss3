@@ -1,0 +1,33 @@
+/*usando a fução var dentro do media query*/
+
+:root {
+    --bg-color: #000;  
+    --bg-second:#444;
+    --font-color: #fff; 
+    --font-size: 25px;
+
+}
+
+body {
+    background-color:var(--bg-color); 
+    font-size: var(--font-size);
+}
+
+h1 {
+    background-color: #fff;
+}
+
+.container{
+    background-color: var(--bg-color);  
+    color: var(--font-color);   
+}
+
+/*quando a lagura maxima da tela for 450px a variavel --font-size: muda para 15px, 
+alterando todos os componentes em que esta aplicaada */
+
+@media (max-width: 450px) {
+    :root {
+        --font-size: 15px;
+    }
+}
+

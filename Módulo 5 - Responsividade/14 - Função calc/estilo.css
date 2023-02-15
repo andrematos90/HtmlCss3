@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+/* para a div ter um espaço sem usar margins que não se altera ao mudar o tamanho da tela */
+.container {
+    width: calc(100% - 20px); /*pega 100% do espaço disponivel e diminui 20px*/
+    height: 200px;
+    background-color: beige;
+}
+
+
+/* função cal calcula o tamanho dos itens altura, largura etc.. */

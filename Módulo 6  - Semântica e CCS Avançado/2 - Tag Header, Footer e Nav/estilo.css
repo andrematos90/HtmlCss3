@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+}
+
+footer {
+    background-color: rgb(80, 80, 88);
+    height: 100px;
+}
+
+nav {
+    height: 50px;
+    background-color: #999;
+}
+
+header {
+    height: 80px;
+    background-color: #69bea2;
+}

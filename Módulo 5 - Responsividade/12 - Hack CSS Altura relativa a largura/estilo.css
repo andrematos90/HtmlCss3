@@ -1,0 +1,32 @@
+/*para deixar a tela com o video responsiva */
+
+
+.video {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.video-area {
+    position: relative;
+    height: 0px;
+    background-color: #ccc;
+    padding: 0px 0px 56.25%; 
+    /* % relativa a proporção entre a largura e altura
+    exemplo se a largura for 600px e for definido 50% 
+    a altura tera a metade 300px */
+
+}
+
+.video-area iframe {
+
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    border: 0px;
+
+}
