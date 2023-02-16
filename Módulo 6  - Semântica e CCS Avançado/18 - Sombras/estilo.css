@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: auto; /* faz o elemento ir para o meio */
+    margin-top: 100px;
+
+    
+
+/* box-shadow: aplica a sombra no elmento
+ text-shadow: aplica a sombra sobre o texto
+*/
+    box-shadow: 10px 10px 5px black;  /* distancia horizontal, distancia vertical (valores - ou +, 
+    blur = "esfumaçamento", cor*/
+
+    
+}
+
+/*
+pode se aplicar uma sombra em um elemento ou texto*/
