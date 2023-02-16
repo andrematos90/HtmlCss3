@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #e9ccf0;
+}
+
+form {
+    width: 210px;
+    height: 180px;
+    background-color: #ecaaf5;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 45px;
+    color: aliceblue;
+}
+
+input {
+    padding: 5px;
+    font-size: 13px;
+}

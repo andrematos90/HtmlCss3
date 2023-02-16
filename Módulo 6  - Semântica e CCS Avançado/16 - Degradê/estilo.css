@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+div {
+    width: 500px;
+    height: 200px;
+    background: yellow; /* caso o navegador nao suportar o degrade essa backgroud é aplicado */
+    margin-left: 100px;
+    margin-top: 100px;
+    background: linear-gradient(-75deg,blue, green); /* direção, primeira cor em graus, segunda cor, mais cores se quiser*/
+    background: -moz-linear-gradient(-75deg,blue, green); /* caso o mozila nao suporte */
+    background: -o-linear-gradient(-75deg, blue, green); /* caso o opera */
+    background: -webkit-linear-gradiente(-75deg, blue, green); /* caso o safari */
+
+
+}
+

@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #e9ccf0;
+}
+
+form {
+    width: 210px;
+    height: 180px;
+    background-color: #ecaaf5;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 45px;
+    color: aliceblue;
+}
+
+input {
+    padding: 5px;
+    font-size: 13px;
+}
+
+
+/*Normalizar CSS ou Redefinir CSS?!
+Arquitetura CSS — Parte 1
+Como regra, queremos que os elementos HTML tenham a mesma aparência,
+independentemente de qual navegador está sendo usado para visualizá-lo.
+ Infelizmente, esse não é o caso devido à maneira como os navegadores são executados.
+
+A questão de qual abordagem usar para eliminar as diferenças entre os estilos de agente do 
+usuário é um debate contínuo entre Normalize CSS vs CSS Reset .
+
+Normalizar CSS
+Normalize . css é um pequeno arquivo CSS que fornece consistência entre navegadores no estilo padrão dos elementos HTML.
+
+Isso significa que, se olharmos os padrões W3C dos estilos aplicados pelos navegadores, e houver uma inconsistência em um dos navegadores, 
+os normalize.cssestilos corrigirão o estilo do navegador que tiver a diferença.
+
+Mas, em alguns casos, não podemos corrigir os navegadores defeituosos de acordo com o padrão, geralmente por causa do IE ou EDGE.
+ Nesses casos, as correções no Normalize aplicarão os estilos IE ou EDGE ao restante dos navegadores.
+
+Resset CSS
+Resset CSS adota uma abordagem diferente e diz que não precisamos dos estilos padrão dos navegadores. Quaisquer que sejam os estilos que precisamos,
+ definiremos no projeto de acordo com nossas necessidades. Portanto, “CSS Reset” redefine todos os estilos que acompanham o agente do usuário do navegador.
+
+Essa abordagem funciona bem no exemplo acima, com os estilos <h1>padrão <h6>: na maioria das vezes, não queremos nem o padrão do navegador font-sizenem 
+o padrão do navegador margin.

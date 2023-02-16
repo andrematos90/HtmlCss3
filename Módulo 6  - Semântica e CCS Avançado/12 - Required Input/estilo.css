@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #EEE;
+}
+
+form {
+    width: 210px;
+    height: 180px;
+    background-color: #DDD;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input {
+    padding: 5px;
+    font-size: 13px;
+}

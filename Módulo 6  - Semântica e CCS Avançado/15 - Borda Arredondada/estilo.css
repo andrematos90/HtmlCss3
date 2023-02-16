@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 5px 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+
+
+/*
+
+sintaxe para arredondar apenas um lado do elemento
+
+Arredonda todas as bordas 
+border-radius: valor;
+
+Arredonda duas bordas de lados diferentes 
+border-radius: valor1 valor2; 
+
+Arredonda todos os lados com os valores diferentes 
+border-radius: valor1 valor2 valor3 valor4
+
+Arredondar bordas de cima direita ou esquerda
+0border-top-left-radius: valor;
+border-top-right-radius: valor;
+
+Arredondar bordas de baixo do elemento direita ou esquerda
+border-bottom-left-radius: valor;
+border-bottom-right-radius: valor;
+
+
+
+*/
