@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+}
+
+div {
+    width: 150px;
+    height: 200px;
+    border: 1px solid #000;
+    word-wrap: break-word;
+}
+
+/* quando se tem uma palavra muito grande que ultrapassa o tamanho do elemento
+usa-se word-wrap: break-word; para se quebrar a palavra e para que fique dentro dos limites do elemento */
