@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+
+    <style type="text/css">
+        .container {
+            display: flex;
+            height: 500px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            background-color: #DDDD;
+            align-content: flex-end;
+        }
+
+        .container div {
+            flex: 1;
+            background-color: #FF0000;
+            margin: 10px;
+            padding: 10px;
+            font-size: 18px;
+            width: 100px;
+            height: 100px;
+        }
+       /*
+        .div10 {
+            align-self: flex-start;
+        }
+        
+        .div14 {
+            order: 2;
+        }
+    */
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+         <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div class="div10">10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div class="div14">14</div>
+        <div>15</div>
+        
+     
+    </div>
+    
+</body>
+</html>
+
+
+<!--
+
+
+display
+
+Esta propriedade define um flex container; inline ou block dependendo dos valores passados.
+Coloca todos os elementos-filhos diretos num contexto Flex.
+
+Flexdirection
+
+Estabelece o eixo principal, definindo assim a direção em que os flex items são alinhados no flex container.
+
+Justify-content 
+
+justify-content: alinha os itens flex no container de acordo com a direção. 
+A propriedade só funciona se os itens atuais não ocuparem todo o container
+
+
+Align-itens
+
+A align-itemspropriedade define o comportamento padrão de como os itens são 
+dispostos ao longo do eixo transversal (perpendicular ao eixo principal).
+
+Align- self
+
+A align-selfpropriedade especifica o alinhamento na direção do bloco para o item selecionado dentro de um flexbox ou grid container.v
+
+Order
+
+A propriedade CSS define a ordem de disposição de um item em um contêiner flex ou grid. Os itens em um contêiner são classificados por valor crescente e, 
+em seguida, pela ordem do código-fonte.order order. recebe valores positivos e negativos
+
+flex-wrap
+A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. 
+Se o argumento for valido, ele define a direção em que as linhas são empilhada
+
+-->

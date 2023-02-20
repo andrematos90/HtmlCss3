@@ -1,0 +1,81 @@
+
+
+body {
+    margin: 0px;
+    padding: 0px;  
+
+}
+
+header {
+    display: flex; /* "habilita os elementos a mudarem de lugar*/
+    justify-content: center; /*alinha o elemento no centro*/
+    height: 120px;
+    background-image: url("../images/aleatpro.jpg");
+}
+
+
+.container {
+
+    width: 990px;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-between; /* deixa cada elemeno em lados opostos */
+    
+}
+
+.logo { 
+    
+    
+    display: flex;
+    align-items: center; /* alinha os elementos no centro no sentido vertical */
+
+}
+
+.menu { 
+    
+    
+    display: flex;
+    align-items: center; /* alinha os elementos no centro no sentido vertical */
+
+}
+
+nav ul, nav li {
+   
+    list-style: none; /*tira os pontinhos da lista*/
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+nav ul {
+    display: flex;
+    padding: 15px;
+   
+}
+
+nav a {
+    display: block;               /*para alterar tamanhos*/
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;   /*deixa tudo em maiusculo*/
+    border-radius: 10px;
+
+}
+
+nav .active a, 
+nav a:hover {
+    background-color: rgb(56, 53, 53);
+
+}
+
+#banner {
+    background-image: url(../images/banner.png);
+    background-position: center;    /*centraliza a imagem*/
+    background-size: size;          /*em monitores grandes a imagem se espande para preencher os espaços*/
+    height: 670px;
+}
+
+/*
+
+*/
