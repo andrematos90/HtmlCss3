@@ -134,16 +134,22 @@ nav a:hover {
 .banner1 {
    
     background-image: url(../images//banner1.png);
+    display: flex;
+    justify-content: end;
    
 }
 .banner2 {
     
     background-image: url(../images/banner2.png);
+    display: flex;
+    justify-content: center;
 }
 
 .banner3 {
     
     background-image: url(../images/banner3.png);
+    display: flex;
+   justify-content: end;
 }
 
 .banner_descript {
@@ -151,14 +157,19 @@ nav a:hover {
     margin-bottom: auto;
 }
 
-/*
+
 .banner_options a {
     display: block;
-    border: 1px solid white;
+    border: 1px solid rgb(135, 38, 165);
     padding: 5px;
-    color:  rgb(56, 53, 53);
+    color:  white;
     font-size: 15px;
     text-decoration: none;
-
+    border-radius: 15px;
+   
 }
-*/
+
+.geral {
+    display: flex;
+    justify-content: center;
+}

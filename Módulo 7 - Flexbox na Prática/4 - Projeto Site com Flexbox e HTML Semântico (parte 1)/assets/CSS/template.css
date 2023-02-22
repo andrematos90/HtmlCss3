@@ -18,9 +18,8 @@ header {
 
     width: 990px;
     height: 100px;
-    background-color: #7e7878;
     display: flex;
-    justify-content: space-between; /* deixa cada elemeno em lados opostos */
+    justify-content: space-between; /* deixa cada conteudo em lados opostos */
     
 }
 
@@ -31,7 +30,3 @@ header {
     align-items: center; /* alinha os elementos no centro no sentido vertical */
 
 }
-
-/*
-
-*/
