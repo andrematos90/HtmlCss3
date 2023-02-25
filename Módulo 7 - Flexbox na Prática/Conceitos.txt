@@ -1,0 +1,90 @@
+FLEXBOX
+
+serve para alinhar dinamicamente elementos dentro de uma caixa "container" que pode ser uma tag 
+como uma div, ul, main ou etc.. estes sendo os elementos pais de outros elementos que serão afetados 
+Os elementos estão um relacionado com o outro, alterando o tamanho, disposicão
+ou alinhamento 
+
+
+DISPLAY: flex = identifica que a tag vai ser o container de flexbox
+sem flex box o eixos são
+eixo principal = vertical
+eixo perpendicular = horizontal
+
+ao utilizar a propriedade 
+DISPLAY flex  no elemento pai os eixos são invertidos 
+
+
+
+
+
+FLEX-DIRECTION 
+define qual será  o eixo principal
+por padrão vem com o valor "row" (linha)
+também tem os valores "column", "row-reverse" e "column-reverse"
+
+
+
+
+JUSTIFY-CONTENT
+alinha os elementos ao logo do eixo que foi definido como principal
+pode receber valores como:
+
+justify-content: flex- start = elementos agrupados no inicio do eixo.
+justify-content: flex-end = elementos no agrupados no fim.
+justify-content: flex-center = elementos agrupados ao centro.
+justify-content: space-between = distribui os elementos ao longo do eixo principal, deixando entre eles 
+o maior espaço possível.
+justify-content: space-around = separa os elementos deixando espaço entre eles e tambem por fora deles
+
+
+
+ALIGN-ITEMS
+alinha os elementos no eixo que foi definido como perpendicular(secundário)
+
+align-items: flex- start = elementos agrupados no inicio do eixo secundário.
+align-items: flex-end = elementos no agrupados no fim do eixo secundário.
+align-items: center = elementos agrupados ao centro do eixo secundário.
+align-items: strech = faz com que os elementos ocupem o máximo de espaço do eixo,
+se não tiverem uma altura predefinida.
+align-items: baseline = alinhas os elementos com base no conteúdo de dentr da tag
+
+
+FLEX-WRAP
+
+flex-wrap: nowrap = é o valor padrão, não quebra linha, todos os elentos são dispostos
+na mesma linha do eixo.
+
+flex-wrap: wrap = caso os elementos não caibam na mesma linha os restante vão para outra linha de baixo
+
+flex-wrap: wrap-reverse = os elementos que não couberem vão para a linha de cima.
+
+
+FLEX-FLOX 
+
+junta flex-direction e flex-wrap em uma unica propriedade, para o código ficar menor 
+
+
+ALIGN-CONTENT
+
+alinha elementos em mais de uma linha, sempre quando estiver utilizando "wrap"
+alinhadas no eixo perpendicular 
+
+align-content: flex-start = a linha é quebrada para baixo mas sobem as duas para cima do eixo secundário.
+align-content: flex-end = a linha é quebrada para baixo mas as duas vão para o fim do eixo secundário.
+align-content: flex-center = a linha é quebrada para baixo mas as duas ficam ao centro do eixo secundário.
+align-content: space-between = quebra para baixo e coloca o máximo de espaço possivel entre elas.
+align-content: space-around  = quebra para baixo, espaça os elementos e coloca como se fosse uma margem.
+
+GAP
+
+separa os elementos mais especificamente, define um espaço entre os elementos.
+
+ex: gap: 20px;  coloca 20 pixels entre cada elemento tanto no eixo vertical, como no horizontal
+
+column-gap = coloca distancia entre as colunas
+row-gap = colcoa distancia entre linhas
+
+ou podem ser declaras juntas
+
+ex: gap: 20px 30px coloca 20px entre as linhas e 30px entre as colunas
