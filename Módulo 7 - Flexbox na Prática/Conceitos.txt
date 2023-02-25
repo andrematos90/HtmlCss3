@@ -5,6 +5,8 @@ como uma div, ul, main ou etc.. estes sendo os elementos pais de outros elemento
 Os elementos estão um relacionado com o outro, alterando o tamanho, disposicão
 ou alinhamento 
 
+---------------------------------------------------------------------------------------------------------------
+PROPIEDADES DOS ELEMENTOS PAIS
 
 DISPLAY: flex = identifica que a tag vai ser o container de flexbox
 sem flex box o eixos são
@@ -87,4 +89,59 @@ row-gap = colcoa distancia entre linhas
 
 ou podem ser declaras juntas
 
-ex: gap: 20px 30px coloca 20px entre as linhas e 30px entre as colunas
+ex: gap: 20px 30px  especifica 20px entre as linhas e 30px entre as colunas
+-------------------------------------------------------------------------------------------------------------
+
+
+
+-----------------------------------------------------------------------------------------------------------
+PROPIEDADES DOS ELEMENTOS FILHOS 
+
+ORDER
+
+muda a ordem dos elementos, por padão vem order: 0
+assim é seguida a ordem que é colocada no html
+
+se colocar order: 1 em algum elemento ele vai para o final mesmo que ele tenha sido 
+escrito antes no html
+
+é posivel colocar valores negativos se em algum elemento ficar com -1 ele sera o primeiro
+
+FLEX-GROW 
+
+define se um item pode ou não crescer se necessário
+por padrão vem flex-grow : 0 ou seja os itens não "crescem"
+
+flex-grow: 1; define a proporção de quanto ele vai crescer
+
+FLEX-SHRINK
+
+Esta propriedade define a proporção com que um item deve encolher caso seja necessário.
+Essa propriedade aceita apenas valores positivos, e seu valor padrão é 1. 
+
+
+FLEX BASIS
+
+define o tamanho inicial que um item deve ter antes que o espaço ao seu redor seja distribuído.
+ Ou seja, dependendo da direção do eixo principal (horizontal ou vertical), essa propriedade
+  define a largura ou altura mínima do elemento antes que ele seja redimensionado por outras propriedades.
+
+por padrão tem o valor flex-basis: auto; ou seja utiliza a heigth e a width que foram definidas
+
+
+FLEX 
+
+junta tres propriedades FLEX-GROW, FLEX-SHRINK, FLEX BASIS
+
+
+ALIGN-SELF
+
+Esta propriedade permite sobrescrever no item o comportamento que foi definido pela propriedade align-items.
+
+
+
+
+
+
+
+https://www.devmedia.com.br/css3-flexbox-funcionamento-e-propriedades/29532#:~:text=%5Bn%C3%BAmero%5D%3B%20%7D-,flex%2Dshrink,seu%20valor%20padr%C3%A3o%20%C3%A9%201.
