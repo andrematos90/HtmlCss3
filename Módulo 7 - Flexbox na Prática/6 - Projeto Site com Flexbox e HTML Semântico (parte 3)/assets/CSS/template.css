@@ -8,70 +8,67 @@ body {
 }
 
 header {
-    display: flex; /* "habilita os elementos a mudarem de lugar*/
-    justify-content: center; /*alinha o elemento no centro*/
+    display: flex;                     /* "habilita os elementos a mudarem de lugar*/
+    justify-content: center;            /*alinha o elemento no centro*/
     height: 120px;
 }
 
 
 .container {
 
+    display: flex;
+    justify-content: space-between;     /* deixa cada conteudo em lados opostos */
     width: 990px;
     height: 100px;
-    display: flex;
-    justify-content: space-between; /* deixa cada conteudo em lados opostos */
     
 }
-
 .logo { 
     
     
     display: flex;
-    align-items: center; /* alinha os elementos no centro no sentido vertical */
-
+    align-items: center;                /* alinha os elementos no centro no sentido vertical */
+ 
 }
 
 .menu {
-
+    display: flex;
+    align-items: center;
 }
 
-nav ul,
+nav ul, 
 nav li {
-    list-style: none; /*tira os pontinhos da lista*/
-    margin: 0px; /*cola os itens nas estremidades da pagina*/
+    
+    list-style: none;
+    margin: 0px;
     padding: 0px;
-
 }
 
-nav ul {
-    display: flex; /*deixa todos os itens do menu um ao lado do outro*/
-}
-
-nav li{
-
+nav ul { 
+    display: flex;
+    
 }
 
 nav a {
-    display: block; /* declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são. Um bloco contém um espaço em branco tanto em cima como embaixo e não permite outros elementos HTML ao lado, exceto quando tiver sido declarado ao contrário (por exemplo, declarar a propriedade float para o elemento próximo ao bloco).*/
-    padding: 15px;
-    text-decoration: none; /*retirar o sublinhado*/
-    text-transform: uppercase /*transforma tudo em maiusculo*/;
+    display: block;                           /*para se alterar tamanhos*/
+    padding: 15px;                            /*afasta os itens do menu*/
+    text-decoration: none;                    /*retira o sublinado */
+    text-transform: uppercase;                /*fica tudo em letra maiúscula*/
     color: #727272;
-    font-family: Arial;
 }
 
-nav .active a, nav a:hover {  /*deixa o menu ativo e aquele que é passado o mouse azul*/
+nav .active a,
+nav a:hover {
     background-color: #39aae1;
     color: white;
-    
+    font-family: Arial;
 }
 
 #banner {
     display: flex;
-    justify-content: center; /*centraliza o conteudo do banner*/
-    background-image: url('../images/img1.jpg');
-    background-position: center; /*posicio a imagem no meio*/
-    background-size: cover; /*a imagem se adapta ao tamanho do monitor*/
+    justify-content: center;
+    background-image: url(../images/img1.jpg);  /*seleciona a imagem*/
+    background-position: center;                /*posiciona a imagem*/
+    background-size: cover;                     /*faz a imagem adaptar ao tamanho dos monitores*/
     height: 670px;
 }
 
@@ -80,15 +77,35 @@ nav .active a, nav a:hover {  /*deixa o menu ativo e aquele que é passado o mou
 }
 
 .banner_headline {
-    flex: 1;
-    display: flex;
-    flex-direction: column; /*deixa os itens um abaixo do outro*/
-    justify-content: center;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
     
+}
+.banner_headline h1 {
+  
+    color: white;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px #0000;  /*text-shadow acrescenta sombras ao texto. */
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    
+}
+.banner_headline h2 {
+    color: white;
+    font-size: 21px;
+   margin: 0px;
+   padding: 0px;
+   width: 300px;
+   margin-top: 30px;
+   max-width: 350px;
+}
+
+
+.banner_options {
+    height: 210px;
     
 }
 
-.banner_options {
-   
-    height: 210px;
-}

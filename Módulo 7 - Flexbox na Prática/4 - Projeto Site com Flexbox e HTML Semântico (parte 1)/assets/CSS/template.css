@@ -16,13 +16,12 @@ header {
 
 .container {
 
-    width: 990px;
-    height: 100px;
     display: flex;
     justify-content: space-between; /* deixa cada conteudo em lados opostos */
+    width: 990px;
+    height: 100px;
     
 }
-
 .logo { 
     
     
