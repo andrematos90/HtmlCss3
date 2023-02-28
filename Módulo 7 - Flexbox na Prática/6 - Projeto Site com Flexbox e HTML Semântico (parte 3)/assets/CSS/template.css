@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Arial;
 }
 
 body {
@@ -83,29 +84,75 @@ nav a:hover {
    justify-content: center;
     
 }
+
 .banner_headline h1 {
-  
     color: white;
-    font-size: 70px;
-    text-shadow: 0px 1px 0px #0000;  /*text-shadow acrescenta sombras ao texto. */
+    font-size: 50px;
+    text-shadow:  0px 1px 0px #555; /*coloca sombra no texto*/
     margin: 0px;
     padding: 0px;
     max-width: 350px;
-    
+    margin-top: 30px;
 }
+
 .banner_headline h2 {
     color: white;
     font-size: 21px;
-   margin: 0px;
-   padding: 0px;
-   width: 300px;
-   margin-top: 30px;
-   max-width: 350px;
+    text-shadow:  0px 1px 0px #555; /*coloca sombra no texto*/
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    margin-top: 30px;
 }
 
 
-.banner_options {
-    height: 210px;
-    
+
+.banner_options { 
+   height: 210px;
+   display: flex;
+  
 }
 
+
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+
+}
+
+.banner1 {
+    background-color: #39aae1;
+}
+.banner2 {
+    background-color: #0079c7;
+}
+
+.banner3 {
+    background-color: #2b4c99;
+}
+
+.banner_title {
+    font-size: 21px;
+}
+
+.banner_desc{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner_options a {
+    display: inline-block;
+    border: 1px solid#FFFF;
+    padding: 5px;
+    color: white;
+    text-decoration: none; /*retira o sublinhado*/
+    font-size: 12px;
+}
+
+.time {
+    font-size: 12px;
+    border-bottom-style: groove;
