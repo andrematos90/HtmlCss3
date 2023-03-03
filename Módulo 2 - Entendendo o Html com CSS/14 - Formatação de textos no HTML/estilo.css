@@ -1,0 +1,70 @@
+A HTML define uma série de elementos para formatar a saída, como texto em negrito ou itálico.
+
+Abaixo estão uma série de exemplos que você pode tentar por si mesmo:
+
+Exemplos
+Formatação de texto
+Este exemplo demonstra como você pode formatar texto em um documento HTML.
+
+Texto Pré-formatado
+Este exemplo demonstra como você pode controlar quabras de linha e espaços com a tag pre.
+
+Tags de "saída de computador"
+Este exemplo demonstra o quão diferentes serão mostradas as tags de "saída de computador".
+
+Endereço
+Este exemplo demonstra como escrever um endereço em um documento HTML.
+
+Abreviaturas e acrônimos
+Este exemplo demonstra como manejar uma abreviatura ou um acrônimo.
+
+Direção do texto
+Este exemplo demonstra como mudar a direção do texto.
+
+Citações
+Este exemplo demonstra como manejar citações longas e curtas.
+
+Texto cancelado ou inserido
+Este exemplo demonstra como marcar um texto que foi cancelado ou inserido em um documento.
+
+Como ver a fonte HTML
+Você já viu uma página Web e imaginou "Como eles fazem isso"?
+
+Para descobrir, simplesmente clique na opção EXIBIR na barra de ferramentas do seu navegador e selecione CÓDIGO FONTE ou PÁGINA FONTE. Uma janela irá abrir para mostrar-lhe a HTML real da página.
+
+Tags de Formatação de Texto
+Tag	Descrição
+<b>	Define texto em negrito
+<big>	Define texto grande
+<em>	Define texto enfatizado;
+<i>	Define texto em itálico
+<small>	Define texto pequeno
+<strong>	Define texto forte
+<sub>	Define texto subescrito
+<sup>	Define texto superescrito
+<ins>	Define texto inserido
+<del>	Define texto cancelado
+<s>	Desaprovada. Use <del> em vez
+<strike>	Desaprovada. Use <del> em vez
+<u>	Desaprovada. Use estilos em vez
+Tags de "Saída de Computador"
+Tag	Descrição
+<code>	Define texto de código de computador
+<kbd>	Define texto de teclado
+<samp>	Define amostra de código de computador
+<tt>	Define texto de teletipo
+<var>	Define uma variável
+<pre>	Define texto pré-formatado
+<listing>	Desaprovada. Use <pre> em vez
+<plaintext>	Desaprovada. Use <pre> em vez
+<xmp>	Desaprovada. Use <pre> em vez
+Tags de Citações curtas (Citations), Citações longas (Quotations), e Definição
+Tag	Descrição
+<abbr>	Define uma abreviatura
+<acronym>	Define um acrônimo
+<address>	Define um elemento de endereço
+<bdo>	Define a direção do texto
+<blockquote>	Define uma citação longa
+<q>	Define uma citação curta
+<cite>	Define uma citação
+<dfn>	Define um termo de definição
