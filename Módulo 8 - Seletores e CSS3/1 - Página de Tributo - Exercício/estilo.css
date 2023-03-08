@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 35px;
+    font-family: 'Lucida Sans Unicode';
+    margin-bottom: 0px;
+}
+
+header h3 {
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+}
+
+.baseline{
+    width: 1300px;
+    height: 2px;
+    box-shadow: 0px 0px 1px;
+    background-color: darkgray;
+}
+
+aside {
+    margin-top: 20px;
+    padding-left: 15px;
+    margin-right: 25px;
+    display: flex;
+    
+}
+
+aside img{
+    width: 500px;
+    height: 600px;
+  
+}
+
+section {
+ padding-left: 15px;
+ padding-top: 0px;
+}
+
+P{
+    margin-top: 0px;
+    line-height: 1.5;
+}
+
+ul li {
+    line-height: 1.5;
+}
