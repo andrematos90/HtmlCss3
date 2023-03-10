@@ -6,82 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Formulário Exercício</title>
+    <title>Formulário</title>
 </head>
 
 <body>
-   <div class="container">
-    <div>
-        <h1 id="titulo">Cadastro de DEVs</h1>
-        <h3 id="subtitulo">Complete suas informações</h3>
-    </div>
-    <form action="pagina/cadastro.html" method="post">
-        <fieldset class="grupo">
-            <label for="nome"><strong>Nome:</strong></label>
-            <input type="text" name="nome" id="nome" required>
-            <br>
-            <label for="sobrenome"><strong>Sobrenome:</strong></label>
-            <input type="text" name="sobrenome" id="sobrenome" required>
-            <br>
-        </fieldset>
-        <div class="campo">
-            <label for="email"><strong>Email:</strong></label><br>
-            <input type="email" id="email">
-
-        </div>
-        <div class="campo">
-            <label for="">De qual lado da aplicação você desenvolve?</label>
-            <label>
-                <input type="radio" name="devweb" value="frontend" checked>Frontend
-            </label>
-            <label>
-                <input type="radio" name="devweb" value="backend">Backend
-            </label>
-            <label>
-                <input type="radio" name="devweb" value="fullstack">Fullstack
-            </label>
-        </div>
-
-        <div>
-            <label for="senioridade">Senioridade</label>
-            <select name="senioridade" id="">
-                <option selected disabled value="">Selecione</option>
-                <option value="ju">Junior</option>
-                <option value="ple">Pleno</option>
-                <option value="sen">Senior</option>
-            </select>
-        </div>
-
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="selecione">Selecione as tecnologias que utiliza</label><br><br>
-                <input type="checkbox">
-                <label for="">Html</label>
-                <input type="checkbox">
-                <label for="">CSS</label>
-                <input type="checkbox">
-                <label for="">JavaScript</label>
-                <input type="checkbox">
-                <label for="">PHP</label>
-                <input type="checkbox">
-                <label for="">C#</label>
-                <input type="checkbox">
-                <label for="">Python</label>
-                <input type="checkbox">
-                <label for="">Java</label><br><br>
+    <div class="container ">
+        <div class="container2">
+            <div class="titulo">
+                <h1 id="titulo">Cadastro de Devs</h1>
+                <p id="subtitulo">Complete suas Informações</p>
+                <br>
             </div>
-        </fieldset>
-
-        <div class="campo">
-            <label for="texto">Conte um pouco mais da sua experiência:</label>
-            <textarea name="areadetexto" id="" cols="30" rows="8"></textarea>
+            <form action="pagina/cadastro.html" method="post">
+              <fieldset class="grupo">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+              </fieldset>
+              <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+              </div>
+                <div>
+                    <div class="campo">
+                        <label for="lado">De qual lado você desenvolve?</label>
+                        <label for="">
+                            <input type="radio" name="devweb" value="backend">Back-end
+                        </label>
+                        <label for="">
+                            <input type="radio" name="devweb" value="frontend">Front-end
+                        </label>
+                       <label for="">
+                        <input type="radio" name="devweb" value="fullstack">FullStack
+                       </label>
+                    </div>
+                </div>
+                <div>
+                    <label for="senerioridade">Senerioridade</label>
+                    <select name="senerioridade" id="senerioridade">
+                        <option value=""selected>Selecione</option>
+                        <option value="junior">Junior</option>
+                        <option value="pleno">Pleno</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </div>
+                <fieldset class="grupo">
+                    <div id="check">
+                        <label for="tecnologia">Selecione as tecnologias que utiliza:</label><br><br>
+                        <input type="checkbox" id="tecnologia1" name="tecnologia1" value="Html">
+                        <label for="html">HTML</label>
+                        <input type="checkbox" id="tecnologia2" name="tecnologia2" value="css">
+                        <label for="css">CSS</label>
+                        <input type="checkbox" id="tecnologia3" name="tecnologia3" value="javascript">
+                        <label for="javascript">JavaScript</label>
+                        <input type="checkbox" id="tecnologia4" name="tecnologia4" value="php">
+                        <label for="php">PHP</label>
+                        <input type="checkbox" id="tecnologia5" name="tecnologia5" value="c#">
+                        <label for="c#">C#</label>
+                        <input type="checkbox" id="tecnologia6" name="tecnologia6" value="python">
+                        <label for="Python">Python</label>
+                        <input type="checkbox" id="tecnologia7" name="tecnologia7" value="java">
+                        <label for="java">Java</label>
+                    </div><br>
+                </fieldset>
+        
+                <div class="campo">
+                    <label for="desc">Conte um pouco mais sobre sua experiência:</label>
+                    <textarea name="experiência" rows="6" style="width:26em"></textarea>
+                </div>
+                <button class="botao" type="submit">Enviar</button>
+            </form>
         </div>
-
-        <button class="botao" type="submit">Enviar</button>
-
-    </form>
-
-   </div>
+    </div>
 
 </body>
 
