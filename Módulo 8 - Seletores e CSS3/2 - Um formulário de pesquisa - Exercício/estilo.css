@@ -8,6 +8,10 @@ body{
     display: flex;
     justify-content: center;
     background-color:  rgb(103, 110, 150);
+    font-family: sans-serif;
+    color: aliceblue;
+ 
+
 }
 
 .container{
@@ -24,8 +28,37 @@ body{
     
 }
 
-#titulo, #subtitulo{
-    color: white;
-    align-content: space-between;
+#titulo{
+    font-family: sans-serif;
+    color: black;
+    margin-left: 7%;
+    font-size: 18px;
+   
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color: black;
+    margin-left: 10%;
+    font-size: 14px;
+    
+}
+
+fieldset{
+    border: 0px;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label{
+    color: black;
+    margin-bottom: 0.2em;
+    display: block;
 }
 
