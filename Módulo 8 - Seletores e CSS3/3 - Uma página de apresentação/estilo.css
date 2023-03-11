@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.superior {
+  
+    width: 1370px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.superior h2 {
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.line{
+    width: 500px;
+    height: 10px;
+    color: aliceblue;
+    
+
+}
+
+.imagem{
+    height: 80px;
+    width: 80px;
+    
+}
+
+.inferior{
+    
+    width: 1370px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: aliceblue;
+   
+}
+
+ol li{
+  
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+.botao{
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: #f0c791;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+
+.botao:hover{
+    background-color: rgb(248, 175, 66);
+    color: aliceblue;
+    
+}
+
+
