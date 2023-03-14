@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    width: auto;
+    height: 130px;
+    border-bottom: 0.1em solid rgb(182, 180, 180);
+    display: flex;
+    align-content: center;
+   
+
+    
+}
+
+.logo img {
+    width: 92;
+    height: 30px;
+    padding: 10px;
+    margin: 15px;
+    margin-top: 25px;
+ 
+}
+
+
+.pesquisa{
+    width: 582px;
+    height: 45px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 25px;
+   
+}
+
+.fotoperfil img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 570px;
+ 
+
+}
