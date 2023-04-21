@@ -1,0 +1,25 @@
+
+EXPLICAÇÃO DE UM DOCUMENTO HTML BÁSICO
+
+
+<!DOCTYPE html> - Esta linha é um tipo especial de comentário que informa ao navegador da web que este é um documento HTML5. Ela define a versão do HTML que está sendo usada na página.
+
+<html lang="en"> - Esta linha é a tag de abertura para o elemento html e define o idioma da página como inglês (en). Todos os outros elementos da página devem estar dentro desta tag.
+
+<head> - Esta linha é a tag de abertura para o elemento head. O conteúdo dentro desta tag não é exibido na página, mas contém informações importantes sobre a página, como metadados, links para arquivos CSS, scripts e outras informações importantes.
+
+<meta charset="UTF-8"> - Esta linha é uma tag de metadados que informa ao navegador qual é o conjunto de caracteres (charset) usado na página. O conjunto de caracteres UTF-8 é amplamente usado e suporta uma ampla variedade de idiomas.
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> - Esta linha é uma tag de metadados que define o modo de compatibilidade para o Internet Explorer. O valor "IE=edge" instrui o navegador a usar a versão mais recente do mecanismo de renderização.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> - Esta linha é uma tag de metadados que define como a página é exibida em dispositivos móveis. O valor "width=device-width" faz com que a largura da página seja definida para o tamanho da tela do dispositivo, enquanto "initial-scale=1.0" define o nível de zoom inicial da página.
+
+<title>Document</title> - Esta linha é a tag de título que define o título da página que aparece na guia do navegador.
+
+</head> - Esta linha é a tag de fechamento para o elemento head.
+
+<body> - Esta linha é a tag de abertura para o elemento body. Todo o conteúdo visível da página é colocado dentro desta tag.
+
+</body> - Esta linha é a tag de fechamento para o elemento body.
+
+</html> - Esta linha é a tag de fechamento para o elemento html. Ela marca o final da página.
