@@ -1,0 +1,18 @@
+                                  FULL-STACK
+
+
+Full-stack é um termo usado para descrever um desenvolvedor que tem conhecimento e habilidades para trabalhar tanto no front-end quanto no backend de uma aplicação. Essa pessoa é capaz de desenvolver uma aplicação completa, desde a interface do usuário até o banco de dados e a lógica de negócios.
+
+Os desenvolvedores full-stack devem ter conhecimentos em diversas tecnologias e habilidades em diferentes áreas, como design, programação, arquitetura de informação, gerenciamento de banco de dados, segurança e gerenciamento de servidores.
+
+Algumas das habilidades e tecnologias que um desenvolvedor full-stack pode ter incluem:
+
+HTML, CSS e JavaScript para desenvolvimento de front-end
+Linguagens de programação como Python, Ruby, PHP e Java para desenvolvimento de backend
+Frameworks como Django, Ruby on Rails, Laravel e Spring para desenvolvimento de backend
+Bancos de dados como MySQL, PostgreSQL, MongoDB e Redis
+Sistemas de gerenciamento de conteúdo (CMS) como WordPress, Drupal e Joomla
+Ferramentas de versionamento de código como Git e SVN
+Servidores web como Apache e Nginx
+Conceitos de segurança de aplicativos web e boas práticas de programação
+Os desenvolvedores full-stack são muito valorizados no mercado de tecnologia, pois são capazes de trabalhar em diferentes áreas e lidar com uma variedade de desafios no desenvolvimento de aplicativos e sistemas
