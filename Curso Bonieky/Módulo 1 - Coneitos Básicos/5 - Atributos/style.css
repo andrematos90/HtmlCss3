@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+body {
+    background: rgb(39, 49, 51);
+    color: azure;
+}
+
+section {
+    padding: 10px;
+    background: rgb(86, 139, 150);
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+img{
+    border-radius: 10px;
+}
