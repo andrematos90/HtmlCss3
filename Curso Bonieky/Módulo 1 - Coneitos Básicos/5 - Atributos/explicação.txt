@@ -14,3 +14,27 @@ align=”…” – Permite definir o padrão de alinhamento desse elemento, com
 width=”…” – Define uma largura para o elemento;
 height=”…” – Define uma altura para o elemento.
 Essas são os principais atributos, porém existem diversos outros que devem ser estudados e podem ser utilizados no seu código.
+
+-------------------------------------------------------------------------------------------------------------
+
+Em HTML, os atributos são utilizados para fornecer informações adicionais sobre os elementos (tags). Eles são usados para modificar o comportamento ou a aparência dos elementos, definir valores, especificar conexões ou fornecer metadados relevantes.
+
+Os atributos são adicionados aos elementos como pares de nome/valor dentro das tags. Eles fornecem informações extras ou instruções específicas que afetam o elemento. Aqui está um exemplo básico de como um atributo é definido em uma tag HTML:
+
+<tag atributo="valor">Conteúdo</tag>
+
+
+Nesse exemplo, "atributo" é o nome do atributo, e "valor" é o valor atribuído a esse atributo.
+
+Alguns elementos HTML têm atributos específicos associados a eles. Por exemplo, a tag <a> (âncora) possui o atributo "href" que especifica o URL de destino do link, enquanto a tag <img> (imagem) tem o atributo "src" que indica o caminho para a imagem a ser exibida.
+
+Aqui está um exemplo de uso desses atributos:
+
+<a href="https://www.exemplo.com">Link para Exemplo</a>
+
+<img src="caminho/para/imagem.jpg" alt="Descrição da Imagem">
+
+
+Os atributos também podem ser usados para fornecer informações adicionais para fins de acessibilidade, formatação de estilo (usando CSS) ou interação com JavaScript. A disponibilidade e o uso de atributos variam de acordo com o elemento e a versão do HTML sendo usada.
+
+É importante observar que alguns atributos foram descontinuados ou substituídos em versões mais recentes do HTML, portanto, é recomendado consultar as especificações oficiais ou referências atualizadas para obter informações precisas sobre os atributos disponíveis e seu uso adequado.
