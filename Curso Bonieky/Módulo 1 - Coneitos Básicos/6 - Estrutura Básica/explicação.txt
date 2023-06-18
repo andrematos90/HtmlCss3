@@ -20,3 +20,28 @@ Em primeiro lugar, vamos agora entender para que serve cada uma dessas tags:
 <meta/> – Essa tag permite inserir metadados ao seu documento, no caso acima, a informação charset=”UTF-8″, que garante a compatibilidade do código com os caracteres de padrão latino americano;
 <body></body> – Finalmente, a tag que representa o corpo do documento. Em síntese, é nessa tag que todos os elementos visíveis do seu site devem ser inseridos.
 Agora que já conhecemos as tags HTML que formam a estrutura básica de uma página, podemos então
+
+
+-----------------------------------------------------------------------------------------------------
+
+A estrutura básica de um documento HTML (Hypertext Markup Language) consiste em várias partes principais, que são organizadas hierarquicamente. Aqui está uma explicação geral da estrutura:
+
+Tag <!DOCTYPE>: É a primeira linha de um documento HTML e define a versão do HTML que está sendo usada. Por exemplo, <!DOCTYPE html> indica que o documento segue a especificação HTML5.
+
+Tag <html>: Esta tag envolve todo o conteúdo HTML do documento e indica o início e o fim do documento HTML.
+
+Tag <head>: Esta tag é usada para conter informações de metadados e configurações do documento. Isso inclui o título da página exibido na barra de título do navegador, links para arquivos CSS e JavaScript, codificação de caracteres, entre outros.
+
+Tag <title>: É usada dentro da tag <head> para definir o título da página. Esse título é exibido na barra de título do navegador e também é usado como o título da página nos resultados de pesquisa.
+
+Tag <body>: É dentro dessa tag que o conteúdo visível da página é colocado. Pode conter textos, imagens, vídeos, links e outros elementos HTML.
+
+Tags de conteúdo: Dentro da tag <body>, você pode usar várias tags para criar e estruturar o conteúdo da página. Alguns exemplos comuns incluem:
+
+<h1>, <h2>, <h3>, ... <h6>: Usadas para criar títulos e subtítulos.
+<p>: Usada para criar parágrafos.
+<a>: Usada para criar links.
+<img>: Usada para inserir imagens.
+<ul> e <li>: Usadas para criar listas não ordenadas.
+<table>: Usada para criar tabelas.
+Essa é apenas uma estrutura básica e existem muitos outros elementos e atributos disponíveis no HTML para criar páginas mais complexas e interativas. A estrutura do documento HTML pode variar dependendo das necessidades específicas de cada página, mas essas são as partes fundamentais presentes na maioria dos documentos HTML.
