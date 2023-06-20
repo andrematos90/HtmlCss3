@@ -1,3 +1,17 @@
-Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags <style>. 
-Também é possível, 
-adicionar estilos adicionando um link para um arquivo CSS que contém os estilos
+CSS (Cascading Style Sheets) é uma linguagem de folhas de estilo utilizada para descrever a apresentação e formatação de documentos HTML (HyperText Markup Language) e XML (eXtensible Markup Language). Ela permite controlar a aparência visual dos elementos em uma página web.
+
+Aqui estão alguns pontos-chave para entender CSS:
+
+Seletores: Os seletores CSS são usados para direcionar os elementos HTML aos quais você deseja aplicar estilos. Eles podem selecionar elementos pelo nome da tag, classe, ID, relação com outros elementos, entre outros. Por exemplo, o seletor h1 direciona todos os elementos de título de nível 1 (<h1>).
+
+Propriedades e valores: As propriedades CSS são usadas para definir os estilos dos elementos selecionados. Cada propriedade tem um valor que especifica como o elemento deve ser renderizado. Por exemplo, a propriedade color define a cor do texto e a propriedade font-size define o tamanho da fonte.
+
+Declarações: As declarações CSS são compostas por uma propriedade e um valor separados por dois pontos (:), e são terminadas por um ponto-e-vírgula (;). Por exemplo, color: red; é uma declaração que define a cor do texto como vermelha.
+
+Folhas de estilo internas e externas: Os estilos CSS podem ser incluídos em uma página HTML de duas formas principais. Estilos internos são definidos dentro da tag <style> na seção <head> do documento HTML. Estilos externos são definidos em arquivos CSS separados e são vinculados ao documento HTML usando a tag <link>.
+
+Cascata e especificidade: A cascata é um mecanismo que determina como os estilos são aplicados quando há várias regras que se aplicam a um determinado elemento. A especificidade de uma regra CSS também determina seu peso na cascata. Seletores mais específicos têm mais peso do que seletores menos específicos.
+
+Seletores avançados: O CSS oferece diversos seletores avançados para direcionar elementos específicos com base em sua posição, estado (por exemplo, :hover para quando o mouse está em cima), ou outros critérios. Seletores avançados permitem criar estilos mais complexos e aplicar estilos dinâmicos aos elementos.
+
+Layout e modelo de caixa: O CSS também permite controlar o layout dos elementos na página. Você pode definir margens, preenchimentos, larguras, alturas, posições, fluxos de texto, etc. Os elementos HTML são tratados como caixas com propriedades do modelo de caixa, como largura, altura, margens, bordas e preenchimentos.
