@@ -1,0 +1,43 @@
+No CSS, você pode selecionar elementos com base em seus seletores. Existem diferentes tipos de seletores disponíveis para escolher o elemento ou conjunto de elementos desejados. Aqui estão alguns exemplos comuns de seletores CSS:
+
+Seleção por tipo de elemento (nome da tag):
+Você pode selecionar todos os elementos de um determinado tipo usando o nome da tag. Por exemplo, para selecionar todos os elementos <h1> em um documento, você pode usar o seletor h1. Exemplo:
+
+h1 {
+  color: red;
+}
+
+
+Seleção por classe:
+Você pode atribuir uma classe a um ou mais elementos e, em seguida, selecioná-los usando o seletor de classe. O seletor de classe é representado pelo ponto (.) seguido pelo nome da classe. Exemplo:
+
+html
+<p class="destaque">Este é um parágrafo de destaque.</p>
+
+CSS
+.destaque {
+  font-weight: bold;
+}
+
+Seleção por ID:
+Você pode atribuir um ID único a um elemento e, em seguida, selecioná-lo usando o seletor de ID. O seletor de ID é representado pelo símbolo de hashtag (#) seguido pelo nome do ID. Exemplo:
+
+html
+<div id="meu-elemento">Conteúdo do elemento.</div>
+CSS
+#meu-elemento {
+  background-color: yellow;
+}
+
+Seleção por hierarquia:
+Você pode selecionar elementos com base em sua hierarquia dentro do documento HTML. Por exemplo, para selecionar um elemento <p> que esteja dentro de uma <div>, você pode usar o seletor de descendência. Exemplo:
+
+CSS
+div p {
+  color: blue;
+}
+
+Esses são apenas alguns exemplos básicos de seletores CSS. Existem seletores mais avançados, como seletores de atributo, seletores de pseudo-classe e seletores de pseudo-elemento, que permitem seleções mais específicas. A combinação e o uso adequado desses seletores podem ajudá-lo a estilizar elementos específicos em suas páginas da web.
+
+
+
