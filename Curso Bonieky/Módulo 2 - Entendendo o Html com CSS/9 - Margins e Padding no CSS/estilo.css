@@ -1,20 +1,13 @@
-
-body {
-    margin: 0px;
+body{
+    margin: 0px;  /* retira o margin de toda a pagina */
 }
-
-h2 {
-    border-radius:  8px; 
-    background-color: aquamarine;
-    font-family:'Times New Roman', Times, serif;
+.divexemplo{
+    width: 500px;
+    height: 50px;
+    border:1px solid crimson;
+  
+    padding: 10px;
 }
-
-p {
-    background-color: cadetblue;
-    padding-left: 5px;
-    padding-right: 10px;
-    padding-top: 20px;
-    
 /* todo elemento tem pelo menos 4 propriedades 
 conteudo
 borda
