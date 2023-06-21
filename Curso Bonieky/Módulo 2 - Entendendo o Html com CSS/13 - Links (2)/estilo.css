@@ -14,12 +14,12 @@ body {
     border-radius: 50%;
 }
 
-.link {
-    color: green;
+#you {
+    color: rgb(128, 0, 70);
 }
 
 /*quando o estado "hover" estiver ativo (que é passar o mouse em cima as propriedades sao aplicadas)*/
-.link:hover{
+#you:hover{
     color: red;
 }
 
