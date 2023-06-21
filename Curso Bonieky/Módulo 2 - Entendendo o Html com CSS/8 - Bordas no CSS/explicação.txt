@@ -1,0 +1,55 @@
+No CSS (Cascading Style Sheets), as bordas são elementos visuais que podem ser adicionados aos elementos HTML, como divs, imagens ou botões, para definir seus contornos. As bordas permitem personalizar a aparência dos elementos, destacá-los ou separá-los uns dos outros.
+
+Existem várias propriedades CSS que controlam as bordas. Aqui estão algumas das principais:
+
+
+
+                            border-width:
+
+ Define a largura da borda. Pode ser especificada em pixels, em unidades relativas (por exemplo, em, rem) ou com palavras-chave predefinidas (como "thin", "medium" e "thick").
+                            
+
+                            border-style:
+
+ Define o estilo da borda, como sólida, tracejada, pontilhada ou nenhum (sem borda). Alguns dos valores comuns incluem "solid" (sólida), "dotted" (pontilhada), "dashed" (tracejada) e "none" (nenhuma).
+                            
+                            border-color:
+
+ Define a cor da borda. Pode ser especificada como um nome de cor, um valor hexadecimal ou uma função como "rgb()" ou "hsl()". Você também pode usar a palavra-chave "transparent" para tornar a borda invisível.
+
+
+Essas propriedades podem ser combinadas em uma única propriedade chamada border, onde você pode especificar a largura, o estilo e a cor da borda em uma única declaração. Por exemplo:
+
+div {
+  border: 2px solid red;
+}
+
+Isso definiria uma borda de 2 pixels de largura, sólida e vermelha ao redor de todos os elementos <div>.
+
+Além dessas propriedades básicas, o CSS também oferece controle mais avançado sobre as bordas, permitindo que você especifique bordas individuais para cada lado de um elemento usando as propriedades border-top, border-right, border-bottom e border-left. Isso permite que você crie bordas assimétricas ou remova bordas em determinados lados.
+
+Além disso, existem propriedades relacionadas às bordas, como border-radius, que permite arredondar as bordas dos elementos, e box-shadow, que cria sombras em torno dos elementos, dando-lhes uma aparência tridimensional.
+
+Essas são apenas algumas das possibilidades de estilização de bordas usando CSS. Combinando essas propriedades e experimentando diferentes valores, você pode criar uma variedade de efeitos visuais para as bordas de seus elementos HTML.
+
+
+OUTRAS PROPRIEDADES
+ 
+
+                              border - style
+
+border-style: Define o estilo da borda. Pode ser especificado individualmente para cada lado (por exemplo, border-top-style, border-right-style, border-bottom-style, border-left-style) ou em uma única declaração usando a propriedade border-style. Alguns dos valores comuns incluem "solid" (sólida), "dotted" (pontilhada), "dashed" (tracejada), "double" (dupla), "groove", "ridge", "inset" e "outset". A palavra-chave "none" indica que não há borda.
+
+                                  
+
+                                  border: 
+
+Combinação da largura, estilo e cor da borda em uma única declaração. Pode ser especificado individualmente para cada lado (por exemplo, border-top, border-right, border-bottom, border-left) ou em uma única declaração para todos os lados. Por exemplo: border: 2px solid red; define uma borda de 2 pixels de largura, sólida e vermelha.
+
+
+                                 border-radius:
+                                     
+ Define o raio dos cantos da borda, criando bordas arredondadas. Pode ser especificado individualmente para cada canto (por exemplo, border-top-left-radius, border-top-right-radius, border-bottom-right-radius, border-bottom-left-radius) ou em uma única declaração usando a propriedade border-radius.
+
+                                 box-shadow:
+Cria uma sombra em torno da borda do elemento, dando uma aparência tridimensional. A sintaxe permite especificar a cor da sombra, o deslocamento horizontal e vertical, o desfoque e o espalhamento da sombra.

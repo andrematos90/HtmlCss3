@@ -4,7 +4,7 @@
    
 }
 
-#s logan {
+#slogan {
     background-color:#B0E0E6 ;
     color: cadetblue;
     font-size: x-small;
@@ -14,8 +14,23 @@ p {
     background-color: #7c1d60;
     color: black;
     font-size: small;
-    border: 5px solid blueviolet ; 
+    border: 20px solid blueviolet ; 
     border-radius: 5px;  
 
     /*na propriedade border 3 informações podem ser colocadas largura, tipo e cor */
 }
+
+span {
+    border: 5px solid white;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+#bola{
+    background-color: #B0E0E6;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
+  
