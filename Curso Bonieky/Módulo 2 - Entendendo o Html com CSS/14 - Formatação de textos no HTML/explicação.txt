@@ -1,0 +1,32 @@
+No HTML, é possível formatar e estilizar o texto usando várias tags e atributos. Abaixo estão algumas das principais opções de formatação de texto em HTML:
+
+Títulos e cabeçalhos:
+
+<h1> a <h6>: são tags de cabeçalho que indicam a importância e o nível hierárquico do texto, onde <h1> é o mais importante e <h6> é o menos importante.
+Parágrafos:
+
+<p>: é usado para envolver um parágrafo de texto.
+Estilos de fonte:
+
+<strong> ou <b>: aplicam negrito ao texto.
+<em> ou <i>: aplicam itálico ao texto.
+<u>: sublinha o texto.
+<s>: aplica uma linha de corte (tachado) ao texto.
+Listas:
+
+<ul>: cria uma lista não ordenada.
+<ol>: cria uma lista ordenada.
+<li>: define um item em uma lista.
+Citações:
+
+<blockquote>: indica uma citação em bloco.
+<q>: indica uma citação em linha.
+Links:
+
+<a href="URL">texto do link</a>: cria um link clicável para outra página ou recurso.
+<a href="#secao">texto do link</a>: cria um link interno que leva a uma seção específica da mesma página.
+Estilos de texto:
+
+<span>: permite estilizar ou agrupar elementos de texto inline usando CSS.
+<div>: usado para agrupar blocos de conteúdo, permitindo aplicar estilos e manipulações adicionais.
+Essas são apenas algumas das tags mais comuns para formatação de texto em HTML. No entanto, é importante observar que a formatação visual mais avançada geralmente é realizada usando CSS (Cascading Style Sheets), que permite uma personalização mais precisa do estilo, como cores, fontes, tamanhos e outros efeitos visuais.
