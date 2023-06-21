@@ -1,0 +1,9 @@
+A regra * { box-sizing: border-box; } é uma declaração CSS que define o modelo de caixa de todos os elementos da página como "border-box". Essa regra é conhecida como seletor universal e se aplica a todos os elementos do documento HTML.
+
+O modelo de caixa é uma representação visual de como um elemento é dimensionado e composto dentro do layout da página. No modelo de caixa padrão do CSS, a largura e a altura de um elemento são afetadas pelo seu conteúdo, preenchimento interno (padding) e borda.
+
+No entanto, quando box-sizing: border-box; é aplicado a um elemento, a largura e a altura do elemento incluirão o espaço ocupado pela borda e pelo preenchimento interno. Isso significa que, quando você especifica uma largura ou altura para um elemento com box-sizing: border-box;, essa largura ou altura será aplicada ao conteúdo real do elemento, incluindo a borda e o preenchimento, em vez de ser adicionada a eles.
+
+Isso é especialmente útil quando você está trabalhando com layouts responsivos e deseja garantir que o dimensionamento dos elementos seja previsível. Ao usar box-sizing: border-box;, você pode definir a largura e altura dos elementos levando em consideração a borda e o preenchimento, evitando surpresas ou quebras de layout.
+
+É comum incluir essa regra no início do seu CSS ou em um arquivo de reset ou normalização CSS, para aplicá-la globalmente a todos os elementos do seu documento HTML. Isso garante uma consistência no dimensionamento dos elementos e facilita o trabalho com layouts flexíveis e responsivos.
