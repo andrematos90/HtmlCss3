@@ -1,0 +1,38 @@
+No CSS, as propriedades width e height são usadas para definir a largura e a altura de um elemento HTML, respectivamente. Elas são usadas para controlar as dimensões do elemento na página.
+
+Aqui está uma explicação de cada propriedade:
+
+
+                                  WIDHT
+
+width: A propriedade width define a largura de um elemento. Ela pode ser especificada usando valores absolutos (como pixels), valores relativos (como porcentagem ou unidades relativas) ou palavras-chave predefinidas como auto e inherit. Alguns exemplos de uso da propriedade width são:
+
+width: 200px;: Define a largura do elemento como 200 pixels.
+width: 50%;: Define a largura do elemento como 50% da largura do seu contêiner pai.
+width: auto;: Permite que o navegador defina automaticamente a largura do elemento com base no conteúdo ou nas regras de layout.
+
+
+                                  HEIGHT
+
+height: A propriedade height define a altura de um elemento. Assim como a propriedade width, a altura pode ser especificada usando valores absolutos, valores relativos ou palavras-chave predefinidas. Alguns exemplos de uso da propriedade height são:
+
+height: 300px;: Define a altura do elemento como 300 pixels.
+height: 50%;: Define a altura do elemento como 50% da altura do seu contêiner pai.
+height: auto;: Permite que o navegador defina automaticamente a altura do elemento com base no conteúdo ou nas regras de layout.
+Essas propriedades podem ser aplicadas a uma ampla variedade de elementos HTML, como <div>, <img>, <p>, entre outros. Ao definir as dimensões de um elemento, você pode controlar seu tamanho e proporções dentro da página.
+
+É importante notar que as propriedades width e height referem-se à área de conteúdo do elemento e não levam em consideração a borda, o preenchimento ou a margem do elemento. Se você quiser incluir a borda e o preenchimento no dimensionamento total do elemento, você pode usar as propriedades box-sizing e calc para ajustar os valores adequadamente.
+
+Por exemplo:
+
+
+div {
+  width: 200px;
+  height: 150px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+
+Nesse exemplo, o elemento <div> terá uma largura de 200 pixels e uma altura de 150 pixels, considerando a borda e o preenchimento dentro do dimensionamento total. A propriedade box-sizing: border-box; garante que a largura e a altura especificadas incluam a borda e o preenchimento dentro do elemento.
