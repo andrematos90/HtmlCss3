@@ -8,7 +8,7 @@ body {
 
 p{
     font-size: 10px;
-    font-family: 'Chilanka';
+    font-family: 'Chilanka'; /*quando é uma fonte importada se usa 'aspas'*/
 }
 
 h1{

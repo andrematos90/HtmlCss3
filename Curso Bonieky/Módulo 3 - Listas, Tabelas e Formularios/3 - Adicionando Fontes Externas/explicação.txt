@@ -1,0 +1,35 @@
+Para adicionar uma fonte externa ao seu site, você pode seguir estes passos:
+
+Encontre uma fonte externa que você deseja usar em seu site. Existem vários sites que oferecem fontes gratuitas para uso, como o Google Fonts (fonts.google.com) ou o Adobe Fonts (fonts.adobe.com). Nesses sites, você pode procurar por uma fonte que se adeque ao seu estilo e necessidades.
+
+Escolha a fonte desejada e siga as instruções fornecidas para incorporá-la em seu site. Geralmente, você encontrará opções de incorporação por meio de CSS ou por meio de links fornecidos.
+
+Incorporação por CSS: Nesse caso, você normalmente receberá um código CSS para adicionar ao seu arquivo de estilo ou em uma seção <style> na sua página HTML. O código CSS fornecerá a regra @font-face, que define a fonte externa e a torna disponível para uso em seu site.
+
+Incorporação por link: Algumas fontes externas fornecem um link ou um código de incorporação direto para você adicionar ao cabeçalho da sua página HTML. Esse link faz referência a um arquivo de fonte externa, geralmente em formato de arquivo de fonte (por exemplo, .woff, .woff2).
+
+Uma vez que você tenha o código CSS ou o link de incorporação, você precisa adicioná-lo ao seu arquivo HTML ou ao seu arquivo de estilo CSS. Se você estiver usando um arquivo de estilo CSS separado, adicione o código CSS no início do arquivo. Se você estiver adicionando diretamente no HTML, coloque-o dentro de uma tag <style> no cabeçalho da sua página ou use o atributo style em um elemento específico.
+
+Aqui está um exemplo de como adicionar uma fonte externa usando a tag <link>:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=FonteExterna">
+  <style>
+    body {
+      font-family: 'FonteExterna', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Exemplo de Uso de Fonte Externa</h1>
+  <p>Este é um exemplo de texto usando uma fonte externa.</p>
+</body>
+</html>
+
+
+Nesse exemplo, substitua "FonteExterna" pelo nome da fonte externa que você deseja usar. O link <link> faz referência à fonte externa fornecida pelo Google Fonts. Em seguida, aplicamos a fonte à tag <body> usando font-family no CSS embutido.
+
+Certifique-se de substituir a URL ou o código de incorporação com os fornecidos pela fonte externa que você escolheu.
