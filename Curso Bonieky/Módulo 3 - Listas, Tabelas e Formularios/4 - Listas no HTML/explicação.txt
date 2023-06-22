@@ -1,0 +1,63 @@
+No HTML, existem três tipos principais de listas: listas não ordenadas (<ul>), listas ordenadas (<ol>) e listas de definição (<dl>). As listas são úteis para agrupar itens relacionados e fornecer uma estrutura organizada ao conteúdo.
+
+Lista não ordenada (<ul>):
+
+Uma lista não ordenada é usada para agrupar itens sem uma ordem específica. Cada item da lista é marcado com um símbolo de marcador.
+Os itens da lista são definidos com a tag <li> (item de lista).
+Exemplo:
+
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+Resultado:
+Item 1
+Item 2
+Item 3
+
+
+
+Lista ordenada (<ol>):
+
+Uma lista ordenada é usada para agrupar itens em uma ordem específica. Cada item da lista é numerado ou marcado com uma letra ou outro tipo de sequência.
+Os itens da lista são definidos com a tag <li> (item de lista), assim como nas listas não ordenadas.
+Exemplo:
+
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+
+Resultado:
+Item 1
+Item 2
+Item 3
+
+
+
+Lista de definição (<dl>):
+
+Uma lista de definição é usada para agrupar termos e suas definições correspondentes. Cada termo é definido com a tag <dt> (termo de definição), e a definição é definida com a tag <dd> (definição de termo).
+Exemplo:
+
+<dl>
+  <dt>Termo 1</dt>
+  <dd>Definição 1</dd>
+  <dt>Termo 2</dt>
+  <dd>Definição 2</dd>
+  <dt>Termo 3</dt>
+  <dd>Definição 3</dd>
+</dl>
+
+Resultado:
+Termo 1
+Definição 1
+Termo 2
+Definição 2
+Termo 3
+Definição 3
+Esses são os conceitos básicos sobre listas no HTML. Você pode estilizar as listas usando CSS para personalizá-las de acordo com a aparência desejada. Além disso, é possível aninhar listas dentro de outras listas para criar estruturas mais complexas e hierárquicas.
