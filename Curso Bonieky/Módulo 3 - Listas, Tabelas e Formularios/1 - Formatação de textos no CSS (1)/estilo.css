@@ -9,11 +9,11 @@ body {
 }
 
 p {
-    color: #0000FF;
-    font-size: 20px;
-    font-weight: bold;
-    font-family:'Lucida Sans', 'Lucida Sans Regular';
-    font-algin: left;
+    color: #0000FF; /*cor da fonte*/
+    font-size: 20px; /* tamanho da fonte*/
+    font-weight: bold; /*estilo da fonte*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular'; /*tipo da fonte*/
+    text-align: center; /*alinha o texto verticalmente dentro do elemento*/
 
 }
 

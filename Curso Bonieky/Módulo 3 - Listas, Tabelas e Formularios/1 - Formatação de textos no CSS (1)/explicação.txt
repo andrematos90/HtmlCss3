@@ -1,0 +1,29 @@
+Algumas propriedades comuns que pode se usar para a formatação de textos no CSS:
+
+font-family: Define a família de fonte a ser usada. Você pode especificar várias fontes em uma lista, separadas por vírgulas, para indicar as preferências de fonte em ordem de prioridade.
+
+font-size: Define o tamanho da fonte. Você pode usar unidades como pixels (px), ems (em), porcentagens (%) ou rem (relativo ao tamanho da fonte do elemento pai).
+
+font-weight: Define a espessura da fonte, como normal, bold ou um número específico (por exemplo, 400 para normal e 700 para bold).
+
+font-style: Define o estilo da fonte, como normal, italic ou oblique.
+
+text-align: Alinha o texto horizontalmente dentro do seu contêiner. Você pode usar valores como left, right, center ou justify.
+
+text-decoration: Adiciona decorações ao texto, como underline, line-through (riscado) ou none (nenhuma).
+
+text-transform: Altera a capitalização do texto. Você pode usar valores como uppercase (maiúsculas), lowercase (minúsculas) ou capitalize (capitalizar a primeira letra de cada palavra).
+
+Essas são apenas algumas das propriedades CSS para formatação de texto. Existem muitas outras opções disponíveis, como espaçamento entre letras, espaçamento entre linhas, sombras de texto, entre outros. Você pode experimentar essas propriedades e ajustá-las de acordo com suas necessidades.
+
+Por exemplo, você pode aplicar formatação de texto a um elemento HTML usando uma regra CSS da seguinte maneira:
+
+.seletor {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
