@@ -1,0 +1,121 @@
+As tabelas no HTML são usadas para exibir dados tabulares de forma organizada, com linhas e colunas. Elas são especialmente úteis para representar informações em formato de grade, como calendários, listas de preços, dados comparativos, entre outros.
+
+A estrutura básica de uma tabela HTML envolve o uso de três tags principais: <table>, <tr> e <td>.
+
+<table>: A tag <table> é usada para definir uma tabela. Ela envolve todo o conteúdo da tabela.
+
+Exemplo:
+
+<table>
+  <!-- Conteúdo da tabela -->
+</table>
+
+<tr>: A tag <tr> representa uma linha na tabela. Ela é usada dentro da tag <table> para definir cada linha.
+
+Exemplo:
+
+<table>
+  <tr>
+    <!-- Células da primeira linha -->
+  </tr>
+  <tr>
+    <!-- Células da segunda linha -->
+  </tr>
+</table>
+
+<td>: A tag <td> é usada dentro de uma tag <tr> para representar as células da tabela. Cada <td> contém o conteúdo da célula.
+
+Exemplo:
+
+<table>
+  <tr>
+    <td>Célula 1</td>
+    <td>Célula 2</td>
+  </tr>
+</table>
+
+Além disso, há outras tags que podem ser usadas para definir cabeçalhos e estilos especiais em uma tabela:
+
+<th>: A tag <th> é usada para definir células de cabeçalho na tabela. Elas são usadas no lugar das células normais <td> e indicam o cabeçalho de cada coluna ou linha.
+
+Exemplo:
+
+<table>
+  <tr>
+    <th>Cabeçalho 1</th>
+    <th>Cabeçalho 2</th>
+  </tr>
+  <tr>
+    <td>Célula 1</td>
+    <td>Célula 2</td>
+  </tr>
+</table>
+
+<caption>: A tag <caption> é usada para adicionar um título ou uma legenda à tabela. Ela deve ser colocada logo após a tag de abertura <table>.
+
+Exemplo:
+
+<table>
+  <caption>Título da Tabela</caption>
+  <!-- Conteúdo da tabela -->
+</table>
+
+
+Essas são as principais tags utilizadas na criação de tabelas no HTML. No entanto, para estilizar e controlar o layout das tabelas, você pode usar CSS para aplicar propriedades como border, background-color, padding, entre outras.
+
+Lembre-se de que, em projetos mais complexos, pode ser necessário usar atributos como colspan (para mesclar células em uma única coluna) e rowspan (para mesclar células em uma única linha) para obter layouts mais avançados.
+
+
+THEAD E TBODY
+
+thead diz ao navegador que as tags dentro são cabeçaho, se ouverem mais paginas ele vai mostrar
+o cabealho em todas, o tbody tambem.
+
+As tags <thead> e <tbody> são elementos HTML que podem ser usados em conjunto com a tag <table> para melhorar a organização e a semântica das tabelas.
+
+<thead>: A tag <thead> é usada para agrupar as linhas de cabeçalho (elementos <th>) de uma tabela. Ela é usada para identificar o bloco de conteúdo que contém os cabeçalhos das colunas.
+
+Exemplo:
+
+<table>
+  <thead>
+    <tr>
+      <th>Cabeçalho 1</th>
+      <th>Cabeçalho 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dado 1</td>
+      <td>Dado 2</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<tbody>: A tag <tbody> é usada para agrupar as linhas de dados (elementos <td>) em uma tabela. Ela representa o bloco de conteúdo que contém os dados principais da tabela.
+
+Exemplo:
+
+<table>
+  <thead>
+    <tr>
+      <th>Cabeçalho 1</th>
+      <th>Cabeçalho 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dado 1</td>
+      <td>Dado 2</td>
+    </tr>
+    <tr>
+      <td>Dado 3</td>
+      <td>Dado 4</td>
+    </tr>
+  </tbody>
+</table>
+
+o usar <thead> e <tbody>, você está fornecendo uma estrutura semântica à sua tabela, facilitando a compreensão do conteúdo pelos leitores de tela e pelos mecanismos de busca.
+
+Vale ressaltar que, embora seja recomendado incluir <thead> e <tbody> para melhorar a estrutura das tabelas, elas não são estritamente necessárias. Uma tabela pode funcionar corretamente sem esses elementos. No entanto, usá-los é uma prática recomendada para manter um código HTML organizado e semântico.
