@@ -1,0 +1,29 @@
+text-transform: Essa propriedade é usada para controlar a capitalização do texto. Ela permite transformar o texto em maiúsculas, minúsculas ou aplicar a capitalização inicial para cada palavra. Alguns valores comuns são:
+
+uppercase: Transforma o texto em letras maiúsculas.
+lowercase: Transforma o texto em letras minúsculas.
+capitalize: Capitaliza a primeira letra de cada palavra do texto.
+
+word-spacing: Essa propriedade define o espaçamento entre as palavras em um bloco de texto. Você pode ajustar o valor para aumentar ou diminuir o espaço entre as palavras. 
+Por exemplo:
+
+p {
+  word-spacing: 5px;
+}
+
+line-height: Essa propriedade define a altura da linha em um bloco de texto. Ela afeta o espaçamento vertical entre as linhas de texto. Você pode especificar um valor numérico ou usar unidades como pixels ou porcentagens. 
+Por exemplo:
+
+p {
+  line-height: 1.5;
+}
+
+text-shadow: Essa propriedade permite adicionar uma sombra ao texto. Ela aceita valores para definir a cor da sombra, o deslocamento horizontal e vertical da sombra, e opcionalmente o desfoque da sombra. 
+Por exemplo:
+
+h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+Nesse exemplo, o texto <h1> terá uma sombra deslocada 2 pixels para a direita, 2 pixels para baixo, com um desfoque de 4 pixels e uma cor preta semitransparente.
