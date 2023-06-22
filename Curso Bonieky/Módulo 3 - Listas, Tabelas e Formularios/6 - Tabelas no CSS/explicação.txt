@@ -1,0 +1,61 @@
+As tabelas no CSS podem ser estilizadas usando várias propriedades para alterar a aparência, o layout e o design das tabelas HTML. Algumas das principais propriedades CSS relacionadas a tabelas são:
+
+border: Define a espessura e o estilo da borda das células da tabela.
+
+Exemplo:
+
+table {
+  border: 1px solid #000;
+}
+
+width: Define a largura da tabela.
+
+Exemplo:
+
+table {
+  width: 100%;
+}
+
+background-color: Define a cor de fundo da tabela ou das células.
+
+Exemplo:
+
+table {
+  background-color: #f2f2f2;
+}
+
+text-align: Alinha o texto dentro das células horizontalmente.
+
+Exemplo:
+
+td {
+  text-align: center;
+}
+
+vertical-align: Alinha o conteúdo verticalmente dentro das células.
+
+Exemplo:
+
+td {
+  vertical-align: middle;
+}
+
+padding: Define o espaçamento interno entre o conteúdo das células e as bordas.
+
+Exemplo:
+
+td {
+  padding: 10px;
+}
+
+border-collapse e border-spacing: Controlam o espaçamento entre as células da tabela.
+
+Exemplo:
+
+table {
+  border-collapse: collapse;
+}
+
+Essas são apenas algumas das propriedades CSS que podem ser aplicadas às tabelas. Você também pode estilizar os elementos <th> (cabeçalhos) e aplicar estilos diferentes a linhas e colunas específicas usando seletores CSS adequados.
+
+Além disso, você pode usar classes ou IDs para segmentar tabelas específicas e aplicar estilos diferentes a cada uma delas.
