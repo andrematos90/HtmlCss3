@@ -21,6 +21,7 @@ p {
     word-spacing: 0px; /* espaçamentro entre palavras etc..*/
     line-height: 0px; /* espaçamentro entre linhas etc..*/
     text-shadow: 1px 0px 10x rgb(243, 159, 32) ;
+    
      /* text-shadow: cria sombra no texto, possui 4 propriedades obrigatorias, item um pra para direita, dois para baixo 
      o terceiro é o "esfumaçamento e quarto corcria sombra no texto */
  }
