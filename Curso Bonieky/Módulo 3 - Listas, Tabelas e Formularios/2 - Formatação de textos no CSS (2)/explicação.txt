@@ -25,5 +25,4 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-
 Nesse exemplo, o texto <h1> terá uma sombra deslocada 2 pixels para a direita, 2 pixels para baixo, com um desfoque de 4 pixels e uma cor preta semitransparente.
