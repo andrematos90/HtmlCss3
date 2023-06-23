@@ -1,0 +1,70 @@
+tipo de type do input que só funcionam em navegadores atuais:
+
+
+                                      type="color"
+
+O atributo type="color" é usado em HTML para criar um campo de entrada de cor em um formulário. Quando esse atributo é aplicado a um elemento <input>, ele permite que os usuários selecionem uma cor usando uma interface específica para escolher cores.
+
+Quando um elemento <input> tem o atributo type="color", ele é exibido como uma caixa de texto acompanhada de um seletor de cores ou um retângulo colorido, dependendo do navegador ou da plataforma. Ao clicar na caixa de texto ou no retângulo, uma interface de seleção de cores é aberta para permitir que o usuário escolha uma cor.
+
+Ao selecionar uma cor, o valor correspondente é exibido na caixa de texto do campo de entrada. O formato do valor da cor pode variar dependendo do navegador, mas geralmente é uma representação hexadecimal de seis dígitos (por exemplo, "#FF0000" para vermelho).
+
+
+
+                                      type="datetime-local"
+
+O atributo type="datetime-local" é usado em HTML para criar um campo de entrada que permite aos usuários selecionar uma data e hora específica, sem especificar o fuso horário. Esse tipo de campo é particularmente útil quando você deseja permitir que os usuários selecionem uma data e hora específica, como em formulários de agendamento ou reserva.
+
+Quando um elemento <input> tem o atributo type="datetime-local", ele é exibido como uma caixa de texto acompanhada de controles para selecionar a data e a hora. O formato de exibição pode variar dependendo do navegador, mas geralmente inclui campos separados para selecionar o dia, mês, ano, hora e minutos.
+
+
+
+                                       type="email"
+
+O atributo type="email" é usado em HTML para criar um campo de entrada de email em um formulário. Ele é usado para capturar endereços de email dos usuários.
+
+Quando um elemento <input> tem o atributo type="email", ele é exibido como uma caixa de texto que valida automaticamente o formato do email inserido pelo usuário. Os navegadores modernos geralmente aplicam uma validação básica para garantir que o email digitado esteja no formato correto, contendo um símbolo "@" e um domínio válido.
+
+
+                                        type="month"
+
+O atributo type="month" é usado em HTML para criar um campo de entrada de mês em um formulário. Ele permite que os usuários selecionem um mês e um ano específico.
+
+Quando um elemento <input> tem o atributo type="month", ele é exibido como uma caixa de texto ou um controle de seleção, dependendo do navegador ou plataforma. Geralmente, é exibido um campo de texto que inclui um seletor de mês e um seletor de ano.
+
+
+                                      type="number"
+
+O atributo type="number" é usado em HTML para criar um campo de entrada numérica em um formulário. Ele permite que os usuários insiram valores numéricos.
+
+Quando um elemento <input> tem o atributo type="number", ele é exibido como uma caixa de texto que aceita apenas valores numéricos. Dependendo do navegador, podem ser adicionados controles de aumento e diminuição ao campo, permitindo que o usuário ajuste facilmente o valor numérico.
+No entanto, vale ressaltar que o atributo type="number" não impede totalmente a entrada de caracteres não numéricos, pois os usuários ainda podem copiar e colar valores não numéricos ou usar métodos alternativos para inserir dados inválidos. Portanto, é importante realizar validações adicionais no lado do servidor para garantir que os dados sejam numéricos e estejam dentro de uma faixa adequada, se necessário.
+
+
+                                        type="range"
+
+O atributo type="range" é usado em HTML para criar um controle deslizante de intervalo em um formulário. Ele permite que os usuários selecionem um valor dentro de um intervalo específico, definido por um valor mínimo e máximo.
+
+Quando um elemento <input> tem o atributo type="range", ele é exibido como um controle deslizante horizontal. Os usuários podem arrastar o controle deslizante para a esquerda ou para a direita para selecionar um valor no intervalo especificado.
+
+                        
+                                        type="tel"
+
+O atributo type="tel" é usado em HTML para criar um campo de entrada de telefone em um formulário. Ele é usado para capturar números de telefone dos usuários.
+
+Quando um elemento <input> tem o atributo type="tel", ele é exibido como uma caixa de texto que pode ser usada para inserir números de telefone. Dependendo do navegador, podem ser aplicadas restrições para aceitar apenas números e caracteres especiais, como hífen ou parênteses, para formatar o número de telefone.
+
+
+
+                                        type="time"
+
+O atributo type="time" é usado em HTML para criar um campo de entrada de hora em um formulário. Ele permite que os usuários selecionem uma hora específica.
+
+Quando um elemento <input> tem o atributo type="time", ele é exibido como uma caixa de texto ou um controle de seleção, dependendo do navegador ou plataforma. Normalmente, é exibido um campo de texto que permite ao usuário inserir ou selecionar uma hora.
+
+
+                                        type="url"
+
+O atributo type="url" é usado em HTML para criar um campo de entrada de URL em um formulário. Ele é usado para capturar endereços de URL (Uniform Resource Locator) dos usuários.
+
+Quando um elemento <input> tem o atributo type="url", ele é exibido como uma caixa de texto que valida automaticamente o formato da URL inserida pelo usuário. Os navegadores modernos geralmente aplicam uma validação básica para garantir que a URL digitada esteja no formato correto, incluindo um esquema (como "http://" ou "https://") e um domínio válido.
