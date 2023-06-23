@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(249, 253, 253);
+}
+#cronometro{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(90, 93, 94);
+    border: 5px solid black;
+    border-radius: 10px;
+    
+}
+
+
+#iniciar, #pausar, #ressetar {
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+#iniciar{
+    background-color: rgb(101, 153, 101);
+}
+#pausar{
+    background-color: rgb(119, 42, 61);
+}
+#ressetar{
+    background-color: lightslategrey;
+}
+
+
