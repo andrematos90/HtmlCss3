@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(249, 253, 253);
+}
+
+
+table{
+    width: 25%;
+    height: 10%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
+th, tr, td {
+    border: 1px solid gray;
+}
