@@ -1,0 +1,25 @@
+A tag <input> em HTML é usada para criar um campo de entrada interativo em um formulário. Ela é um elemento autossuficiente, o que significa que não possui uma tag de fechamento, pois não contém conteúdo.
+
+A tag <input> tem um atributo obrigatório chamado type, que determina o tipo de campo de entrada que será exibido. Aqui estão alguns exemplos comuns de valores para o atributo type:
+
+type="text":
+Cria um campo de texto de uma linha, onde os usuários podem digitar texto livremente.
+
+type="password":
+Cria um campo de senha, onde os caracteres digitados são mascarados para proteger a privacidade do usuário.
+
+type="checkbox":
+Cria uma caixa de seleção (checkbox), onde os usuárioss podem selecionar uma ou mais opções.
+
+type="radio":
+Cria um botão de opção (radio button), onde os usuários podem selecionar apenas uma opção de um grupo de opções.
+
+type="submit":
+Cria um botão de envio (submit button), usado para enviar um formulário para processamento.
+
+type="file":
+Cria um campo de envio de arquivos, permitindo que os usuários selecionem e enviem arquivos do seu computador.
+
+Esses são apenas alguns exemplos dos tipos de campo de entrada que podem ser criados com a tag <input>. Além do atributo type, a tag <input> pode receber outros atributos, como name, value, placeholder, required, readonly, disabled, entre outros, para personalizar ainda mais o comportamento e a aparência do campo de entrada.
+
+É importante notar que a tag <input> por si só não exibe uma etiqueta ou rótulo para descrever o campo de entrada. Para associar um rótulo ao campo de entrada, você pode usar a tag <label> em conjunto com o atributo for para fazer referência ao atributo id do campo de entrada. Isso ajuda na acessibilidade e usabilidade do formulário.
