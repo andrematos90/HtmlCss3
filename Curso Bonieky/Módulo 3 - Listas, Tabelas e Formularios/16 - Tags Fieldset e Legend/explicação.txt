@@ -1,0 +1,22 @@
+ As tags HTML <fieldset> e <legend> são usadas em conjunto para agrupar e rotular elementos relacionados em um formulário web.
+
+A tag <fieldset> é usada para criar um grupo lógico de controles de formulário. Ela define uma seção dentro do formulário e é usada para agrupar elementos relacionados, como campos de entrada, botões de opção (radio buttons), caixas de seleção (checkboxes) e assim por diante. O <fieldset> ajuda a organizar visualmente os elementos do formulário e também pode ser estilizado usando CSS para fornecer uma aparência consistente.
+
+Aqui está um exemplo de como usar a tag <fieldset>:
+
+<form>
+  <fieldset>
+    <legend>Dados pessoais</legend>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+  </fieldset>
+</form>
+
+
+No exemplo acima, os campos "Nome" e "Email" estão agrupados dentro de um <fieldset>, que possui o rótulo "Dados pessoais" definido pela tag <legend>. A tag <legend> é usada para fornecer um rótulo descritivo para o grupo de elementos dentro do <fieldset>. O navegador geralmente renderiza o rótulo como uma legenda ou título para o grupo de campos relacionados.
+
+É importante mencionar que você pode usar múltiplas tags <fieldset> em um formulário para criar grupos separados de campos relacionados. Cada <fieldset> pode ter sua própria tag <legend> para fornecer uma descrição única para aquele grupo específico.
+
+Em resumo, as tags <fieldset> e <legend> são usadas para criar grupos e rótulos em formulários HTML, ajudando a melhorar a estrutura e a acessibilidade dos elementos do formulário.

@@ -1,13 +1,13 @@
 fieldset{
     background-color: #EEE;
     margin-bottom: 20px;
-    border: 2px solid red;
-    border-radius: 35px;
+    border: 2px solid rgb(100, 92, 92);
+   
 }
 
 legend {
-    background-color: #0000ff;
+    background-color: rgb(100, 92, 92);
     color: white;
     padding: 5px;
-    border-radius: 35px;
+    
 }
