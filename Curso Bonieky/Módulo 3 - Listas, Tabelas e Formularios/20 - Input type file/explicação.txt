@@ -1,0 +1,14 @@
+A tag <input> com o atributo type="file" cria um campo de entrada de arquivo em um formulário HTML. Esse tipo de campo permite que os usuários selecionem e enviem arquivos do seu dispositivo local para o servidor web.
+
+Quando um campo de entrada de arquivo é utilizado, o usuário pode clicar no botão "Procurar" ou "Selecionar arquivo" para abrir uma janela de seleção de arquivos no sistema operacional. A partir dessa janela, o usuário pode navegar pelo sistema de arquivos e selecionar um ou vários arquivos para serem enviados.
+
+Aqui está um exemplo de uso do campo de entrada de arquivo:
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+  <input type="file" name="arquivo">
+  <input type="submit" value="Enviar">
+</form>
+
+No exemplo acima, o campo de entrada de arquivo é criado usando <input type="file"> e recebe o nome arquivo. Quando o formulário é enviado para o servidor, o arquivo selecionado pelo usuário é enviado para o script de processamento (neste caso, "upload.php") como parte da requisição. O atributo enctype="multipart/form-data" é importante para garantir que o formulário seja enviado corretamente com arquivos.
+
+No lado do servidor, você pode processar o arquivo enviado usando a linguagem de programação de sua escolha.
