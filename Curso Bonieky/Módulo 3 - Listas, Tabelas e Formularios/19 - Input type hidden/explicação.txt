@@ -1,0 +1,18 @@
+A tag <input> com o atributo type="hidden" cria um campo de entrada oculto em um formulário HTML. Um campo de entrada oculto é um elemento que não é exibido visualmente na página, mas pode ser usado para armazenar dados ou valores que precisam ser enviados com o formulário.
+
+O campo de entrada oculto é útil quando você precisa enviar informações adicionais para o servidor juntamente com outros dados do formulário, mas não deseja que essas informações sejam visíveis ou editáveis pelo usuário. Ele permanece invisível ao usuário e não ocupa espaço na interface do usuário.
+
+Aqui está um exemplo de como usar um campo de entrada oculto:
+
+<form action="processar.php" method="post">
+  <input type="hidden" name="idProduto" value="123">
+  <input type="text" name="nome">
+  <input type="submit" value="Enviar">
+</form>
+
+
+Nesse exemplo, o campo de entrada oculto com name="idProduto" está sendo usado para enviar o valor "123" junto com o formulário. Quando o formulário é enviado para o servidor, o valor do campo oculto estará disponível no script de processamento (neste caso, "processar.php") através do nome atribuído ($_POST['idProduto'] no PHP).
+
+Os campos de entrada ocultos podem ser usados para várias finalidades, como passar identificadores, configurações, valores padrão ou quaisquer outros dados que você precise enviar com o formulário sem que o usuário perceba ou possa manipular diretamente.
+
+É importante destacar que os campos ocultos não devem ser usados para armazenar informações sensíveis ou críticas de segurança, pois os usuários avançados podem visualizar e manipular os valores dos campos ocultos usando ferramentas de desenvolvedor do navegador. Portanto, eles são mais adequados para armazenar informações auxiliares ou metadados relacionados ao formulário.
