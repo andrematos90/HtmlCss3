@@ -15,7 +15,7 @@ label {
     margin-bottom: 20px; /* deixa um espaçamento entre os itens*/
 }
 
-input[type=text] {
+input[type=text] {  /* para selecionar o input do tipo text, não funciona para todos os tipos de input*/
     padding: 10px;
     width: 500px;
 }
