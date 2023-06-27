@@ -12,12 +12,12 @@
         <fieldset>
             <label>
                 Primeiro Nome: <br>
-                <input type="text" name="name" required>  <!--required criar uma validação que torna esse campo obrigatório-->
+                <input type="text" name="name" required required minlength="3">  <!--required criar uma validação que torna esse campo obrigatório, minlength criar uma validação com numero minimo de carateres obrigatiorios-->
             </label>
             <br>
             <label>
                 Sobrenome: <br>
-                <input type="text" name="lastname" required minlength="6">  <!--minlength criar uma validação com numero minimo de carateres obrigatiorios-->
+                <input type="text" name="lastname" required minlength="3" maxlength="10">  
             </label>
             </label>
             <legend>Dados Pessoais</legend>

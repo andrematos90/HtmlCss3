@@ -1,0 +1,25 @@
+As validações nativas, também conhecidas como validações HTML5, são recursos embutidos nos navegadores modernos que permitem a validação de dados de entrada em formulários HTML sem a necessidade de escrever código JavaScript personalizado. Essas validações são executadas automaticamente pelo navegador quando o usuário envia o formulário.
+
+As validações nativas fornecem uma forma rápida e fácil de verificar se os dados inseridos em campos de formulário atendem a certos critérios, como presença, formato, comprimento mínimo ou máximo, entre outros. Elas ajudam a melhorar a experiência do usuário, garantindo que as informações fornecidas sejam válidas antes de serem enviadas ao servidor.
+
+Aqui estão alguns exemplos de validações nativas disponíveis:
+
+1.required: Essa validação garante que um campo seja preenchido antes que o formulário possa ser enviado.
+
+<input type="text" required>
+
+2.email: Essa validação verifica se o valor inserido em um campo de entrada de texto corresponde ao formato de um endereço de e-mail válido.
+
+3.min e max: Essas validações verificam se um número inserido em um campo de entrada numérica está dentro de um intervalo mínimo e máximo especificado.
+
+4.pattern: Essa validação permite definir uma expressão regular que o valor de um campo deve corresponder.
+
+<input type="text" pattern="[A-Za-z]{3}">
+
+5.maxlength e minlength: Essas validações verificam se o comprimento de um valor inserido em um campo de texto está dentro de um intervalo mínimo e máximo especificado.
+
+<input type="text" maxlength="10" minlength="5">
+
+Esses são apenas alguns exemplos das validações nativas disponíveis. Existem outras validações, como url, date, tel, entre outras. Além disso, é possível personalizar mensagens de erro usando o atributo message para fornecer feedback mais informativo aos usuários quando a validação falha.
+
+As validações nativas podem ser uma maneira conveniente de garantir a integridade dos dados em um formulário, mas é importante lembrar que elas são realizadas no lado do cliente e não substituem a validação do lado do servidor. A validação no lado do servidor ainda é necessária para garantir a segurança e a consistência dos dados antes de serem processados.
