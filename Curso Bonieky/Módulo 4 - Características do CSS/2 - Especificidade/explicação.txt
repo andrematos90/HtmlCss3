@@ -1,0 +1,18 @@
+Especificidade no CSS é um conceito que determina qual conjunto de regras de estilo será aplicado a um elemento quando existem conflitos entre as regras. A especificidade é usada para definir a prioridade das regras CSS e determinar qual delas será aplicada ao elemento em questão.
+
+A especificidade é calculada com base nos seletores utilizados para definir as regras CSS. Cada seletor possui um valor de especificidade atribuído a ele. Quanto mais específico for um seletor, maior será o seu valor de especificidade.
+
+A especificidade é geralmente representada como um número, com quatro componentes principais:
+
+Número de IDs: Cada ID presente no seletor contribui com um valor de especificidade.
+Número de classes, pseudo-classes e atributos: Cada classe, pseudo-classe ou atributo contribui com um valor de especificidade.
+Número de elementos e pseudo-elementos: Cada elemento e pseudo-elemento contribui com um valor de especificidade.
+Importância: Se uma regra CSS for marcada como !important, ela terá a mais alta especificidade e terá prioridade sobre as demais.
+Quando ocorre um conflito entre as regras CSS, a especificidade é usada para determinar qual conjunto de regras será aplicado. A regra com a maior especificidade será a vencedora e seu estilo será aplicado ao elemento.
+
+A ordem de precedência geralmente é a seguinte:
+
+Importância (!important)
+Especificidade (IDs, classes, elementos)
+Ordem de declaração (a última regra encontrada no código CSS)
+Entender a especificidade no CSS é importante para evitar conflitos e garantir que as regras de estilo sejam aplicadas corretamente aos elementos desejados. É recomendado escrever seletores CSS de forma clara e específica, evitando o uso excessivo de !important e mantendo a organização e consistência nas folhas de estilo.
