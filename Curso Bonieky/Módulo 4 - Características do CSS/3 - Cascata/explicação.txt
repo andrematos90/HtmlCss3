@@ -1,0 +1,13 @@
+Cascata no CSS refere-se à maneira como as regras de estilo são aplicadas aos elementos em uma página web, levando em consideração a hierarquia dos seletores e a ordem de declaração. A cascata determina qual estilo será aplicado quando há conflitos entre as regras.
+
+Existem três principais níveis de cascata no CSS:
+
+Nível do usuário: Este é o nível mais alto e é definido pelas preferências do usuário. Os navegadores permitem que os usuários personalizem a aparência das páginas da web, como fontes, tamanhos de texto e cores. As regras definidas pelos usuários têm a maior prioridade e sobrescrevem qualquer outra regra.
+
+Nível do autor: Este nível é definido pelo desenvolvedor ou autor do CSS. Ele inclui as regras definidas no arquivo CSS que é referenciado pela página da web. As regras do autor são aplicadas na ordem em que são declaradas e podem ser sobrescritas por regras de maior especificidade ou pelo próximo nível da cascata.
+
+Nível do usuário-agente: Este é o nível mais baixo da cascata e é definido pelo navegador. Ele inclui as regras padrão do navegador que são aplicadas aos elementos caso nenhum estilo do autor ou do usuário seja especificado. As regras do nível do usuário-agente têm a menor prioridade e podem ser substituídas pelas regras do autor ou do usuário.
+
+A cascata no CSS garante que os estilos sejam aplicados de forma consistente e previsível, considerando as preferências do usuário, as regras do autor e as regras do navegador. A especificidade e a ordem de declaração são os principais fatores que determinam qual estilo prevalecerá em caso de conflito.
+
+É importante entender a cascata no CSS para escrever regras de estilo eficientes, evitar conflitos e garantir que os estilos sejam aplicados corretamente aos elementos da página.
