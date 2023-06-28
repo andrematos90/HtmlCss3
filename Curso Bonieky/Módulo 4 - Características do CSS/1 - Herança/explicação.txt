@@ -1,0 +1,11 @@
+A herança no CSS refere-se à capacidade de propriedades serem transmitidas de elementos pai para elementos filhos dentro de uma hierarquia de elementos HTML. Quando um elemento possui uma propriedade definida, essa propriedade pode ser herdados por seus elementos filhos, a menos que seja especificado o contrário.
+
+Isso significa que certas propriedades aplicadas a um elemento pai podem afetar automaticamente seus elementos filhos, a menos que sejam substituídas por estilos específicos para esses elementos filhos.
+
+Existem algumas propriedades no CSS que são herdadas por padrão, como fonte, cor do texto, cor de fundo, espaçamento entre linhas e outras. Isso significa que, se você definir essas propriedades em um elemento pai, elas serão aplicadas automaticamente a todos os elementos filhos, a menos que você substitua explicitamente essas propriedades nos elementos filhos.
+
+Por exemplo, se você definir a cor do texto para vermelho no elemento pai, todos os elementos filhos desse elemento terão o texto em vermelho, a menos que você especifique uma cor diferente para esses elementos filhos.
+
+A herança no CSS é uma característica útil, pois permite criar estilos consistentes em uma página, aplicando estilos em níveis mais altos da hierarquia e deixando que sejam herdados pelos elementos filhos. No entanto, nem todas as propriedades são herdadas, e algumas propriedades específicas podem ser anuladas ou não herdadas usando a propriedade inherit ou initial.
+
+É importante entender como as propriedades são herdadas no CSS para garantir que os estilos sejam aplicados corretamente e para evitar comportamentos indesejados ao criar folhas de estilo.
