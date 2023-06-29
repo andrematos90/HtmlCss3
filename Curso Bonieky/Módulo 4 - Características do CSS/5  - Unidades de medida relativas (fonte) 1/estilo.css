@@ -2,7 +2,7 @@
     font-size: 20px;
 }
 .box-interno {
-    width: 10em;
+    width: 10em; /*neste casos 1 em é 20px por causa do elemento ".box" que é o elemento pai de ".            box-interno" ou seja 10em são 200 px*/
     height: 10em;
     background-color: #999;
 }
@@ -67,3 +67,9 @@ Exemplificando, sabemos que a tag html é a tag raiz de todo documento html. Dit
 O motivo para isso é o suporte para essa medida. O chrome e o firefox suportavam tranquilamente, assim como o Opera e o Safari, porém, antigamente grande parte dos usuários utilizavam o IE, mais específicamente o IE 8, e esse browser não lidava muito bem com os rems, isso fazia com que os desenvolvedores precisassem optar por alguma unidade diferente, em muitos casos, o próprio em.
 
 Como disse acima, o valor base é 16px, e isso pode acabar gerando dificuldades para que encontremos alguns tamanhos padrões que costumam ser utilizados. Por exemplo, como faríamos para atingir um tamanho de 10px utilizando rem? Precisamos calcular.
+
+
+OBS: elementos definido com "em"
+
+caso um elemento pai  "body" por exemplo esteja definido com font-size: 20px e .box que é filho dele esteja com 2em de font-size, o elemento .box interno vai ser atralado ao .box que é seu pai e as medidas
+seão relativas a ele e não ao body. é um efeito em cascata que os filhos sempre são atrelados as medidas dos elementos pais.
