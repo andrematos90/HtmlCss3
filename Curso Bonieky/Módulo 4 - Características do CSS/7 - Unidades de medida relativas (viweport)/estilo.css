@@ -6,61 +6,8 @@ body {
 }
 .box{
     background-color: #999; 
-    height: 50vh ;/* é 100vh é 100% da altura visivel */
+    height: 100vh ;/* é 100vh é 100% da altura visivel */
     width: 50vw
 }
 
 
-/* viewport = espaço visivel para o usuário
-
-Vw (viewport width)
-Essa medida faz parte das medidas mais atuais e do futuro do CSS. Viewport units.
-
-Como escrito no título, vw significa viewport width, mas o que é viewport?
-
-Viewport nada mais é que a área visível de uma página web para o seu usuário,
- essa viewport pode variar de acordo com o dispositivo, sendo menor em celulares e maior em desktops.
-
-Antigamente, quando não existiam tablets e celulares capazes de acessar sites, 
-todas as web pages eram pensadas para a tela de um computador, com tamanho fixo e design estático. 
-
-Com a chegada desses dispositivos móveis, essas páginas eram grandes demais para serem exibidas 
-nesses aparelhos, o que tornava muito difícil a navegação.
-
-A primeira solução partiu dos browsers desses dispositivos, eles adotavam um comportamento de 
-retirar o zoom de forma que o site inteiro coubesse na tela do aparelho,definitivamente não era 
-o ideal, mas uma solução rápida. No HTML5, foi introduzido uma maneira para que os desenvolvedores
- conseguissem alterar a viewport através da tag, corrigindo esse problema de usabilidade relacionado
-  aos dispositivos móveis, mas isso é assunto para outra postagem!
-
-Voltando para o nosso querido vw, essa unidade se relaciona diretamente com a largura da viewport, 
-onde 1vw representa 1% do tamanho da largura dessa área visível. A diferença entre vw e a % é bem 
-semelhante a diferença entre em e rem, onde a % é relativa ao contexto local do elemento e o 
-vw é relativo ao tamanho total da largura da viewport do usuário.
-
-Vh (viewport height)
-Essa unidade funciona da mesma forma que o vw, porém dessa vez, a referência será 
-a altura e não a largura. Existem diversos exemplos práticos e interessantes de uso dessas duas unidades. Você pode ver alguns usos nesse link, provavelmente mais para frente postarei alguns exemplos bacanas. Me cobrem!
-
-Vmin (viewport minimun)
-Essa unidade também se relaciona com as dimensões da viewport, mas com um porém. 
-Anteriormente quando vimos vh e vw precisávamos escolher se gostaríamos de nos basear 
-na altura (vh) ou na largura (vw) da viewport.
-
-Diferentemente das anteriores, o vmin utilizará como base a menor dimensão da viewport
- (altura x largura), vamos ao exemplo.
-
-Imagine que estamos trabalhando com uma viewport de 1600px de altura e 900px de largura.
- Nesse caso, 1vmin terá o valor de 9px (1% da menor dimensão!), caso tenhamos 100vmin, 
- esse será igual a 900px! Interessante né?
-
-No caso acima, a menor dimensão foi a da largura, porém se tivéssemos 300px para altura
- e 1400px para largura, nosso valor de referência seria o 300px! Sempre a menor dimensão!
-
-Vmax (viewport maximum)
-Seguindo a mesma base lógica da unidade anterior, o vmax terá como valor de referência 
-a maior dimensão da viewport. Ou seja, utilizando o mesmo exemplo, se tivermos 1600px 
-de altura e 900px de largura, 1vmax será equivalente a 16px!
-
-No segundo exemplo ocorrerá a mesma inversão, tendo 300px para altura e 1400px para largura, 
-1vmax será equivalente a 14px. Dessa vez sempre será a maior dimensão!
