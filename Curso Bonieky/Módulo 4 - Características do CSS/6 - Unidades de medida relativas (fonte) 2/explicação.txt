@@ -12,7 +12,7 @@ Ex
 Talvez você nunca tenha ouvido falar dessa unidade do CSS, mas ela existe.
  Diferentemente da forma como a EM e a REM funcionavam, essa unidade não se relaciona com o 
  tamanho da fonte (font-size), mas com qual fonte está sendo utilizada naquele momento (font-family), 
- mais especificamente ao tamanho do caractere x dessa fonte em questão (x-height).
+ mais especificamente ao tamanho do caractere x minuscula dessa fonte em questão (x-height) caso não encontrar o padrão é 16px.
 
 Como o browser sabe esse valor? Esse valor pode vir diretamente com a fonte, o browser
  pode medir o caractere em caixa baixa (lower case) e se esses dois não funcionarem,
