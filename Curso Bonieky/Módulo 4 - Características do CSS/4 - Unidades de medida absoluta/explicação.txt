@@ -1,0 +1,13 @@
+Em CSS, as unidades de medida absoluta são utilizadas para definir tamanhos fixos e independentes do contexto de exibição. Essas unidades são representadas por valores numéricos seguidos de uma unidade de medida específica. Aqui estão algumas das unidades de medida absoluta mais comuns em CSS:
+
+PIXELS (px): O pixel é a unidade de medida mais básica e representa um único ponto na tela. Ele é usado para definir tamanhos fixos e precisos, independentemente do dispositivo ou do zoom do usuário.
+
+CENTÍMETROS (cm): O centímetro é uma unidade de medida padrão do sistema métrico. Ele representa uma fração de um metro e pode ser utilizado para definir tamanhos físicos na tela, como o tamanho de uma imagem ou de um elemento de layout.
+
+MILÍMETRO (mm): O milímetro também é uma unidade de medida do sistema métrico, mas é menor do que o centímetro. Assim como o centímetro, o milímetro pode ser usado para definir tamanhos físicos na tela.
+
+POLEGADA (in): A polegada é uma unidade de medida comumente utilizada em países que adotam o sistema de medidas imperiais. Assim como o centímetro e o milímetro, a polegada pode ser usada para definir tamanhos físicos na tela.
+
+PT (ponto): comumente mais usado para fontes, geralmenteusado para a impressão
+
+É importante lembrar que as unidades de medida absoluta não se adaptam a diferentes tamanhos de tela ou zoom do usuário, o que pode resultar em problemas de usabilidade em dispositivos com telas menores ou para usuários com deficiências visuais. Para criar layouts responsivos e adaptáveis, geralmente é recomendado o uso de unidades de medida relativas, como porcentagem (%), em vez das unidades absolutas.
