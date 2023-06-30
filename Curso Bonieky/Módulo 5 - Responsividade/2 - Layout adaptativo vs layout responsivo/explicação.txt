@@ -1,0 +1,18 @@
+Layout Adaptativo (Adaptive Layout) e Layout Responsivo (Responsive Layout) são duas abordagens diferentes para criar designs que se ajustam a diferentes dispositivos e tamanhos de tela. Embora ambos tenham o objetivo de proporcionar uma experiência de usuário adequada em diferentes plataformas, existem diferenças sutis entre eles.
+
+Layout Adaptativo:
+
+No layout adaptativo, o design é criado com base em pontos de interrupção fixos. São definidos diferentes layouts pré-determinados para diferentes tamanhos de tela.
+Quando um dispositivo acessa o site ou aplicativo, é detectado o tamanho da tela e é carregado o layout correspondente mais próximo àquela resolução.
+Os pontos de interrupção fixos permitem uma maior precisão no ajuste do layout para cada tamanho de tela específico.
+No entanto, pode ser necessário criar layouts específicos para cada ponto de interrupção, o que pode aumentar o tempo e o esforço de desenvolvimento.
+
+
+Layout Responsivo:
+
+No layout responsivo, o design é fluido e se adapta de forma contínua a diferentes tamanhos de tela, sem pontos de interrupção fixos.
+O conteúdo e os elementos do layout são dimensionados e reorganizados automaticamente com base nas características do dispositivo e na largura da tela.
+O uso de media queries no CSS permite aplicar estilos diferentes conforme a largura da tela, proporcionando um ajuste dinâmico do layout.
+O layout responsivo é mais flexível e pode se adaptar a uma ampla gama de tamanhos de tela, desde dispositivos móveis até desktops de alta resolução.
+Por não ter pontos de interrupção fixos, o layout responsivo é mais eficiente em termos de desenvolvimento, exigindo menos layouts específicos para diferentes tamanhos de tela.
+Resumindo, enquanto o layout adaptativo possui pontos de interrupção fixos e layouts específicos para cada tamanho de tela, o layout responsivo é fluido e se ajusta de forma contínua a diferentes dispositivos sem pontos de interrupção fixos. O layout responsivo é mais flexível e eficiente em termos de desenvolvimento, mas o layout adaptativo oferece um controle mais preciso sobre o design em diferentes tamanhos de tela. Ambas as abordagens têm seus méritos e podem ser utilizadas de acordo com as necessidades e preferências do projeto.
