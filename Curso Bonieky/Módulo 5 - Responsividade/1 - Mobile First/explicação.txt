@@ -1,0 +1,13 @@
+Mobile First é uma abordagem de design e desenvolvimento de sites ou aplicativos em que a prioridade é dada aos dispositivos móveis, como smartphones e tablets, em vez de dispositivos de tela maior, como desktops.
+
+Essa abordagem reconhece a importância crescente dos dispositivos móveis no acesso à Internet e busca garantir uma experiência otimizada para os usuários que acessam um site ou aplicativo por meio de dispositivos móveis. Em vez de adaptar um design inicialmente criado para desktops para dispositivos móveis, o Mobile First inverte essa abordagem.
+
+Ao seguir o princípio do Mobile First, os desenvolvedores começam a criar o design e a funcionalidade de um site ou aplicativo pensando nas restrições e nas capacidades dos dispositivos móveis. Isso envolve considerar a pequena tela, o toque como método de interação e a velocidade da conexão de dados.
+
+A abordagem Mobile First incentiva a simplicidade e a eficiência, priorizando o conteúdo essencial e minimizando o uso de recursos pesados, como imagens grandes ou scripts complexos. Isso ajuda a melhorar a velocidade de carregamento e a performance geral do site ou aplicativo em dispositivos móveis, proporcionando uma experiência mais rápida e agradável aos usuários.
+
+Uma vez que o design e a funcionalidade estejam otimizados para dispositivos móveis, o próximo passo é expandir e adaptar o layout para dispositivos de tela maior, adicionando recursos e elementos que aproveitem melhor o espaço disponível em desktops.
+
+A abordagem Mobile First é amplamente adotada atualmente devido à crescente popularidade dos dispositivos móveis e à importância de proporcionar uma experiência de usuário excelente em diferentes plataformas. Ela se alinha com a responsividade no CSS, permitindo que o design se ajuste e se adapte de acordo com o tamanho da tela e as características do dispositivo em uso.
+
+O site deve ser desnvolvido para a maior tela em que será aberto, mas ja pensando como vai ficar em smartphones
