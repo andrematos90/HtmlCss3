@@ -25,4 +25,4 @@ geralmente os tamanhoos mais utilizados são:
 
 320, 480, 720, 960, 1200, 1600
 
-as telas vão respondendo responsivamente até esses tamanhos, depois são adatadas
+As telas vão respondendo responsivamente até esses tamanhos, depois são adaptadas ou seja mudam a composição mas continuam responsivos até a próxima medida.
