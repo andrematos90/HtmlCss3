@@ -16,3 +16,13 @@ O uso de media queries no CSS permite aplicar estilos diferentes conforme a larg
 O layout responsivo é mais flexível e pode se adaptar a uma ampla gama de tamanhos de tela, desde dispositivos móveis até desktops de alta resolução.
 Por não ter pontos de interrupção fixos, o layout responsivo é mais eficiente em termos de desenvolvimento, exigindo menos layouts específicos para diferentes tamanhos de tela.
 Resumindo, enquanto o layout adaptativo possui pontos de interrupção fixos e layouts específicos para cada tamanho de tela, o layout responsivo é fluido e se ajusta de forma contínua a diferentes dispositivos sem pontos de interrupção fixos. O layout responsivo é mais flexível e eficiente em termos de desenvolvimento, mas o layout adaptativo oferece um controle mais preciso sobre o design em diferentes tamanhos de tela. Ambas as abordagens têm seus méritos e podem ser utilizadas de acordo com as necessidades e preferências do projeto.
+
+Na prática:
+
+o melhor é usar o responsivo junto com o adaptativo
+
+geralmente os tamanhoos mais utilizados são:
+
+320, 480, 720, 960, 1200, 1600
+
+as telas vão respondendo responsivamente até esses tamanhos, depois são adatadas
