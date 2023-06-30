@@ -10,4 +10,5 @@ Uma vez que o design e a funcionalidade estejam otimizados para dispositivos mó
 
 A abordagem Mobile First é amplamente adotada atualmente devido à crescente popularidade dos dispositivos móveis e à importância de proporcionar uma experiência de usuário excelente em diferentes plataformas. Ela se alinha com a responsividade no CSS, permitindo que o design se ajuste e se adapte de acordo com o tamanho da tela e as características do dispositivo em uso.
 
+Na prática:
 O site deve ser desnvolvido para a maior tela em que será aberto, mas ja pensando como vai ficar em smartphones
