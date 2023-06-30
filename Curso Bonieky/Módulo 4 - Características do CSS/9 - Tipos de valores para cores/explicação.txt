@@ -1,0 +1,40 @@
+Existem várias formas de especificar cores no CSS. Aqui estão as principais formas:
+
+Palavras-chave: O CSS possui um conjunto de palavras-chave pré-definidas para cores básicas, como "red" (vermelho), "blue" (azul), "green" (verde), entre outras. Por exemplo:
+
+.elemento {
+  color: red;
+  background-color: blue;
+}
+
+
+Notação hexadecimal: A notação hexadecimal é amplamente usada para especificar cores no CSS. Ela utiliza uma combinação de seis dígitos hexadecimais (0-9 e A-F) para representar a cor. Os dois primeiros dígitos representam o valor do canal vermelho, os dois seguintes representam o canal verde e os dois últimos representam o canal azul. 
+
+Por exemplo:
+
+.elemento {
+  color: #FF0000; /* vermelho */
+  background-color: #00FF00; /* verde */
+}
+
+Notação RGB: A notação RGB permite especificar uma cor utilizando os valores dos canais vermelho (R), verde (G) e azul (B). Cada canal é representado por um número inteiro entre 0 e 255. Por exemplo:
+
+
+.elemento {
+  color: rgb(255, 0, 0); /* vermelho */
+  background-color: rgb(0, 255, 0); /* verde */
+}
+
+Notação RGBA: A notação RGBA é semelhante à notação RGB, mas inclui um valor adicional para a transparência (canal alfa). O valor alfa varia entre 0 (totalmente transparente) e 1 (totalmente opaco). Por exemplo:
+
+.elemento {
+  background-color: rgba(255, 0, 0, 0.5); /* vermelho com 50% de transparência */
+}
+
+Notação HSL: A notação HSL (Hue, Saturation, Lightness) permite especificar uma cor com base no matiz, saturação e luminosidade. O matiz é representado por um ângulo entre 0 e 360 graus, a saturação e a luminosidade são representadas por um valor percentual entre 0% e 100%. Por exemplo:
+
+.elemento {
+  background-color: hsl(120, 100%, 50%); /* verde */
+}
+
+Essas são as formas mais comuns de especificar cores no CSS. Cada uma delas oferece diferentes possibilidades e flexibilidade para escolher as cores desejadas em seus estilos.
