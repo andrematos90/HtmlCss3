@@ -1,0 +1,19 @@
+Em CSS, "inherit" é uma palavra-chave usada para especificar que uma propriedade deve herdar seu valor do elemento pai. Normalmente, os elementos em uma página da web herdam automaticamente certas propriedades do elemento pai. No entanto, em alguns casos, você pode querer definir explicitamente que uma propriedade deve herdar o valor do elemento pai, mesmo que isso não ocorra automaticamente.
+
+Quando você define uma propriedade para "inherit" em um elemento filho, ela irá herdar o valor dessa propriedade do elemento pai. Por exemplo, se você definir a cor do texto de um elemento pai como vermelho e, em seguida, definir a cor do texto de um elemento filho como "inherit", o elemento filho terá a cor do texto vermelha, pois está herdando essa propriedade do elemento pai.
+
+A palavra-chave "inherit" é útil quando você deseja garantir que um elemento filho tenha o mesmo valor de propriedade de um elemento pai específico, independentemente de outras configurações. Isso pode ser especialmente útil quando você está trabalhando com estilos em cascata e deseja substituir um valor específico herdado de um elemento pai.
+
+Aqui está um exemplo básico de uso da palavra-chave "inherit" em CSS:
+
+.parent {
+  color: red;
+}
+
+.child {
+  color: inherit;
+}
+
+Nesse exemplo, qualquer elemento com a classe "child" terá a cor do texto definida como vermelho, pois está herdando essa propriedade do elemento com a classe "parent".
+
+É pouco aplicado e a aplicação acontece mais em relação a fontes.
