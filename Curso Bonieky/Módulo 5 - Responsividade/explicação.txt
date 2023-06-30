@@ -1,0 +1,7 @@
+Responsividade no CSS refere-se à capacidade de um site ou aplicativo se adaptar e responder de forma adequada a diferentes dispositivos e tamanhos de tela. Com a proliferação de dispositivos móveis e a variedade de tamanhos de tela disponíveis, é essencial garantir que um site seja exibido corretamente em todas as plataformas.
+
+A responsividade é alcançada por meio de técnicas de design e codificação que ajustam o layout e o estilo do conteúdo com base nas características do dispositivo. Isso envolve o uso de media queries, que são regras condicionais no CSS que permitem aplicar estilos diferentes com base em características como a largura da tela.
+
+Ao utilizar a responsividade no CSS, os desenvolvedores podem criar um design que se adapta automaticamente a diferentes dispositivos, proporcionando uma experiência de usuário consistente e agradável. Isso pode envolver a reorganização de elementos, o ajuste de tamanhos de fonte, a ocultação de determinados elementos em tamanhos de tela menores e outras modificações no layout para garantir que o conteúdo seja facilmente legível e navegável.
+
+A abordagem responsiva no CSS é amplamente adotada para criar sites e aplicativos modernos, pois oferece uma solução eficaz para atender às diversas necessidades dos usuários em termos de dispositivos e tamanhos de tela.
