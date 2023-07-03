@@ -1,0 +1,15 @@
+A tag <picture> é uma tag HTML5 que permite que você forneça várias versões de uma imagem e permita que o navegador escolha a melhor opção para exibir com base nas capacidades do dispositivo do usuário, como tamanho da tela, densidade de pixels e formato de imagem suportado.
+
+A tag <picture> é frequentemente usada em conjunto com as tags <source> e <img>. Dentro da tag <picture>, você pode adicionar várias tags <source>, cada uma com um atributo srcset especificando a URL da imagem e o atributo media opcional para especificar condições de mídia nas quais essa imagem específica deve ser usada. Além disso, você pode adicionar um atributo type opcional para especificar o tipo MIME da imagem.
+
+Por exemplo:
+
+<picture>
+  <source srcset="image_large.jpg" media="(min-width: 1200px)">
+  <source srcset="image_medium.jpg" media="(min-width: 768px)">
+  <img src="image_small.jpg" alt="Imagem">
+</picture>
+
+Neste exemplo, se a largura da tela do dispositivo for maior que 1200 pixels, a imagem image_large.jpg será exibida. Se for maior que 768 pixels, mas menor que 1200 pixels, a imagem image_medium.jpg será exibida. Caso contrário, a imagem image_small.jpg será exibida. O atributo alt na tag <img> fornece um texto alternativo para casos em que a imagem não pode ser exibida.
+
+Essa abordagem é útil para otimizar a entrega de imagens e melhorar o desempenho do seu site, fornecendo diferentes versões da imagem com base nas necessidades do dispositivo do usuário. Isso pode incluir fornecer imagens de resolução mais alta para dispositivos com alta densidade de pixels (como telas Retina) ou fornecer imagens com formatos específicos (como WebP ou JPEG 2000) suportados pelo navegador do usuário.
