@@ -1,0 +1,15 @@
+A propriedade object-fit é uma propriedade CSS3 que define como uma imagem ou vídeo deve ser redimensionado e posicionado dentro de seu contêiner.
+
+Quando você usa a propriedade object-fit, você está definindo como o conteúdo (imagem ou vídeo) se encaixa dentro do espaço disponível do contêiner. Existem várias opções para essa propriedade:
+
+object-fit: fill;: O conteúdo é dimensionado para preencher completamente o contêiner, podendo ser distorcido para ajustar-se às proporções do contêiner.
+
+object-fit: contain;: O conteúdo é dimensionado para caber dentro do contêiner, preservando suas proporções originais. Pode haver espaço em branco ao redor do conteúdo se as proporções do contêiner forem diferentes das do conteúdo.
+
+object-fit: cover;: O conteúdo é dimensionado para preencher completamente o contêiner, preservando suas proporções originais. O conteúdo pode ser cortado se as proporções do contêiner forem diferentes das do conteúdo.
+
+object-fit: none;: O conteúdo é dimensionado em seu tamanho original e seu posicionamento é definido pelo valor da propriedade object-position.
+
+object-fit: scale-down;: O conteúdo é dimensionado para caber dentro do contêiner, mas nunca será dimensionado acima do tamanho original do conteúdo. Ele pode ser usado como uma alternativa ao contain quando o tamanho do conteúdo é menor que o tamanho do contêiner.
+
+A propriedade object-fit é útil quando você deseja controlar a exibição de imagens ou vídeos dentro de seus contêineres, garantindo que eles se ajustem corretamente, mantenham suas proporções e sejam redimensionados de maneira adequada. Isso é especialmente útil ao criar layouts responsivos, onde o tamanho do contêiner pode variar em diferentes dispositivos e tamanhos de tela.
