@@ -20,7 +20,7 @@ h1 {
 }
 
 .container{
-    background-color: var(--bg-color);  /* váriavel aplicada*/
+    background-color: var(--bg-color), #0000FF;  /* váriavel aplicada, caso não exista aplcia o azul*/
     color: var(--font-color);   /* váriavel aplicada*/
 }
 

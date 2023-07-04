@@ -1,0 +1,38 @@
+A função var() é uma função CSS que permite definir e usar variáveis personalizadas em estilos. Ela é útil para armazenar valores que podem ser reutilizados em vários lugares do seu código CSS, facilitando a manutenção e personalização do design.
+
+A sintaxe básica da função var() é a seguinte:
+
+var(--nome-da-variavel, valor-padrão);
+
+Aqui está uma explicação dos diferentes componentes:
+
+--nome-da-variavel: É o nome que você atribui à sua variável personalizada. Deve começar com dois hífens (--), seguido por um nome descritivo.
+valor-padrão: É o valor que a variável assumirá caso não seja definida ou não esteja disponível.
+Vamos ver um exemplo para entender melhor. Suponha que você queira definir uma variável para a cor principal do seu site:
+
+:root {
+  --cor-principal: #ff0000;
+}
+
+Aqui, estamos definindo a variável --cor-principal com o valor #ff0000, que é uma cor vermelha.
+
+Agora, podemos usar essa variável em outros lugares do nosso código CSS, como em uma propriedade color para um seletor específico:
+
+h1 {
+  color: var(--cor-principal);
+}
+
+
+Neste exemplo, a cor do texto para todos os elementos h1 será definida pela variável --cor-principal, ou seja, será a cor vermelha que definimos anteriormente.
+
+A vantagem da função var() é que ela permite atualizar facilmente o valor da variável em um único local, afetando todas as ocorrências em que ela é utilizada. Por exemplo, se decidirmos mudar a cor principal do site para azul, precisamos alterar apenas o valor da variável --cor-principal na declaração :root, e todas as ocorrências em que a variável é usada serão atualizadas automaticamente.
+
+Além disso, a função var() suporta um segundo parâmetro, que é um valor-padrão opcional. Esse valor será utilizado caso a variável não esteja definida ou não esteja disponível. Isso permite fornecer um valor alternativo caso a variável não seja definida em algum contexto específico.
+
+Em resumo, a função var() é uma ferramenta poderosa para definir e reutilizar variáveis personalizadas no CSS, permitindo maior flexibilidade e facilidade de manutenção em seus estilos.
+
+
+
+
+
+
