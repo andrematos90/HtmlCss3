@@ -1,0 +1,23 @@
+A propriedade aspect-ratio no @media é usada para aplicar estilos diferentes com base na relação de aspecto da área de exibição do dispositivo. A relação de aspecto é a proporção entre a largura e a altura de uma área retangular, como uma tela ou uma janela de navegador.
+
+Ao utilizar a regra @media com a propriedade aspect-ratio, você pode direcionar estilos específicos para dispositivos com determinadas relações de aspecto. Aqui está um exemplo de uso:
+
+@media (aspect-ratio: 16/9) {
+  /* Estilos aplicados quando a relação de aspecto é 16:9 */
+  /* Por exemplo: */
+  .content {
+    font-size: 20px;
+  }
+}
+
+@media (aspect-ratio: 4/3) {
+  /* Estilos aplicados quando a relação de aspecto é 4:3 */
+  /* Por exemplo: */
+  .content {
+    font-size: 16px;
+  }
+}
+
+No exemplo acima, definimos estilos diferentes para a classe .content com base na relação de aspecto do dispositivo. Quando a relação de aspecto for 16:9, o tamanho da fonte será de 20 pixels. Por outro lado, quando a relação de aspecto for 4:3, o tamanho da fonte será de 16 pixels.
+
+Essa propriedade é útil quando você deseja ajustar o layout ou o tamanho de elementos específicos com base na relação de aspecto da área de visualização. Você pode adaptar a aparência do seu site ou aplicativo para diferentes proporções de tela, garantindo uma experiência de usuário consistente e adequada independentemente do dispositivo utilizado.
