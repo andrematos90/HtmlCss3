@@ -36,3 +36,7 @@ Combinar várias condições de mídia usando operadores lógicos como and e or:
 Esses são apenas exemplos básicos, mas a regra @media oferece muitas possibilidades para adaptar o layout e os estilos do seu site de acordo com as características do dispositivo do usuário. Você pode usar consultas de mídia para definir diferentes estilos para diferentes tamanhos de tela, densidades de pixels, orientações, tipos de dispositivo e muito mais.
 
 É importante considerar a abordagem móvel primeiro (mobile-first) ao usar consultas de mídia, onde você define os estilos base para dispositivos móveis e, em seguida, adiciona consultas de mídia para dispositivos maiores. Isso ajuda a garantir uma experiência responsiva e aprimorada para usuários em dispositivos móveis.
+
+
+-------------------------------------------------------------------------------------------------------
+
