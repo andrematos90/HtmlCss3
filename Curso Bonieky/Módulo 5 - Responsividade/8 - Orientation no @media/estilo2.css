@@ -1,6 +1,29 @@
-div{
-    width: 400px;
-    height: 400px;
-    background-color: brown;
-    border: 1pc solid black;
+body {
+    display: flex;
 }
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black; 
+}
+
+
+@media (orientation: portrait) {
+    /* Estilos aplicados quando o dispositivo está em modo retrato */
+    /* Por exemplo: */
+    body{
+        
+        flex-direction: column;
+    }
+  }
+  
+  @media (orientation: landscape) {
+    /* Estilos aplicados quando o dispositivo está em modo paisagem */
+    /* Por exemplo: */
+    body{
+         
+        flex-direction: row;
+    }
+  }
+  

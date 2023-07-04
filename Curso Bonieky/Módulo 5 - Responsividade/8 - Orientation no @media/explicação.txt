@@ -1,0 +1,28 @@
+O orientation não detecta se o celular esta na horizontal ou na vertical, mas sim o tamanho da tela disponivel no momento, se a largura ou a altura estiver maior
+
+
+No CSS, a propriedade @media é usada para aplicar estilos diferentes com base nas características do dispositivo em que o conteúdo está sendo exibido. Isso permite criar layouts responsivos e adaptáveis a diferentes tamanhos de tela.
+
+A orientação é uma das características que podem ser alvo do @media. Ela se refere à orientação física do dispositivo, ou seja, se está em modo retrato (vertical) ou paisagem (horizontal). Por exemplo, em um smartphone, a orientação pode ser alterada ao girar o aparelho entre as posições vertical e horizontal.
+
+Ao utilizar a regra @media com a propriedade orientation, você pode aplicar estilos diferentes dependendo da orientação do dispositivo. Aqui está um exemplo de uso:
+
+@media (orientation: portrait) {
+  /* Estilos aplicados quando o dispositivo está em modo retrato */
+  /* Por exemplo: */
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media (orientation: landscape) {
+  /* Estilos aplicados quando o dispositivo está em modo paisagem */
+  /* Por exemplo: */
+  body {
+    background-color: lightgreen;
+  }
+}
+
+No exemplo acima, definimos estilos diferentes para o elemento body com base na orientação do dispositivo. Quando o dispositivo estiver em modo retrato, o fundo será azul claro (lightblue), e quando estiver em modo paisagem, o fundo será verde claro (lightgreen).
+
+Dessa forma, você pode adaptar o layout e os estilos do seu site ou aplicativo dependendo da orientação do dispositivo, proporcionando uma melhor experiência de usuário em diferentes modos de visualização.
