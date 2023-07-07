@@ -1,0 +1,23 @@
+A função calc() é uma função matemática disponível no CSS que permite realizar cálculos para determinar o valor de propriedades CSS. Ela é usada para realizar operações matemáticas simples, como adição, subtração, multiplicação e divisão.
+
+A sintaxe básica da função calc() é a seguinte:
+
+calc(expressão)
+
+Dentro da expressão, você pode usar valores numéricos, unidades de medida e operadores matemáticos para realizar cálculos. Aqui estão alguns exemplos de como a função calc() pode ser usada:
+
+Adição:
+width: calc(100px + 20px);
+
+Subtração:
+width: calc(100% - 50px);
+
+Multiplicação:
+width: calc(2 * 30%);
+
+Divisão:
+width: calc(200px / 3);
+
+A função calc() pode ser usada em várias propriedades CSS, como largura (width), altura (height), margens (margin), preenchimento (padding), entre outras. Ela é especialmente útil quando você precisa realizar cálculos dinâmicos com base em outros valores ou quando precisa ajustar o layout de forma responsiva.
+
+No entanto, é importante observar que a função calc() possui algumas regras de sintaxe. Por exemplo, os operadores matemáticos (+, -, *, /) devem ser separados por espaços ao redor deles, e a expressão não pode conter espaços entre o operador e os valores ou unidades de medida. Além disso, a função calc() não pode ser aninhada dentro de outra função calc().
