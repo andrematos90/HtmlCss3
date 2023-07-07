@@ -1,0 +1,9 @@
+A propriedade CSS width é usada para definir a largura de um elemento. No caso da declaração width: max(50%, 300px);, ela usa a função max() para definir a largura máxima do elemento.
+
+Essa declaração significa o seguinte:
+
+Se a largura do elemento for inferior a 50% da largura do seu contêiner pai, então a largura será definida como 50%.
+Caso contrário, se a largura do elemento for superior a 50% da largura do seu contêiner pai, então a largura será definida como 300 pixels.
+Em resumo, o elemento terá uma largura que será, no mínimo, 50% da largura do seu contêiner pai, mas nunca ultrapassará 300 pixels.
+
+Vale ressaltar que a função max() é uma função de cálculo disponível no CSS e permite definir um valor máximo entre dois ou mais valores. Nesse caso, a função max() é usada para limitar a largura do elemento entre 50% e 300 pixels, dependendo do cenário descrito acima.

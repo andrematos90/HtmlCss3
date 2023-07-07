@@ -30,3 +30,7 @@
     border: 0px;
 
 }
+
+/* para deixar um video incorpoda responsivo
+primeiro cria-se uma div que vai servir como container para a área do video
+e dentro outra div para a area especifica mesmo do video  e dentro o iframe
