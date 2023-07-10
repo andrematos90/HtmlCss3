@@ -1,0 +1,53 @@
+<input type="text">: Essa tag cria um campo de entrada de texto simples, onde os usuários podem digitar texto. É amplamente usado para capturar informações como nomes, endereços, etc.
+
+<input type="password">: Essa tag cria um campo de entrada de senha, onde os caracteres digitados são exibidos como pontos ou asteriscos para proteger a privacidade do usuário.
+
+<input type="checkbox">: Essa tag cria uma caixa de seleção (checkbox), permitindo que os usuários selecionem uma ou mais opções de um conjunto de escolhas.
+
+<input type="radio">: Essa tag cria botões de opção (radio buttons), onde os usuários podem selecionar apenas uma opção de um conjunto de escolhas mutuamente exclusivas.
+
+<input type="number">: Essa tag cria um campo de entrada numérica, onde os usuários podem inserir valores numéricos. Os navegadores modernos geralmente fornecem recursos para restringir a entrada a apenas números.
+
+<input type="email">: Essa tag cria um campo de entrada para endereço de e-mail, com validação embutida para garantir que o formato inserido corresponda a um endereço de e-mail válido.
+
+<input type="url">: Essa tag cria um campo de entrada para URLs (endereços da web), com validação para garantir que o formato inserido corresponda a uma URL válida.
+
+<input type="date">: Essa tag cria um campo de entrada de data, onde os usuários podem selecionar uma data usando um calendário ou digitar manualmente.
+
+<input type="file">: Essa tag cria um campo de upload de arquivo, permitindo que os usuários escolham um arquivo em seu dispositivo para ser enviado para o servidor.
+
+<input type="submit">: Essa tag cria um botão de envio em um formulário, que, quando clicado, envia os dados inseridos para um servidor.
+
+<input type="hidden">: Essa tag cria um campo de entrada oculto, que não é exibido para o usuário na página, mas pode ser usado para armazenar valores que serão enviados ao servidor junto com outros dados do formulário.
+
+<input type="color">: Essa tag cria um seletor de cores, permitindo que os usuários escolham uma cor usando uma paleta de cores ou inserindo o valor hexadecimal.
+
+<input type="range">: Essa tag cria um controle deslizante, que permite aos usuários selecionar um valor dentro de um intervalo especificado.
+
+<input type="time">: Essa tag cria um campo de entrada de tempo, onde os usuários podem selecionar um horário específico.
+
+<input type="datetime-local">: Essa tag cria um campo de entrada de data e hora local, permitindo que os usuários selecionem uma data e hora específicas em seu fuso horário local.
+
+<input type="month">: Essa tag cria um campo de entrada de mês e ano, onde os usuários podem selecionar um mês e ano específicos.
+
+<input type="week">: Essa tag cria um campo de entrada de semana, permitindo que os usuários selecionem uma semana específica dentro de um ano.
+
+<input type="tel">: Essa tag cria um campo de entrada de telefone, usado principalmente para capturar números de telefone. Alguns navegadores podem exibir um teclado numérico otimizado para entrada de telefone em dispositivos móveis
+
+<input type="search">: Essa tag cria um campo de busca, geralmente exibido com um ícone de lupa. É usado para permitir que os usuários insiram termos de busca.
+
+<input type="reset">: Essa tag cria um botão de reset em um formulário. Quando clicado, ele redefine os valores do formulário para os valores padrão ou vazios.
+
+<input type="image">: Essa tag cria um campo de entrada de imagem, onde os usuários podem clicar em uma imagem para enviar o formulário. O valor enviado é a coordenada do clique dentro da imagem.
+
+<input type="week">: Essa tag cria um campo de entrada de semana, permitindo que os usuários selecionem uma semana específica dentro de um ano.
+
+<input type="month">: Essa tag cria um campo de entrada de mês, onde os usuários podem selecionar um mês específico.
+
+<input type="datetime-local">: Essa tag cria um campo de entrada de data e hora local, onde os usuários podem selecionar uma data e hora específicas em seu fuso horário local.
+
+<input type="range">: Essa tag cria um controle deslizante (slider), permitindo que os usuários selecionem um valor dentro de um intervalo definido.
+
+<input type="color">: Essa tag cria um seletor de cores, permitindo que os usuários escolham uma cor usando uma paleta de cores.
+
+<input type="file">: Essa tag cria um campo de upload de arquivo, permitindo que os usuários selecionem um arquivo em seu dispositivo para ser enviado ao servidor.
