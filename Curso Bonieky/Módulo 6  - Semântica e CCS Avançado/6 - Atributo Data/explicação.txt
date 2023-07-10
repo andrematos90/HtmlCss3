@@ -1,0 +1,28 @@
+O atributo "data" é um recurso do HTML5 que permite adicionar dados personalizados a elementos HTML, como tags e elementos de formulário, sem afetar seu significado semântico ou comportamento padrão. Esse atributo é muito útil quando você precisa armazenar informações extras associadas a um elemento para uso posterior em scripts ou estilização.
+
+O atributo "data" pode ser adicionado a qualquer elemento HTML usando o formato "data-nomeatributo", em que "nomeatributo" é o nome personalizado que você deseja usar para armazenar seus dados. Por exemplo:
+
+<div data-info="alguma informação" data-id="12345">...</div>
+
+
+No exemplo acima, adicionamos dois atributos de dados personalizados ao elemento <div>. O atributo "data-info" contém a informação "alguma informação", e o atributo "data-id" contém o valor "12345". Esses valores podem ser recuperados posteriormente em JavaScript ou CSS.
+
+Usando JavaScript, você pode acessar e manipular os valores dos atributos de dados personalizados usando a propriedade "dataset" do elemento. Por exemplo:
+
+const divElement = document.querySelector('div');
+const info = divElement.dataset.info;
+const id = divElement.dataset.id;
+
+console.log(info); // "alguma informação"
+console.log(id); // "12345"
+
+
+No CSS, você pode usar os atributos de dados personalizados como seletores para aplicar estilos específicos a elementos com determinados valores de atributo. Por exemplo:
+
+div[data-info="alguma informação"] {
+  color: blue;
+}
+
+Nesse caso, qualquer <div> com o atributo "data-info" igual a "alguma informação" terá sua cor de texto definida como azul.
+
+O atributo "data" é flexível e permite que você crie seus próprios atributos personalizados para armazenar informações adicionais. Ele oferece uma maneira conveniente de associar dados aos elementos HTML, tornando-os acessíveis para manipulação e estilização em seu código JavaScript e CSS.
