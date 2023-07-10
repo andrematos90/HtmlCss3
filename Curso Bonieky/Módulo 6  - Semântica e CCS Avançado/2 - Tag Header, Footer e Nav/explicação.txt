@@ -1,0 +1,7 @@
+<header>: A tag <header> é usada para representar o cabeçalho de uma página ou de uma seção específica dentro de uma página. Normalmente, o cabeçalho contém elementos como o logotipo do site, o título da página, barras de navegação e outros elementos que fornecem informações iniciais sobre o conteúdo da página. O cabeçalho geralmente é colocado no topo da página e pode ser usado para identificar a marca ou o nome do site.
+
+
+<footer>: A tag <footer> é usada para representar o rodapé de uma página ou de uma seção específica dentro de uma página. O rodapé normalmente contém informações como direitos autorais, links para termos de uso, política de privacidade, informações de contato, links para redes sociais, entre outros. O rodapé é geralmente colocado na parte inferior da página e fornece informações adicionais ou complementares sobre o conteúdo.
+
+
+<nav>: A tag <nav> é usada para definir uma seção de navegação em uma página. É usada para agrupar e definir os links de navegação, como menus, barras de navegação ou listas de links. Esses links permitem que os usuários acessem diferentes partes do site ou naveguem entre diferentes páginas da web. A tag <nav> ajuda a identificar explicitamente a seção de navegação do conteúdo principal da página, permitindo que os navegadores e leitores de tela interpretem melhor a estrutura do site.
