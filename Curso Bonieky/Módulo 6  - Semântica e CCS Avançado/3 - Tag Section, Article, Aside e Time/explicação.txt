@@ -1,0 +1,13 @@
+<section>:
+ A tag <section> é usada para agrupar e definir seções de conteúdo relacionadas em uma página. Ela ajuda a organizar e dividir o conteúdo da página em partes distintas e significativas. Uma seção pode ser uma parte temática do conteúdo, como um capítulo de um livro, uma seção de notícias, um bloco de texto relacionado ou qualquer outra divisão lógica do conteúdo. O uso da tag <section> auxilia na estruturação semântica da página e facilita a compreensão do seu conteúdo pelos mecanismos de busca e leitores de tela.
+
+
+<article>: 
+A tag <article> é usada para representar um conteúdo independente, autônomo e completo dentro de uma página. Geralmente, é utilizado para agrupar informações como uma postagem de blog, um artigo de notícias, uma entrada de fórum ou qualquer outra forma de conteúdo que possa existir por si só. O conteúdo dentro da tag <article> deve ter sentido próprio e ser distribuído separadamente de outras partes da página. Isso permite que os leitores de tela e mecanismos de busca identifiquem e tratem o conteúdo como uma unidade coesa.
+
+
+<aside>: 
+A tag <aside> é usada para representar um conteúdo relacionado, mas não essencial, em relação ao conteúdo principal da página. É comumente usado para incluir informações adicionais, complementares ou de destaque, como barras laterais, blocos de anúncios, caixas de informações relacionadas ou outros conteúdos secundários. O conteúdo dentro da tag <aside> é considerado separado do conteúdo principal da página, mas ainda relacionado a ele.
+
+<time>: 
+A tag <time> é usada para marcar e representar informações de tempo ou datas dentro de uma página. Ela pode ser usada para indicar datas de publicação, eventos, horários de funcionamento, datas de modificação do conteúdo e outros tipos de informações temporais. A tag <time> pode incluir atributos adicionais, como datetime, para fornecer informações adicionais sobre o tempo de forma padronizada e acessível para os usuários e mecanismos de busca.
