@@ -1,0 +1,22 @@
+A tag <audio> é um elemento HTML5 usado para incorporar e reproduzir áudio em uma página da web. Assim como a tag <video>, ela permite que você adicione áudio diretamente ao seu código HTML, sem a necessidade de usar plugins ou tecnologias adicionais.
+
+A tag <audio> possui vários atributos semelhantes aos da tag <video> que permitem controlar o comportamento e a aparência do áudio. Alguns dos atributos mais comuns são:
+
+src: especifica o caminho do arquivo de áudio a ser reproduzido. Assim como na tag <video>, você pode fornecer uma URL para um arquivo de áudio hospedado em um servidor ou um caminho relativo ou absoluto para um arquivo de áudio em seu próprio servidor.
+controls: quando este atributo está presente, exibe controles de reprodução padrão, como um botão de play/pause, controle de volume e barra de progresso.
+autoplay: quando este atributo está presente, o áudio é reproduzido automaticamente assim que a página é carregada.
+loop: quando este atributo está presente, o áudio é reproduzido em um loop contínuo, reiniciando automaticamente quando chega ao final.
+preload: especifica como o navegador deve carregar o arquivo de áudio. Os valores possíveis são auto, metadata e none. O valor auto faz com que o navegador carregue o áudio inteiro, metadata faz com que o navegador carregue apenas os metadados do áudio, como duração e informações de codificação, e none faz com que o navegador não carregue o áudio até que o usuário inicie a reprodução.
+Aqui está um exemplo básico de como usar a tag <audio> em seu código HTML:
+
+<audio src="caminho/do/audio.mp3" controls>
+  Seu navegador não suporta a tag de áudio.
+</audio>
+
+
+
+Neste exemplo, o áudio audio.mp3 é reproduzido em um elemento de áudio com controles de reprodução padrão. Se o navegador do usuário não suportar a tag <audio>, o texto "Seu navegador não suporta a tag de áudio" será exibido.
+
+Da mesma forma que na tag <video>, você também pode usar as tags <source> para fornecer várias versões do mesmo áudio em diferentes formatos, garantindo a compatibilidade com diferentes navegadores e dispositivos.
+
+Lembre-se de que o suporte à reprodução de áudio pode variar entre navegadores e dispositivos, portanto, é uma boa prática fornecer fallbacks adequados para usuários cujos navegadores não suportam a tag <audio>.
