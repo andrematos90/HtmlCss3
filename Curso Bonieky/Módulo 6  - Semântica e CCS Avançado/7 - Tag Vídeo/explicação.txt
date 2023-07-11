@@ -1,0 +1,22 @@
+A tag <video> é um elemento HTML5 usado para incorporar e exibir um vídeo em uma página da web. Ela permite que você adicione um vídeo diretamente ao seu código HTML, sem a necessidade de usar plugins ou tecnologias adicionais.
+
+A tag <video> possui vários atributos que permitem controlar o comportamento e a aparência do vídeo. Alguns dos atributos mais comumente usados são:
+
+src: especifica o caminho do arquivo de vídeo a ser reproduzido. Pode ser uma URL para um vídeo hospedado em um servidor ou um caminho relativo ou absoluto para um vídeo em seu próprio servidor.
+controls: quando este atributo está presente, exibe controles de reprodução padrão, como um botão de play/pause, controle de volume e barra de progresso.
+autoplay: quando este atributo está presente, o vídeo é reproduzido automaticamente assim que a página é carregada.
+loop: quando este atributo está presente, o vídeo é reproduzido em um loop contínuo, reiniciando automaticamente quando chega ao final.
+width e height: especificam as dimensões do vídeo em pixels. Você pode definir esses valores explicitamente ou deixar em branco para usar as dimensões padrão do vídeo.
+poster: especifica uma imagem de pôster para ser exibida antes de o vídeo ser reproduzido. Pode ser usado para fornecer uma imagem de prévia ou uma tela de título para o vídeo.
+A tag <video> também suporta a adição de faixas de legenda e várias fontes de vídeo para diferentes formatos. Isso é feito usando as tags <track> e <source>, respectivamente. Com essas tags, você pode fornecer várias versões do mesmo vídeo em diferentes formatos (como MP4, WebM ou Ogg) para garantir a compatibilidade com diferentes navegadores e dispositivos.
+
+Aqui está um exemplo básico de como usar a tag <video> em seu código HTML:
+
+<video src="caminho/do/video.mp4" controls width="640" height="360">
+  Seu navegador não suporta a tag de vídeo.
+</video>
+
+
+Neste exemplo, o vídeo video.mp4 é exibido em um elemento de vídeo com controles de reprodução padrão. Se o navegador do usuário não suportar a tag <video>, o texto "Seu navegador não suporta a tag de vídeo" será exibido.
+
+É importante mencionar que o suporte à reprodução de vídeo pode variar entre navegadores e dispositivos. Portanto, é uma boa prática fornecer múltiplas fontes de vídeo em diferentes formatos e ter um fallback adequado para usuários cujos navegadores não suportam a tag <video>.
