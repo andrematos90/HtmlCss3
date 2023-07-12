@@ -1,0 +1,13 @@
+No contexto do CSS, o termo "autofocus" refere-se a um atributo que pode ser aplicado a um elemento HTML para indicar que ele deve receber automaticamente o foco (ou seja, se tornar o elemento ativo) quando a página é carregada.
+
+Quando um elemento HTML tem o atributo "autofocus" aplicado a ele, o navegador irá destacá-lo e torná-lo interativo assim que a página for carregada. Isso significa que o elemento estará pronto para receber entrada do usuário, como digitação em um campo de texto ou a seleção de uma opção em um menu suspenso, sem que o usuário precise clicar ou interagir com ele.
+
+Aqui está um exemplo de uso do atributo "autofocus" em um campo de texto:
+
+<input type="text" autofocus>
+
+Neste exemplo, quando a página for carregada, o campo de texto será destacado e pronto para receber entrada do usuário imediatamente.
+
+É importante mencionar que apenas um elemento em uma página pode ter o atributo "autofocus" aplicado a ele. Se vários elementos tiverem esse atributo, o navegador geralmente dará foco ao primeiro elemento na ordem em que eles aparecem no código HTML.
+
+O atributo "autofocus" é amplamente suportado pelos navegadores modernos e pode ser aplicado a vários tipos de elementos HTML, como campos de texto, caixas de seleção, botões e assim por diante. Ele é útil quando se deseja facilitar a interação do usuário com um determinado elemento ou fornecer uma experiência mais conveniente ao usuário ao carregar a página.

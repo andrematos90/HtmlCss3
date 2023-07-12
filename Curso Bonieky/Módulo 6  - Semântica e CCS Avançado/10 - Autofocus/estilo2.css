@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container{
+    width: 200px;
+    height: 150px;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.user, .password{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin: 10px;
+}
+
+.botao{
+    width: 60px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.user{
+    
+    margin-top: 10px;
+    
+}
+
+.password{
+    margin-top: -20px;
+}
+
+
