@@ -1,0 +1,13 @@
+No CSS, "size" e "maxLength" são atributos que podem ser usados para especificar o tamanho e o comprimento máximo de um campo de entrada de texto em um formulário HTML.
+
+O atributo "size" é usado para definir a largura visível do campo de entrada de texto, especificada em caracteres. Por exemplo, se você definir o valor de "size" como 10, o campo de entrada será exibido com espaço suficiente para exibir até 10 caracteres de texto. No entanto, o tamanho real do texto que pode ser inserido no campo não é afetado por esse atributo, apenas a aparência visual.
+
+O atributo "maxLength", por outro lado, é usado para definir o número máximo de caracteres que podem ser inseridos no campo de entrada de texto. Se você definir o valor de "maxLength" como 50, o usuário não poderá inserir mais de 50 caracteres nesse campo. Esse atributo é útil para limitar a quantidade de texto que um usuário pode inserir, por exemplo, quando se deseja limitar um campo de comentário a um certo comprimento.
+
+Aqui está um exemplo de código HTML usando esses atributos:
+
+<input type="text" size="20" maxlength="100">
+
+Nesse exemplo, o campo de entrada de texto será exibido com espaço para 20 caracteres visíveis, mas o usuário não poderá inserir mais de 100 caracteres nesse campo.
+
+É importante observar que o atributo "maxLength" especifica o número máximo de caracteres permitidos, incluindo espaços em branco e outros caracteres especiais. Portanto, se você definir "maxLength" como 50, o usuário poderá inserir até 50 caracteres, incluindo espaços, números, letras e outros caracteres especiais.
