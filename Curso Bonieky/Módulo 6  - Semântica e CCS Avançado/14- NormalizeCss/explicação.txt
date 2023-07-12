@@ -1,0 +1,13 @@
+Normalize" refere-se ao conceito de normalização de estilos em CSS. É comum que diferentes navegadores tenham padrões de estilo diferentes para elementos HTML, o que pode resultar em inconsistências visuais entre diferentes plataformas e dispositivos.
+
+A normalização CSS é uma técnica que visa estabelecer uma base consistente e previsível para o estilo de elementos HTML, independentemente do navegador ou plataforma. O objetivo é equalizar as diferenças de renderização e comportamento entre os navegadores, fornecendo uma base sólida para o desenvolvimento de estilos.
+
+A normalização CSS é frequentemente realizada por meio da inclusão de um arquivo CSS externo chamado "normalize.css". Esse arquivo contém um conjunto de estilos pré-definidos que são aplicados a elementos HTML com o intuito de criar uma base consistente.
+
+O normalize.css geralmente inclui regras para redefinir margens, preenchimentos, tamanhos de fonte e outros estilos padrão. Ele também pode lidar com problemas específicos de renderização, como a exibição inconsistente de elementos HTML em diferentes navegadores.
+
+Ao utilizar um arquivo de normalização, os desenvolvedores podem partir de uma base consistente e confiável para estilizar seus elementos HTML, reduzindo a necessidade de ajustes e correções específicas para cada navegador. Isso simplifica o processo de desenvolvimento e ajuda a criar uma experiência mais consistente para os usuários.
+
+É importante observar que a normalização CSS não é um substituto para a estilização personalizada e a criação de um design único. Ela apenas fornece uma base sólida e consistente para começar a estilizar os elementos HTML. A partir dessa base, os desenvolvedores podem adicionar estilos personalizados de acordo com suas necessidades específicas.
+
+Existem várias bibliotecas e arquivos de normalização CSS disponíveis, como o "normalize.css" e o "reset.css". Essas ferramentas podem ser facilmente incorporadas em projetos CSS para normalizar a aparência e o comportamento dos elementos HTML em diferentes navegadores e dispositivos.
