@@ -1,0 +1,24 @@
+No HTML, o atributo "autocomplete" é usado para controlar o preenchimento automático de campos de entrada em formulários. Ele permite que os navegadores sugiram valores anteriores ou preencham automaticamente campos com base no histórico de entrada do usuário.
+
+O atributo "autocomplete" pode ser aplicado a elementos <input> e <form>. Seu valor pode ser definido como "on" ou "off". Vejamos alguns cenários comuns de uso:
+
+autocomplete="on": Isso permite que o navegador forneça sugestões automáticas para campos de entrada. O navegador usará seu histórico de preenchimento para sugerir valores para o campo com base em entradas anteriores do usuário. Por exemplo, se o usuário já tiver digitado "João" em um campo de nome, o navegador poderá sugerir "João" novamente quando o usuário começar a digitar "J".
+
+autocomplete="off": Isso desativa o preenchimento automático para um campo específico ou para todo o formulário. O navegador não fornecerá sugestões automáticas com base no histórico de preenchimento.
+
+Aqui está um exemplo de código HTML usando o atributo "autocomplete":
+
+<form>
+  <label for="username">Usuário:</label>
+  <input type="text" id="username" name="username" autocomplete="off">
+  <br>
+  <label for="password">Senha:</label>
+  <input type="password" id="password" name="password" autocomplete="off">
+  <br>
+  <input type="submit" value="Enviar">
+</form>
+
+
+Nesse exemplo, o preenchimento automático é desativado para os campos de usuário e senha, garantindo que os navegadores não sugiram ou preencham automaticamente essas informações sensíveis.
+
+O uso do atributo "autocomplete" ajuda a controlar o comportamento de preenchimento automático dos navegadores em campos de formulário. Ele pode ser útil para garantir a privacidade dos usuários e evitar sugestões indesejadas em campos sensíveis, como informações pessoais ou senhas.
