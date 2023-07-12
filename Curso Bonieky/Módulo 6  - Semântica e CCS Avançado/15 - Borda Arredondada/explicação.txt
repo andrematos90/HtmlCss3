@@ -1,0 +1,13 @@
+"border-radius" é uma propriedade do CSS que permite arredondar os cantos de um elemento HTML, como uma caixa, um botão ou uma imagem. Ela adiciona curvas suaves aos cantos, criando uma aparência arredondada.
+
+A propriedade "border-radius" aceita um ou mais valores, definidos em pixels (px), porcentagem (%) ou palavras-chave específicas. Aqui estão algumas formas comuns de uso:
+
+Um valor único: Define um raio de curvatura igual para todos os cantos do elemento. Por exemplo, border-radius: 10px; aplicará um arredondamento de 10 pixels a todos os cantos.
+
+Dois valores: O primeiro valor define o raio de curvatura para os cantos superior esquerdo e inferior direito, enquanto o segundo valor define o raio de curvatura para os cantos superior direito e inferior esquerdo. Por exemplo, border-radius: 10px 5px; aplicará um arredondamento de 10 pixels nos cantos superior esquerdo e inferior direito, e um arredondamento de 5 pixels nos cantos superior direito e inferior esquerdo.
+
+Três valores: O primeiro valor define o raio de curvatura para o canto superior esquerdo, o segundo valor define o raio de curvatura para o canto superior direito e o terceiro valor define o raio de curvatura para os cantos inferiores esquerdo e direito. Por exemplo, border-radius: 10px 5px 15px; aplicará um arredondamento de 10 pixels no canto superior esquerdo, um arredondamento de 5 pixels no canto superior direito e um arredondamento de 15 pixels nos cantos inferiores esquerdo e direito.
+
+Quatro valores: Define um raio de curvatura individual para cada canto do elemento, no sentido dos ponteiros do relógio, começando pelo canto superior esquerdo. Por exemplo, border-radius: 10px 5px 15px 20px; aplicará um arredondamento de 10 pixels no canto superior esquerdo, um arredondamento de 5 pixels no canto superior direito, um arredondamento de 15 pixels no canto inferior direito e um arredondamento de 20 pixels no canto inferior esquerdo.
+
+A propriedade "border-radius" pode ser aplicada a vários tipos de elementos, como divs, botões, imagens e outros elementos que possuam uma borda. Ela é amplamente utilizada para criar elementos com uma aparência mais suave, moderna e amigável, permitindo personalizar o visual de um site ou aplicativo da web.
