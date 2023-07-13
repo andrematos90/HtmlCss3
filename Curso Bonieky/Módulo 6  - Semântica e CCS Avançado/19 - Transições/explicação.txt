@@ -1,0 +1,41 @@
+As transições em CSS permitem criar efeitos suaves de mudança de propriedades em elementos HTML. Com as transições, você pode especificar uma propriedade-alvo e a duração da transição, e o navegador cuidará automaticamente de animar a mudança da propriedade ao longo do tempo.
+
+Para utilizar as transições em CSS, você precisa definir as seguintes propriedades:
+
+Propriedade de Transição (transition property):
+Essa propriedade especifica qual propriedade CSS será animada durante a transição. Pode ser qualquer propriedade válida, como background-color, width, opacity, entre outras. Você também pode usar all para animar todas as propriedades. A sintaxe básica é:
+
+transition-property: propriedade;
+
+Duração da Transição (transition duration):
+Essa propriedade define a duração da transição em segundos (s) ou milissegundos (ms). A sintaxe básica é:
+
+transition-duration: duração;
+
+Tempo de Efeito (transition timing function):
+Essa propriedade define o padrão de aceleração (easing) da transição, ou seja, como a animação é suavizada ao longo do tempo. Você pode usar valores pré-definidos, como ease, linear, ease-in, ease-out, ease-in-out, ou até mesmo funções de curva de Bézier personalizadas. A sintaxe básica é:
+
+transition-timing-function: timing-function;
+
+Atraso da Transição (transition delay):
+Opcionalmente, você pode adicionar um atraso para que a transição comece após um determinado período. Isso é útil quando você deseja controlar o momento em que a animação deve ocorrer. A sintaxe básica é:
+
+transition-delay: atraso;
+
+Aqui está um exemplo básico de como utilizar as propriedades de transição em CSS:
+
+.elemento {
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.5s;
+}
+
+.elemento:hover {
+  width: 200px;
+}
+
+
+Nesse exemplo, quando o cursor passar sobre o elemento, a largura (width) será alterada suavemente para 200 pixels com uma transição de 1 segundo, usando uma função de aceleração ease-in-out. Além disso, haverá um atraso de 0,5 segundos antes que a transição comece.
+
+Essa é apenas uma introdução básica às transições em CSS. Há muitas outras propriedades e opções que você pode explorar para criar efeitos de transição mais complexos e personalizados.
