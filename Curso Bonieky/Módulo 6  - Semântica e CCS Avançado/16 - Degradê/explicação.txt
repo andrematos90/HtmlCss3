@@ -1,0 +1,16 @@
+O background linear-gradient é uma propriedade do CSS que é utilizada para criar um plano de fundo com uma transição linear de cores. Ela permite definir uma gradiente de cores que é aplicada como plano de fundo a um elemento HTML, como uma div ou um contêiner.
+
+A sintaxe básica do linear-gradient é a seguinte:
+
+background: linear-gradient(direção, cor1, cor2, ...);
+
+direção indica a direção da gradiente e pode ser especificada em graus (deg) ou palavras-chave, como to top (para cima), to right (para a direita), to bottom (para baixo), to left (para a esquerda), entre outras. Essa direção define como as cores serão mescladas na gradiente.
+
+cor1, cor2, etc., representam as cores que serão utilizadas na gradiente. É possível especificar qualquer quantidade de cores, e a gradiente será criada de forma suave, mesclando as cores de maneira linear.
+
+Além disso, é possível utilizar valores adicionais, como porcentagens ou palavras-chave, para controlar a localização e a posição das cores na gradiente. Por exemplo:
+
+background: linear-gradient(to right, red, yellow, green);
+
+Nesse exemplo, o plano de fundo será uma gradiente que vai do vermelho (no início) para o amarelo (no meio) e para o verde (no final), seguindo a direção da direita para a esquerda.
+
