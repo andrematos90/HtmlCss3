@@ -1,0 +1,35 @@
+Uma animação em CSS é uma técnica que permite criar efeitos de movimento e transição em elementos HTML usando propriedades CSS. Ela permite que você defina mudanças graduais em propriedades específicas ao longo do tempo, criando a ilusão de movimento.
+
+Para criar uma animação em CSS, você precisa definir uma série de etapas-chave:
+
+Definição da animação: Primeiro, você precisa definir a animação utilizando a regra @keyframes. Isso envolve especificar um nome para a animação e definir as etapas-chave que representam o estado inicial, intermediário e final da animação. Cada etapa-chave é composta por um seletor de porcentagem (de 0% a 100%) e as propriedades CSS que devem ser alteradas nesse momento específico.
+
+Aplicação da animação: Depois de definir a animação, você precisa aplicá-la ao elemento HTML desejado utilizando a propriedade animation. Você pode especificar o nome da animação, a duração, o tipo de temporização, entre outras opções.
+
+Opcional: Configurações adicionais: Existem várias opções adicionais que você pode utilizar para personalizar a animação, como repetição, direção, preenchimento, entre outros. Essas opções permitem controlar como a animação é executada.
+
+Aqui está um exemplo básico de como criar uma animação em CSS:
+
+@keyframes minhaAnimacao {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}
+
+.elemento {
+  animation-name: minhaAnimacao;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+
+Nesse exemplo, estamos criando uma animação chamada "minhaAnimacao" que move um elemento ao longo do eixo X. O elemento começa na posição inicial (0%) e se move para a direita em 100 pixels (50%) e depois para 200 pixels (100%). A animação tem uma duração de 3 segundos e é repetida infinitamente.
+
+Essa é apenas uma introdução básica às animações em CSS. Há muitas propriedades e recursos adicionais que você pode explorar para criar animações mais complexas e sofisticadas.
