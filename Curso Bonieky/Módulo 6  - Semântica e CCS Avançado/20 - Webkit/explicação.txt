@@ -1,0 +1,19 @@
+O WebKit é um mecanismo de renderização de código aberto usado em vários navegadores da web, incluindo o Safari da Apple e muitos navegadores móveis. Foi desenvolvido pela Apple como um projeto derivado do KHTML e do KDE.
+
+Quando falamos sobre "WebKit sem CSS", é importante entender que o CSS (Cascading Style Sheets) é a linguagem usada para estilizar e projetar páginas da web. Sem o CSS, as páginas da web seriam apenas texto e conteúdo sem nenhum formato visual.
+
+O WebKit é capaz de interpretar e aplicar as regras CSS para determinar como os elementos HTML devem ser exibidos. Ele calcula o posicionamento, o tamanho, a cor, a fonte e outros atributos visuais dos elementos da página com base nas regras CSS definidas.
+
+Ao remover o suporte ao CSS do WebKit, as páginas da web seriam exibidas sem nenhum estilo aplicado. Todos os elementos seriam renderizados com as configurações padrão do navegador, como fonte, tamanho e cor padrão. Isso resultaria em uma aparência básica e simplificada das páginas da web, sem qualquer personalização visual.
+
+No entanto, é importante observar que o CSS é uma parte essencial do desenvolvimento web moderno e desempenha um papel crucial na criação de layouts atraentes e responsivos, e na definição do estilo e aparência das páginas da web.
+
+
+navegador             mecanismo de renderização
+
+Internet Explorer     Trident
+Edge                  EdgeHTML
+Firefox               Gecko
+Opera                 Presto, WebKit
+Chorome               WebKit
+Safari                WebKit, blink
