@@ -1,0 +1,17 @@
+WordWrap é uma propriedade CSS que controla o comportamento de quebra de linhas em um elemento de bloco, como um parágrafo ou uma div. Essa propriedade determina se o texto deve ser quebrado automaticamente em várias linhas para se ajustar ao contêiner do elemento ou se deve criar uma barra de rolagem horizontal para exibir o texto na mesma linha.
+
+Quando a propriedade WordWrap é definida como "normal" ou não é especificada, o comportamento padrão é permitir que o texto seja quebrado em várias linhas para se ajustar ao contêiner, se necessário. Isso significa que, se uma palavra não couber em uma linha, ela será movida para a próxima linha.
+
+Por exemplo, considere o seguinte código CSS aplicado a um elemento <div>:
+
+div {
+  width: 200px;
+  word-wrap: break-word;
+}
+
+
+Nesse caso, se o conteúdo do elemento <div> for uma palavra longa demais para caber em uma única linha de 200 pixels de largura, a palavra será quebrada em várias linhas para ajustar-se ao contêiner.
+
+Por outro lado, se a propriedade WordWrap for definida como "nowrap", o texto não será quebrado em várias linhas e uma barra de rolagem horizontal será exibida para permitir que o usuário role horizontalmente para ver o texto completo.
+
+A propriedade WordWrap é amplamente utilizada para controlar a aparência do texto em elementos de bloco e garantir que o conteúdo seja exibido corretamente dentro dos limites do contêiner. Ela oferece flexibilidade na exibição de texto longo e evita que palavras longas ultrapassem a largura definida.
