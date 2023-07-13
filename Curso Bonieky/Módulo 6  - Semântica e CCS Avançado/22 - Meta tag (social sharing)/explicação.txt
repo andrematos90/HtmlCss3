@@ -1,0 +1,58 @@
+A meta tag de compartilhamento social (social sharing) é uma meta tag HTML especial que fornece informações aos mecanismos de busca e plataformas de mídia social sobre como as páginas da web devem ser exibidas quando são compartilhadas em redes sociais, como Facebook, Twitter, LinkedIn e outros.
+
+Essa meta tag é adicionada à seção <head> do código HTML de uma página da web e contém metadados relevantes para o compartilhamento social, como título, descrição, imagem e URL da página. Ela permite que os mecanismos de busca e as plataformas de mídia social extraiam as informações corretas para exibir uma prévia atraente e relevante do conteúdo compartilhado.
+
+Aqui estão alguns dos principais elementos utilizados na meta tag de compartilhamento social:
+
+og:title (título): Especifica o título da página que será exibido na prévia do compartilhamento social.
+og:description (descrição): Fornece uma breve descrição do conteúdo da página que será exibido na prévia do compartilhamento.
+og:image (imagem): Define a imagem que será exibida junto com a prévia do compartilhamento. Geralmente, é recomendado usar uma imagem com proporções adequadas para compartilhamento nas redes sociais.
+og:url (URL): Especifica a URL da página que está sendo compartilhada.
+Esses são apenas alguns dos elementos mais comuns usados na meta tag de compartilhamento social. Há também outras propriedades opcionais, como og:type (tipo de conteúdo), og:site_name (nome do site), og:locale (localização) e muito mais, que podem ser adicionadas para fornecer mais informações sobre o conteúdo compartilhado.
+
+Ao adicionar as meta tags corretas de compartilhamento social em uma página da web, os desenvolvedores podem controlar como o conteúdo será exibido nas redes sociais, garantindo uma prévia atraente e relevante, o que pode aumentar a visibilidade, o engajamento e o tráfego do site.
+
+-----------------------------------------------------------------------------------------------------------------
+PROPRIEDADES PADRÃO
+
+as ordens não importam
+
+1º: link da página
+
+ <meta property="og:url" content="https://alunos.b7web.com.br/curso/html5-e-css3/meta-tag-social-sharing">
+
+
+2º: tipo do site 
+
+<meta property="og:type" content="article">
+
+Existem várias opções de valores para a propriedade "og:type" na meta tag Open Graph (OG). Essa propriedade especifica o tipo de conteúdo da página sendo compartilhada em redes sociais. Aqui estão alguns dos valores mais comuns:
+
+website: Indica que a página é um site geral.
+article: Indica que a página é um artigo ou notícia.
+blog: Indica que a página é um blog ou post de blog.
+book: Indica que a página é um livro.
+profile: Indica que a página é um perfil de pessoa.
+product: Indica que a página é um produto.
+music.album: Indica que a página é um álbum de música.
+music.song: Indica que a página é uma música individual.
+video.movie: Indica que a página é um filme.
+video.tv_show: Indica que a página é um programa de TV.
+video.episode: Indica que a página é um episódio de um programa de TV.
+
+
+4º: titulo que aparecerá quando for compatilhado 
+
+<meta property="og:title" content="Aprendendo sobre Social Sharing">
+
+5º: descrição que aparecerá
+
+ <meta property="og:description" content="Descrição do conteúdo">
+
+6º imagem que aparecerá
+
+  <meta property="og:img" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Frevistagalileu.globo.com%2FLife-Hacks%2Fnoticia%2F2016%2F10%2F9-sites-para-aprender-programacao-de-graca.html&psig=AOvVaw3HzBK7EiJ2I0P0kctiVE0z&ust=1676675978711000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIC54vOWm_0CFQAAAAAdAAAAABAJ"> <!--tamanho recomendado 1200x630-->
+
+
+
+https://developers.facebook.com/tools/debug/
