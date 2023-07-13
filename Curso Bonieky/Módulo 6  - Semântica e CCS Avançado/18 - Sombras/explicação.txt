@@ -1,0 +1,41 @@
+As sombras em CSS permitem adicionar efeitos de sombreamento aos elementos HTML, dando uma sensação de profundidade e realismo. Existem diferentes tipos de sombras disponíveis em CSS, como sombras de caixa (box shadows) e sombras de texto (text shadows). Vou explicar como cada uma delas funciona:
+
+Box Shadows (Sombras de Caixa):
+A propriedade box-shadow permite adicionar sombras a um elemento HTML. A sintaxe básica é a seguinte:
+
+box-shadow: h-shadow v-shadow blur spread color;
+
+
+h-shadow define a posição horizontal da sombra. Um valor positivo move a sombra para a direita, e um valor negativo move a sombra para a esquerda.
+v-shadow define a posição vertical da sombra. Um valor positivo move a sombra para baixo, e um valor negativo move a sombra para cima.
+blur controla o desfoque da sombra. Quanto maior o valor, mais difusa a sombra será.
+spread permite estender ou reduzir a área de cobertura da sombra.
+color especifica a cor da sombra.
+Aqui está um exemplo simples:
+
+.elemento {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+Nesse exemplo, o elemento terá uma sombra posicionada 2 pixels à direita e 2 pixels abaixo dele. A sombra terá um desfoque de 4 pixels e uma cor preta com uma transparência de 30%.
+
+Text Shadows (Sombras de Texto):
+A propriedade text-shadow é usada para adicionar sombras específicas ao texto dentro de um elemento HTML. A sintaxe básica é semelhante à box-shadow:
+
+text-shadow: h-shadow v-shadow blur color;
+
+h-shadow define a posição horizontal da sombra de texto.
+v-shadow define a posição vertical da sombra de texto.
+blur controla o desfoque da sombra de texto.
+color especifica a cor da sombra de texto.
+Aqui está um exemplo:
+
+.elemento {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+Nesse caso, o texto dentro do elemento terá uma sombra de texto posicionada 1 pixel à direita e 1 pixel abaixo dele. A sombra terá um desfoque de 2 pixels e uma cor preta com uma transparência de 50%.
+
+As sombras em CSS são altamente personalizáveis, e você pode ajustar os valores de posição, desfoque e cor de acordo com suas necessidades para criar o efeito desejado. Além disso, você pode aplicar múltiplas sombras, separando-as por vírgulas, para criar efeitos mais complexos.
