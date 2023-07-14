@@ -1,0 +1,28 @@
+A tag <address> é um elemento HTML usado para fornecer informações de contato, normalmente relacionadas ao autor ou proprietário de um documento HTML. Essas informações podem incluir um endereço de email, um número de telefone, um endereço físico ou uma URL.
+
+Aqui estão algumas informações importantes sobre a tag <address>:
+
+A tag <address> é usada para marcar um bloco de informações de contato.
+Por padrão, o conteúdo dentro da tag <address> é renderizado em itálico pelos navegadores, embora a aparência possa ser alterada por meio de estilos CSS.
+É comum usar a tag <address> dentro dos elementos <footer> ou <article>, mas ela também pode ser usada em outras seções da página, desde que seja semanticamente apropriado.
+A tag <address> pode conter outros elementos HTML, como <a>, <p>, <span>, etc., para formatar adequadamente as informações de contato.
+O conteúdo da tag <address> não precisa ser exclusivamente um endereço físico. Pode ser usado para qualquer tipo de informação de contato relevante.
+Aqui está um exemplo básico de como a tag <address> pode ser usada:
+
+
+<footer>
+  <address>
+    <p>John Doe</p>
+    <p>
+      123 Main Street<br>
+      City, State, ZIP<br>
+      <a href="mailto:john@example.com">john@example.com</a>
+    </p>
+  </address>
+</footer>
+
+
+
+Neste exemplo, a tag <address> envolve informações de contato do autor (John Doe) e inclui um endereço físico e um endereço de email.
+
+É importante ressaltar que a tag <address> é usada para fornecer informações de contato relacionadas ao contexto do documento, como informações de autoria, informações de contato do proprietário ou informações de contato relevantes para a seção específica em que é usada.
