@@ -1,0 +1,29 @@
+A tag <main> é um elemento HTML introduzido na especificação do HTML5. Ela é usada para definir o conteúdo principal de uma página HTML. O elemento <main> deve ser usado apenas uma vez em um documento HTML e deve conter o conteúdo principal e exclusivo da página.
+
+Aqui estão algumas características e diretrizes importantes sobre a tag <main>:
+
+O objetivo principal da tag <main> é identificar o conteúdo central de uma página. Normalmente, esse conteúdo é único e não se repete em outras seções do site.
+A tag <main> é útil para melhorar a acessibilidade, pois permite que leitores de tela e outros dispositivos identifiquem rapidamente o conteúdo principal de uma página.
+A tag <main> deve ser usada diretamente dentro do elemento <body>. Não é aconselhável aninhá-la em outros elementos, como <header>, <footer>, <article>, ou <section>.
+Não há requisitos específicos sobre o que pode ser colocado dentro da tag <main>. Geralmente, é comum incluir seções, artigos, conteúdo principal de uma página ou qualquer elemento que seja central para a compreensão do conteúdo da página.
+O uso da tag <main> não implica em nenhum estilo ou efeito visual. A aparência visual é controlada por CSS aplicado ao elemento e seus descendentes.
+Aqui está um exemplo simples de como a tag <main> pode ser usada:
+
+<body>
+  <header>
+    <!-- Conteúdo do cabeçalho -->
+  </header>
+
+  <main>
+    <h1>Título da Página</h1>
+    <p>Este é o conteúdo principal da página.</p>
+    <!-- Outros elementos e seções da página -->
+  </main>
+
+  <footer>
+    <!-- Conteúdo do rodapé -->
+  </footer>
+</body>
+
+
+Neste exemplo, a tag <main> envolve todo o conteúdo principal da página, como o título e os parágrafos. Isso ajuda a indicar que esses elementos são o foco central da página.
