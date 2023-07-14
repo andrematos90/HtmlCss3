@@ -1,0 +1,20 @@
+A tag <figure> é um elemento HTML usado para marcar um conteúdo independente, como uma imagem, ilustração, gráfico, vídeo, trecho de código ou qualquer outra mídia que seja considerada um bloco isolado dentro do documento.
+
+Aqui estão algumas informações importantes sobre a tag <figure>:
+
+A tag <figure> é usada para agrupar um conteúdo autônomo e fornecer um contexto semântico para ele.
+Geralmente, a tag <figure> é usada em conjunto com a tag <figcaption>, que é usada para fornecer uma legenda ou descrição para o conteúdo marcado pela tag <figure>.
+A tag <figure> pode conter elementos como <img>, <svg>, <video>, <audio>, <iframe>, entre outros, representando o conteúdo autônomo que está sendo referenciado.
+É recomendado o uso da tag <figure> quando o conteúdo autônomo é relevante para o documento, mas pode ser removido ou omitido sem afetar o fluxo de leitura ou compreensão do restante do conteúdo.
+A aparência visual do conteúdo marcado com a tag <figure> pode ser estilizada usando CSS para se adequar ao design desejado.
+Aqui está um exemplo básico de como a tag <figure> pode ser usada com a tag <figcaption>:
+
+
+<figure>
+  <img src="imagem.jpg" alt="Descrição da imagem">
+  <figcaption>Legenda da imagem.</figcaption>
+</figure>
+
+Neste exemplo, a tag <figure> envolve uma imagem e a tag <figcaption> é usada para fornecer uma legenda para a imagem. Essa estrutura semântica ajuda a relacionar a imagem e sua legenda de maneira adequada.
+
+Lembre-se de que a tag <figure> é usada quando você tem um conteúdo autônomo que é relevante para o documento, mas pode ser separado dele sem afetar a compreensão do restante do conteúdo.

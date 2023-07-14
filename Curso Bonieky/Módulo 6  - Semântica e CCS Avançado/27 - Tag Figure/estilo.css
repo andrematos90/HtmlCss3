@@ -3,32 +3,17 @@
    
 }
 
-body {
-    background-color: rgb(150, 153, 155);
-}
 
-.cabecalho {
-    width: 2000px;
-    height: 100px;
-    background-color: rgb(70, 68, 68);
-}
-
-.container { 
-    width: 200px;
-    height: 800px;
-    background-color: grey 
-    ;
-}
 
 img {
     border-radius: 15px;
 }
 
-.figure { 
+figure { 
     margin: 0px;
     padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    border: 1px solid gray;
+  
 }
 
 figcaption {
