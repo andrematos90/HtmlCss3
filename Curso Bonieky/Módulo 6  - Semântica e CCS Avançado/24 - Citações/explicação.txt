@@ -1,0 +1,32 @@
+No HTML, você pode usar as tags <blockquote>, <q>, e <cite> para criar citações e referências. Essas tags ajudam a indicar que um trecho de texto é uma citação de outra fonte ou que um elemento é uma referência a outra informação.
+
+Aqui está como cada uma dessas tags funciona:
+
+<blockquote>:
+A tag <blockquote> é usada para criar um bloco de citação que se estende por várias linhas. É comumente usado para citar um trecho extenso de texto de outra fonte. O conteúdo dentro da tag <blockquote> geralmente é indentado ou exibido de maneira distinta do restante do texto. Por padrão, os navegadores aplicam uma margem à esquerda e direita para destacar a citação.
+
+Exemplo:
+
+<blockquote>
+  <p>Uma citação longa e significativa.</p>
+  <p>Autor da citação</p>
+</blockquote>
+
+
+<q>:
+A tag <q> é usada para criar uma citação em linha, ou seja, uma citação curta que aparece dentro de um parágrafo ou frase. Por padrão, os navegadores adicionam aspas para indicar que o conteúdo é uma citação. O conteúdo dentro da tag <q> é tratado como uma unidade semântica.
+
+Exemplo:
+
+<p>Algum texto interessante com uma <q>citação curta</q> incluída.</p>
+
+
+<cite>:
+A tag <cite> é usada para marcar uma referência a uma obra ou uma fonte, como o título de um livro, um artigo ou o nome de um autor. Geralmente, é usado em conjunto com um elemento de citação para fornecer informações sobre a fonte da citação.
+
+Exemplo:
+
+<p>Este é um parágrafo que menciona uma <cite>referência a uma fonte</cite>.</p>
+
+
+É importante lembrar que essas tags têm significado semântico e são usadas para estruturar o conteúdo de forma adequada. A aparência visual das citações pode ser estilizada usando CSS para se adequar ao design desejado.
