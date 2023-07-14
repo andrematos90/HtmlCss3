@@ -1,0 +1,28 @@
+As tags <dl>, <dt>, and <dd> são elementos HTML usados para criar listas de definição. Essas tags são parte da estrutura semântica do HTML e são úteis quando você deseja apresentar informações organizadas em forma de definição ou descrição.
+
+Aqui está como cada uma dessas tags funciona:
+
+<dl> (Description List):
+A tag <dl> é usada para criar a lista de definição. Ela envolve todo o conjunto de definições dentro de um documento HTML. Normalmente, você usará a tag <dl> em conjunto com as tags <dt> e <dd>.
+
+<dt> (Definition Term):
+A tag <dt> é usada para definir o termo ou nome a ser definido dentro da lista de definição. Geralmente, é usada dentro da tag <dl>. Cada termo é colocado entre as tags <dt> e </dt>.
+
+<dd> (Definition Description):
+A tag <dd> é usada para fornecer a descrição ou definição do termo especificado pela tag <dt>. Cada descrição é colocada entre as tags <dd> e </dd>. Geralmente, é usada dentro da tag <dl>.
+
+Aqui está um exemplo básico que mostra como usar essas tags em conjunto:
+
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language (HTML) é a linguagem padrão para criar documentos da web.</dd>
+  
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets (CSS) é uma linguagem usada para estilizar a aparência dos elementos em um documento HTML.</dd>
+  
+  <dt>JavaScript</dt>
+  <dd>JavaScript é uma linguagem de programação usada para adicionar interatividade e comportamento dinâmico aos sites.</dd>
+</dl>
+
+
+Neste exemplo, temos uma lista de definição com três termos (HTML, CSS e JavaScript), cada um com sua respectiva descrição. Quando renderizado em um navegador, esse código criará uma lista estruturada de definições.
