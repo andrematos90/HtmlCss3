@@ -1,0 +1,61 @@
+display
+
+Esta propriedade define um flex container; inline ou block dependendo dos valores passados.
+Coloca todos os elementos-filhos diretos num contexto Flex.
+
+Flexdirection
+
+Estabelece o eixo principal, definindo assim a direção em que os flex items são alinhados no flex container.
+
+Justify-content 
+
+justify-content: alinha os itens flex no container de acordo com a direção. 
+A propriedade só funciona se os itens atuais não ocuparem todo o container
+
+
+Align-itens
+
+A align-itemspropriedade define o comportamento padrão de como os itens são 
+dispostos ao longo do eixo transversal (perpendicular ao eixo principal).
+
+Align- self
+
+A align-selfpropriedade especifica o alinhamento na direção do bloco para o item selecionado dentro de um flexbox ou grid container.v
+
+Order
+
+A propriedade CSS define a ordem de disposição de um item em um contêiner flex ou grid. Os itens em um contêiner são classificados por valor crescente e, 
+em seguida, pela ordem do código-fonte.order order. recebe valores positivos e negativos
+
+flex-wrap
+A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. 
+Se o argumento for valido, ele define a direção em que as linhas são empilhada
+
+
+
+align-content
+A propriedade align-content é usada no contexto do flexbox para controlar o alinhamento dos contêineres flexíveis em relação ao eixo transversal quando há espaço extra disponível. Ela só é relevante quando os itens flexíveis em um contêiner flexível são distribuídos em várias linhas ou colunas, como quando a propriedade flex-wrap é definida como wrap ou wrap-reverse.
+
+Essa propriedade não afeta o alinhamento dos itens flexíveis dentro de uma única linha ou coluna; ela controla o alinhamento dos grupos de linhas ou colunas criados quando os itens são distribuídos em várias "linhas" ou "colunas" dentro do contêiner flexível.
+
+Os valores possíveis para a propriedade align-content são os mesmos usados pela propriedade align-items, e eles definem como os grupos de itens flexíveis serão alinhados em relação ao eixo transversal do contêiner. Aqui estão os principais valores:
+
+flex-start: Os grupos de linhas ou colunas são alinhados no início do eixo transversal do contêiner flexível.
+flex-end: Os grupos de linhas ou colunas são alinhados no final do eixo transversal do contêiner flexível.
+center: Os grupos de linhas ou colunas são alinhados no centro do eixo transversal do contêiner flexível.
+space-between: Os grupos de linhas ou colunas são distribuídos com espaçamento igual entre eles, começando no início e terminando no final do eixo transversal.
+space-around: Os grupos de linhas ou colunas são distribuídos com espaçamento igual em torno deles, criando espaços iguais antes do primeiro grupo e depois do último grupo.
+Aqui está um exemplo de como usar a propriedade align-content:
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+
+Neste exemplo, a propriedade align-content: space-around; fará com que os grupos de linhas (ou colunas) dentro do contêiner flexível sejam distribuídos com espaçamento igual em torno deles, criando espaços iguais tanto antes do primeiro grupo quanto depois do último grupo.
+
+Lembre-se de que a propriedade align-content só tem efeito quando os itens flexíveis são distribuídos em várias linhas ou colunas, o que ocorre quando a propriedade flex-wrap é definida como wrap ou wrap-reverse. Se todos os itens estiverem em uma única linha (ou coluna), a propriedade align-content não terá impacto.
+
+-->
