@@ -1,0 +1,55 @@
+Flexbox é um modelo de layout no CSS (Cascading Style Sheets) que foi introduzido na especificação do CSS3. Ele é projetado para fornecer uma maneira mais eficiente de organizar, alinhar e distribuir elementos em um contêiner, especialmente em situações em que o tamanho dos elementos e o espaço disponível podem variar.
+
+O flexbox opera com dois níveis de estrutura: o contêiner flex (flex container) e os itens flexíveis (flex items). O contêiner flex é o elemento pai que contém os itens flexíveis, e ele define o contexto no qual os itens serão organizados. Os itens flexíveis são os elementos filhos dentro do contêiner flex, e eles se ajustam ao layout definido pelo contêiner.
+
+Para usar o flexbox, você precisa definir o contêiner flex e aplicar algumas propriedades CSS relevantes. Abaixo estão algumas das principais propriedades do flexbox:
+
+display: flex;: Essa propriedade é aplicada ao contêiner flex e define-o como um contêiner flexível. Isso inicia o fluxo do modelo de layout flexbox.
+
+flex-direction: Define a direção principal em que os itens serão colocados dentro do contêiner flexível. As opções são:
+
+row (padrão): Os itens são dispostos horizontalmente da esquerda para a direita.
+row-reverse: Os itens são dispostos horizontalmente da direita para a esquerda.
+column: Os itens são dispostos verticalmente de cima para baixo.
+column-reverse: Os itens são dispostos verticalmente de baixo para cima.
+justify-content: Controla o alinhamento dos itens ao longo do eixo principal (horizontalmente, se o flex-direction for row, ou verticalmente, se for column). Algumas opções são:
+
+flex-start (padrão): Os itens são alinhados no início do contêiner flexível.
+flex-end: Os itens são alinhados no final do contêiner flexível.
+center: Os itens são alinhados no centro do contêiner flexível.
+space-between: Os itens são distribuídos com espaçamento igual entre eles.
+space-around: Os itens são distribuídos com espaçamento igual em torno deles.
+align-items: Controla o alinhamento dos itens ao longo do eixo transversal (verticalmente, se o flex-direction for row, ou horizontalmente, se for column). Algumas opções são:
+
+stretch (padrão): Os itens são esticados para preencher o contêiner flexível.
+flex-start: Os itens são alinhados no início do contêiner flexível.
+flex-end: Os itens são alinhados no final do contêiner flexível.
+center: Os itens são alinhados no centro do contêiner flexível.
+flex-wrap: Define se os itens flexíveis devem quebrar para a próxima linha ou coluna quando não houver espaço suficiente no contêiner flexível. Algumas opções são:
+
+nowrap (padrão): Os itens são exibidos em uma única linha (ou coluna) e podem se sobrepor.
+wrap: Os itens são quebrados para a próxima linha (ou coluna) quando necessário.
+Existem outras propriedades e recursos no flexbox que permitem um controle mais detalhado do layout, como flex-grow, flex-shrink, flex-basis, align-self e order.
+
+A propriedade flex: 1; é uma forma abreviada de definir três propriedades do flexbox ao mesmo tempo: flex-grow, flex-shrink e flex-basis.
+
+Quando você define flex: 1; por exemplo, está dizendo que o item flexível deve crescer o máximo possível em relação aos outros itens flexíveis no mesmo contêiner flexível. Vamos entender cada uma das partes que compõem essa propriedade:
+
+flex-grow: Essa propriedade especifica a proporção de espaço disponível que o item flexível deve ocupar dentro do contêiner flexível, em relação aos outros itens flexíveis. Se todos os itens tiverem flex-grow: 1;, eles compartilharão o espaço disponível de forma igual, ocupando o mesmo espaço. Se um item tiver flex-grow: 2; e outro flex-grow: 1;, o primeiro item ocupará o dobro do espaço em relação ao segundo item.
+
+flex-shrink: Essa propriedade define como os itens flexíveis devem encolher quando não houver espaço suficiente no contêiner flexível. Um valor de 0 significa que o item não pode encolher, enquanto um valor maior que 0 permite que ele encolha de acordo com o valor especificado.
+
+flex-basis: Essa propriedade define o tamanho inicial do item flexível antes que o espaço extra seja distribuído de acordo com flex-grow. Se não houver valor definido, o item usará seu tamanho natural.
+
+Ao usar flex: 1;, você está essencialmente dizendo que o item flexível deve crescer o máximo possível (flex-grow: 1;) e que ele pode encolher se necessário (flex-shrink: 1;). O flex-basis não está especificado explicitamente, mas o navegador usará o tamanho natural do elemento como base.
+
+Portanto, ao usar flex: 1;, o item flexível irá preencher o espaço disponível no contêiner flexível e compartilhará o espaço de forma igual com outros itens flexíveis que também tenham a propriedade flex: 1;. Essa abordagem é muito comum quando se deseja criar layouts flexíveis e responsivos, onde os itens flexíveis se ajustam automaticamente ao tamanho do contêiner e à quantidade de espaço disponível.
+
+A propriedade align-self é usada no contexto do flexbox para controlar o alinhamento específico de um item flexível dentro de um contêiner flexível ao longo do eixo transversal. Ela funciona de forma semelhante à propriedade align-items, mas em vez de afetar todos os itens no contêiner flexível, ela é aplicada individualmente a cada item flexível.
+
+
+A propriedade order é usada no contexto do flexbox para controlar a ordem de apresentação dos itens flexíveis dentro do contêiner flexível, independentemente da ordem em que eles aparecem no código HTML. Ela permite reorganizar visualmente os elementos no layout sem alterar a estrutura do DOM (Document Object Model).
+
+A propriedade order recebe um valor numérico que define a ordem de exibição do item flexível. O item com o valor de order menor é colocado antes dos itens com valores maiores de order. Caso dois ou mais itens tenham o mesmo valor de order, a ordem em que eles aparecem no código HTML será mantida.
+
+O flexbox é uma ferramenta poderosa para criar layouts responsivos e fluidos, tornando mais fácil a criação de designs que se ajustam a diferentes tamanhos de tela e dispositivos. Ele se tornou uma parte essencial do arsenal de ferramentas de qualquer desenvolvedor front-end para criar interfaces modernas e dinâmicas na web.
