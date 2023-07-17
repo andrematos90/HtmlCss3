@@ -1,0 +1,27 @@
+A propriedade flex-flow é uma forma abreviada de definir as propriedades flex-direction e flex-wrap ao mesmo tempo, ambas usadas no contexto do flexbox para controlar o comportamento do layout dos itens flexíveis dentro do contêiner flexível.
+
+A sintaxe para a propriedade flex-flow é a seguinte:
+
+flex-flow: <flex-direction> <flex-wrap>;
+
+
+Onde:
+
+<flex-direction> especifica a direção em que os itens flexíveis são dispostos dentro do contêiner flexível. Os valores possíveis são os mesmos da propriedade flex-direction:
+row: Os itens são dispostos horizontalmente da esquerda para a direita.
+row-reverse: Os itens são dispostos horizontalmente da direita para a esquerda.
+column: Os itens são dispostos verticalmente de cima para baixo.
+column-reverse: Os itens são dispostos verticalmente de baixo para cima.
+<flex-wrap> especifica como os itens flexíveis devem se comportar quando não couberem em uma única linha (ou coluna) do contêiner flexível. Os valores possíveis são os mesmos da propriedade flex-wrap:
+nowrap: Os itens são exibidos em uma única linha (ou coluna) e podem se sobrepor.
+wrap: Os itens são quebrados para a próxima linha (ou coluna) quando necessário.
+wrap-reverse: Os itens são quebrados para a próxima linha (ou coluna) quando necessário, mas em ordem reversa.
+Aqui está um exemplo de como usar a propriedade flex-flow:
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+Neste exemplo, flex-flow: row wrap; define que os itens dentro do contêiner flexível devem ser dispostos em uma única linha, mas, se não couberem, eles devem quebrar para a próxima linha. É uma maneira mais curta e concisa de definir as duas propriedades flex-direction e flex-wrap em conjunto.
