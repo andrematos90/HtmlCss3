@@ -1,31 +1,26 @@
 *{
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    margin: 0px;
-    padding: 0px;   
-}
-
-header {
-    display: flex; /* "habilita os elementos a mudarem de lugar*/
-    justify-content: center; /*alinha o elemento no centro*/
+header{
+    display: flex;
+    justify-content: center;
     height: 120px;
 }
 
-
-.container {
-
-    display: flex;
-    justify-content: space-between; /* deixa cada conteudo em lados opostos */
+.container{
     width: 990px;
-    height: 100px;
+    display: flex;
+    justify-content: space-between;
     
 }
-.logo { 
-    
+
+.logo{
     
     display: flex;
-    align-items: center; /* alinha os elementos no centro no sentido vertical */
-
+    align-items: center;
+}
+.menu{
+    background-color: black;
 }
