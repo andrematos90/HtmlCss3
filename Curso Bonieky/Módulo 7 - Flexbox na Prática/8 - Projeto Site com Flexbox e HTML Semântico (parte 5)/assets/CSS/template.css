@@ -103,37 +103,39 @@ nav a:hover {
 
 .banner-1,
 .banner-2,
-.banner-3{
+.banner-3 {
     flex: 1;
     color: white;
     padding: 20px;
 }
 
-.banner-1{
+.banner-1 {
     background-color: #39aae1;
 }
 
-.banner-2{
+.banner-2 {
     background-color: #0079c7;
 }
 
-.banner-3{
+.banner-3 {
     background-color: #2b4c99;
-   
+
 }
 
-.banner-title{
+.banner-title {
     font-size: 20px;
 }
 
-.banner-1 p, .banner-2 p {
+.banner-1 p,
+.banner-2 p {
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
 }
 
-.banner-1 a, .banner-2 a{
-    
+.banner-1 a,
+.banner-2 a {
+
     background-color: transparent;
     border: 1px solid white;
     color: white;
@@ -143,75 +145,63 @@ nav a:hover {
     font-size: 13px;
 }
 
-.monday-friday, .saturday, .sunday{
+.monday-friday,
+.saturday,
+.sunday {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid white;
     padding: 10px;
     font-size: 13px;
-   
+
 }
 
-#geral{
+#geral {
     display: flex;
     justify-content: center;
 }
 
-#geral section{
-    flex: 2; /*faz com que section tenha o dobro do tamanho de aside*/
-    
+#geral section {
+    flex: 2;
+    /*faz com que section tenha o dobro do tamanho de aside*/
+
 }
 
-#geral aside{
+#geral aside {
     flex: 1;
-    
+
 }
 
-.widget-title{
+.widget-title {
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-.widget-title-text{
+.widget-title-text {
     color: black;
     font-size: 20px;
     font-weight: bold;
 }
 
-.widget-title-bar{
+.widget-title-bar {
     width: 50px;
     height: 3px;
     background-color: #36a9e1;
     margin-top: 10px;
 }
 
-
-.quadrado{
+.quadrados {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
-}
-.quadrado div{
-    
-    background-color: #36a9e1;
-    margin: 10px;
-    margin-left: 0;
-    height: 155px;
-    width: 155px;
+    gap: 30px; /* Espaçamento entre os quadrados */
 }
 
-
-
-.texto p {
-    margin-top: 20px;
-    font-size: 13px;
-    margin: 5px;
-    margin-left: 0px;
-    margin-bottom: 20px;
+.quadrados div {
+    background-color: #39aae1;
+    height: 140px;
+    width: 140px;
     
-  
 }
 
 .phone img {
@@ -230,45 +220,40 @@ nav a:hover {
     
 }
 
-article .new-data{
+article .news-data{
     display: flex;
 }
 
-article .new-poste-at{
+article .news-posted-at{
     background-color: #2b4c99;
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     padding: 10px;
     margin-right: 2px;
 }
 
-
-article .news-coment{
-    background-color: #39aae1;
+article .news-comments{
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     padding: 10px;
+    background-color: #39aae1;
 }
 
-
-article .new-thumb img{
-    height: auto;
+article .news-thumb img{
     width: 100%;
-    
+    height: auto;
     
 }
 
-article .new-thumb{
-    margin: 30px;
+article .news-thumb{
+    margin-top: 30px;
 }
 
 article .news-title{
     margin-top: 25px;
     margin-bottom: 25px;
-    font-size: 23px;
-    font-weight: bold;
     color: black;
- 
+    font-size: 23px;
 }
 
 article .news-resume{
@@ -276,19 +261,25 @@ article .news-resume{
     color: #5c5c5c;
     line-height: 20px;
     margin-bottom: 30px;
-  
 }
 
 article a {
     text-decoration: none;
 }
 
-.flex {
+.flex{
     display: flex;
+    flex-wrap: wrap;
+    
 }
 
 article{
     flex: 1;
     min-width: 300px;
+    margin-right: 20px;
+   
 }
 
+footer{
+    background-color: #1e1e1e;
+}
