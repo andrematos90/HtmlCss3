@@ -10,17 +10,12 @@ header{
 }
 
 .container{
-    width: 990px;
     display: flex;
     justify-content: space-between;
-    
+    width: 990px;
 }
 
 .logo{
-    
     display: flex;
     align-items: center;
-}
-.menu{
-    background-color: black;
 }
