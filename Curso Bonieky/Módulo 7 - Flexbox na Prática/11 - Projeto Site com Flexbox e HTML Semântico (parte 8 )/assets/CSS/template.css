@@ -142,6 +142,18 @@ nav a:hover{
     text-decoration: none;
 }
 
+#banner-3-desc-1, #banner-3-desc-2, #banner-3-desc-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid#727272;
+}
+
+#banner-3-desc-3{
+    border-bottom: 1px solid #727272;
+}
+
+
 #geral{
     display: flex;
     justify-content: center;
@@ -343,6 +355,41 @@ footer .widget-title-text{
     color: #5c5c5c;
     font-size: 12px;
     margin-top: 30px;
+}
+
+footer .widget-body div img{
+    width: 24px;
+    height: 24px;
+}
+
+address{
+    display:  flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+#vic-email{
+    color: white;
+}
+    
+
+
+#farlene, #keilor, #vic{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Latest-post{
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.time-ago{
+    color: #39aae1;
+    font-size: 13px;
 }
 
 .menu-mobile{
