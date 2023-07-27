@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1717;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px solid #5c5c5c;
+    display: flex;
+
+}
+
+
+.container .header-superior {
+    width: 100vw;
+    flex: 1;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.container .header-inferior {
+    background-color: brown;
+    width: 100%;
+    flex: 1;
+
+}
+
+.superior-esquerda {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin-right: 30px;
+}
+
+.campo-input {
+    width: 500px;
+    height: 40px;
+    background-color: #5c5c5c;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.campo-input input {
+    width: 70%;
+    background-color: #5c5c5c;
+    border: none;
+}
+
+.superior-direita {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 120px;
+}
+
+.superior-direita img {
+    height: 25px;
+    width: 25px;
+
+}
+
+#foto-usuario {
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+}
+
+.header-inferior{
+    
+    display: flex;
+
+}
+
+.inferior-esquerda{
+    display: flex;
+    gap: 10px;
+}
