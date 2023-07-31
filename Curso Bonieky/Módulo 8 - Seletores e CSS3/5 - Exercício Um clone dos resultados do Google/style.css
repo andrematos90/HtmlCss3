@@ -175,3 +175,38 @@ a {
     font-family: 'Roboto', sans-serif;
     color: #e8eaed;
 }
+
+.imagens-resultado{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.imagens-resultado img{
+    width: 200px;
+    height: 140px;
+    margin-right: 5px;
+}
+
+#magem-resultado-1{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 170px;
+
+}
+
+#magem-resultado-4{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 120px;
+    position: relative;
+}
+
+#arrow{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 38%;
+    transform: translateX(50%);
+    top: 280px;
+}
