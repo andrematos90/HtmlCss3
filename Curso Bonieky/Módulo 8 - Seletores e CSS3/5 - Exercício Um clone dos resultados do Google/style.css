@@ -210,3 +210,22 @@ a {
     transform: translateX(50%);
     top: 280px;
 }
+
+.resultados{
+    color: #9a9ca2;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+
+.resultados h1{
+    color: rgb(42, 42, 109);
+    font-size: 20px;
+}
+
+.resultados h3{
+    font-size: 15px;
+}
+
+.resultados div{
+    font-size: 16px;
+}
